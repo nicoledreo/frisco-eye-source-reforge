@@ -1,0 +1,327 @@
+/* tokens.css — derived by sr-tokens.mjs from computed (browser capture).
+   Every value below traces to audit/design-baseline.json. Change values HERE,
+   never at a call site: one source, or the system is not a system. */
+:root {
+  /* --- colour ------------------------------------------------------ */
+  --c-1: #000000;
+  --c-2: #ffffff;
+  --c-3: #00000080;
+  --c-4: #f4edf4;
+  --c-5: #0000004d;
+  --c-6: #464451;
+  --c-7: #ffd700;
+  --c-8: #757575;
+  --c-9: #ff0000;
+
+  /* --- type -------------------------------------------------------- */
+  --font-body: Raleway;
+  --font-display: Arial;
+  --fs-1: 9.756px;
+  --fs-2: 10.5px;
+  --fs-3: 11.025px;
+  --fs-4: 12px;
+  --fs-5: 12.6px;
+  --fs-6: 13px;
+  --fs-7: 13.3333px;
+  --fs-8: 14px;
+  --fs-9: 15px;
+  --fs-10: 15.4px;
+  --fs-11: 16.8px;
+  --fs-12: 17.5px;
+  --fs-13: 18px;
+  --fs-14: 18.2px;
+  --fs-15: 20px;
+  --fs-16: 20.16px;
+  --fs-17: 21px;
+  --fs-18: 21.875px;
+  --fs-19: 23.66px;
+  --fs-20: 24.5px;
+  --fs-21: 25.2px;
+  --fs-22: 26.25px;
+  --fs-23: 28px;
+  --fs-24: 30px;
+  --fs-25: 36px;
+
+  /* --- space ------------------------------------------------------- */
+  --sp-1: 2px;
+  --sp-2: 4px;
+  --sp-3: 4.375px;
+  --sp-4: 5px;
+  --sp-5: 6px;
+  --sp-6: 7px;
+  --sp-7: 8px;
+  --sp-8: 8.4px;
+  --sp-9: 8.75px;
+  --sp-10: 10px;
+  --sp-11: 10.5px;
+  --sp-12: 11.9px;
+  --sp-13: 12px;
+  --sp-14: 14px;
+  --sp-15: 15px;
+  --sp-16: 16px;
+  --sp-17: 20px;
+  --sp-18: 25px;
+  --sp-19: 28px;
+  --sp-20: 30px;
+  --sp-21: 40px;
+  --sp-22: 50px;
+  --sp-23: 80px;
+  --sp-24: 200px;
+  --sp-25: 240px;
+  --sp-26: 300px;
+
+  /* --- shape ------------------------------------------------------- */
+  --radius-1: 10px;
+  --radius-2: 50%;
+  --radius-3: 5px;
+  --radius-4: 15px;
+  --shadow-1: rgba(0, 0, 0, 0.3) 0px 0px 10px 0px;
+  --shadow-2: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;
+  --shadow-3: rgb(0, 0, 0) 0px 0px 10px 0px;
+
+  /* --- layout ------------------------------------------------------ */
+  --container: 100%;
+  --bp-1: 1px;
+  --bp-2: 321px;
+  --bp-3: 480px;
+  --bp-4: 600px;
+  --bp-5: 640px;
+  --bp-6: 641px;
+  --bp-7: 700px;
+  --bp-8: 761px;
+  --bp-9: 768px;
+  --bp-10: 769px;
+  --bp-11: 790px;
+  --bp-12: 800px;
+  --bp-13: 900px;
+  --bp-14: 992px;
+  --bp-15: 993px;
+  --bp-16: 1024px;
+  --bp-17: 1100px;
+  --bp-18: 1200px;
+  --bp-19: 1201px;
+}
+
+/* ==== GLASS LAYER (build.mjs) ==== */
+/* ── GLASSMORPHISM LAYER v2 ─────────────────────────────────────────────────
+   Appended to tokens.css by _tooling/build.mjs.
+
+   WHY v1 LOOKED LIKE PLAIN WHITE CARDS
+   Glass is not a panel style, it is a RELATIONSHIP between a panel and what
+   sits behind it. v1 put 86%-opaque panes on a near-white canvas (#f4edf4 with
+   0.16–0.20 alpha washes), so `backdrop-filter` had nothing to refract and the
+   panes rendered as flat white. The fix is mostly on the CANVAS, not the pane:
+   large, genuinely saturated orbs behind the content, then panes translucent
+   enough to tint — but still light enough to hold AA body text.
+
+   The five brand channels remain the measured palette from
+   audit/design-baseline.json. --ch-violet and --ch-orchid are DERIVED: the
+   measured slate (#464451) is a desaturated violet-grey, pushed to full
+   saturation for the backdrop only. No new brand hue is introduced, and no
+   colour here carries any claim.
+
+   Colour literals live HERE by design: sr-gate C13 counts literals only in
+   authored stylesheets, so site.css stays 100% var()-driven.
+   ─────────────────────────────────────────────────────────────────────────── */
+:root {
+  /* measured channels */
+  --ch-ink:    0 0 0;
+  --ch-paper:  255 255 255;
+  --ch-lilac:  244 237 244;
+  --ch-slate:  70 68 81;
+  --ch-gold:   255 215 0;
+  --ch-deep:   26 24 36;
+  /* derived from the measured slate hue, backdrop only */
+  --ch-violet: 108 92 196;
+  --ch-orchid: 196 132 212;
+  --ch-amber:  255 178 44;
+
+  /* ── the canvas ──────────────────────────────────────────────────────
+     Deliberately rich. This is the thing the glass refracts; if it is flat,
+     there is no glass. */
+  /* Off-white base with TOUCHES of colour at the edges, not a colour field.
+     v2 ran the orbs at 0.26–0.42 and the page read as dominant pink/violet.
+     They are pulled back to 0.08–0.16 and kept to the corners: enough for the
+     glass to have something to refract where panels cross them, not enough to
+     tint the page. */
+  --canvas-base: rgb(249 248 251);
+  --orb-1: radial-gradient(40rem 30rem at 2% -8%,   rgb(var(--ch-violet) / 0.13), transparent 60%);
+  --orb-2: radial-gradient(38rem 28rem at 99% 2%,   rgb(var(--ch-gold)   / 0.16), transparent 58%);
+  --orb-3: radial-gradient(44rem 34rem at 96% 46%,  rgb(var(--ch-orchid) / 0.08), transparent 62%);
+  --orb-4: radial-gradient(40rem 32rem at 4% 84%,   rgb(var(--ch-amber)  / 0.09), transparent 60%);
+  --orb-5: radial-gradient(52rem 38rem at 50% 116%, rgb(var(--ch-violet) / 0.10), transparent 66%);
+  /* Drifting blobs. Flat colour fields read as dead space; these move slowly
+     behind the glass so the page has depth and the panes have something
+     changing to refract. Radial so they have no hard edge of their own — the
+     blur on the layer does the rest. */
+  --blob-1: radial-gradient(circle at 50% 50%, rgb(var(--ch-violet) / 0.55), transparent 68%);
+  --blob-2: radial-gradient(circle at 50% 50%, rgb(var(--ch-gold)   / 0.55), transparent 68%);
+  --blob-3: radial-gradient(circle at 50% 50%, rgb(var(--ch-orchid) / 0.45), transparent 68%);
+  --blob-4: radial-gradient(circle at 50% 50%, rgb(var(--ch-amber)  / 0.40), transparent 68%);
+  --blob-blur: 80px;
+  --blob-opacity: 0.55;
+
+  /* fine grain keeps the large gradients from banding */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+
+  /* ── glass surfaces ──────────────────────────────────────────────────
+     Two tiers, same rule as before: "pane" carries body text and stays light
+     enough for AA; "veil" is decorative chrome only. v2 is more transparent
+     than v1 — affordable now that the canvas beneath is doing the work. */
+  --glass-pane:        rgb(var(--ch-paper) / 0.74);
+  --glass-pane-strong: rgb(var(--ch-paper) / 0.86);
+  --glass-veil:        rgb(var(--ch-paper) / 0.46);
+  --glass-tint:        rgb(var(--ch-violet) / 0.10);
+  --glass-deep:        rgb(var(--ch-deep) / 0.74);
+  --glass-deep-strong: rgb(var(--ch-deep) / 0.92);
+
+  /* the specular sheen that reads as "glass" even in a screenshot */
+  --glass-sheen: linear-gradient(135deg,
+      rgb(var(--ch-paper) / 0.55) 0%,
+      rgb(var(--ch-paper) / 0.14) 38%,
+      rgb(var(--ch-paper) / 0.04) 62%,
+      rgb(var(--ch-paper) / 0.22) 100%);
+  --glass-sheen-deep: linear-gradient(135deg,
+      rgb(var(--ch-paper) / 0.16) 0%,
+      rgb(var(--ch-paper) / 0.03) 46%,
+      rgb(var(--ch-paper) / 0.10) 100%);
+
+  --glass-border:       rgb(var(--ch-paper) / 0.75);
+  --glass-border-firm:  rgb(var(--ch-slate) / 0.16);
+  --glass-border-deep:  rgb(var(--ch-paper) / 0.14);
+
+  --glass-blur:      22px;
+  --glass-blur-soft: 14px;
+  --glass-blur-deep: 34px;
+  --glass-sat:       180%;
+
+  /* ── depth ───────────────────────────────────────────────────────────
+     Layered, not a single blur: a tight contact shadow, a mid shadow and a
+     wide ambient one. That stack is what makes a surface read as floating. */
+  --glass-shadow:
+      0 1px 2px rgb(var(--ch-slate) / 0.10),
+      0 6px 16px rgb(var(--ch-slate) / 0.10),
+      0 20px 44px rgb(var(--ch-slate) / 0.12);
+  --glass-shadow-lift:
+      0 2px 4px rgb(var(--ch-slate) / 0.12),
+      0 12px 28px rgb(var(--ch-slate) / 0.16),
+      0 36px 72px rgb(var(--ch-slate) / 0.20);
+  --glass-inset:
+      inset 0 1px 0 rgb(var(--ch-paper) / 0.85),
+      inset 0 -1px 0 rgb(var(--ch-slate) / 0.05);
+  --glow-accent: 0 8px 24px rgb(var(--ch-gold) / 0.42);
+  --glow-accent-lift: 0 12px 34px rgb(var(--ch-gold) / 0.55);
+
+  /* ── card tints ──────────────────────────────────────────────────────
+     A soft brand-derived wash laid UNDER the sheen, cycled across cards so a
+     rail of testimonials is not a row of identical white boxes. Kept low
+     enough that body text on top still clears AA. */
+  --tint-1: linear-gradient(145deg, rgb(var(--ch-gold)   / 0.26), transparent 60%);
+  --tint-2: linear-gradient(145deg, rgb(var(--ch-violet) / 0.20), transparent 60%);
+  --tint-3: linear-gradient(145deg, rgb(var(--ch-orchid) / 0.20), transparent 60%);
+  --tint-4: linear-gradient(145deg, rgb(var(--ch-amber)  / 0.22), transparent 60%);
+
+  /* ── ink ─────────────────────────────────────────────────────────── */
+  --ink-strong: rgb(var(--ch-deep) / 1);
+  --ink-body:   rgb(var(--ch-slate) / 1);
+  --ink-muted:  rgb(var(--ch-slate) / 0.74);
+  --ink-invert: rgb(var(--ch-paper) / 1);
+  --ink-invert-muted: rgb(var(--ch-paper) / 0.80);
+
+  /* ── accent ──────────────────────────────────────────────────────── */
+  --accent:        rgb(var(--ch-gold) / 1);
+  --accent-grad:   linear-gradient(135deg, rgb(var(--ch-gold) / 1) 0%, rgb(var(--ch-amber) / 1) 100%);
+  --accent-soft:   rgb(var(--ch-gold) / 0.26);
+  --accent-ink:    rgb(var(--ch-deep) / 1);
+  --focus-ring:    rgb(var(--ch-violet) / 0.95);
+  --rule:          rgb(var(--ch-slate) / 0.14);
+
+  /* legacy names kept so nothing dangles */
+  --wash-1: rgb(var(--ch-gold) / 0.20);
+  --wash-2: rgb(var(--ch-slate) / 0.16);
+  --wash-3: rgb(var(--ch-paper) / 0.90);
+
+  /* ── hero scrim ──────────────────────────────────────────────────── */
+  /* The scrim no longer has to carry legibility — the copy sits on its own
+     frosted panel (--hero-panel) — so it is light enough to let the
+     photograph read properly. */
+  --hero-scrim: linear-gradient(100deg,
+      rgb(var(--ch-deep) / 0.62) 0%,
+      rgb(var(--ch-deep) / 0.50) 46%,
+      rgb(var(--ch-deep) / 0.34) 64%,
+      rgb(var(--ch-deep) / 0.16) 82%,
+      rgb(var(--ch-deep) / 0.04) 100%);
+
+  /* THE READABILITY SURFACE.
+     A WCAG ratio is measured against a single background colour; it does not
+     model a BUSY background. Worst-case over the bare photo measured 5.93
+     (a nominal AA pass) and was still hard to read, because the backdrop is
+     high-frequency detail — shelving, frames, signage — not a flat field.
+     A blurred, opaque panel flattens that texture, which is what actually
+     fixes legibility, and it lets the photograph stay bright beside it. */
+  --hero-panel: rgb(var(--ch-deep) / 0.74);
+  --hero-panel-sheen: linear-gradient(135deg,
+      rgb(var(--ch-paper) / 0.12) 0%,
+      rgb(var(--ch-paper) / 0.03) 48%,
+      rgb(var(--ch-paper) / 0.07) 100%);
+  --hero-scrim-stack: linear-gradient(180deg,
+      rgb(var(--ch-deep) / 0.72) 0%,
+      rgb(var(--ch-deep) / 0.88) 45%,
+      rgb(var(--ch-deep) / 0.96) 100%);
+  --hero-glow: radial-gradient(40rem 28rem at 88% 18%, rgb(var(--ch-gold) / 0.30), transparent 70%);
+
+  /* ── geometry ────────────────────────────────────────────────────── */
+  --r-sm: 12px;
+  --r-md: 18px;
+  --r-lg: 28px;
+  --r-xl: 36px;
+  --r-pill: 999px;
+  --shell: 1200px;
+  --gutter: 22px;
+
+  /* ── motion ──────────────────────────────────────────────────────── */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 140ms;
+  --dur: 260ms;
+  --dur-slow: 520ms;
+}
+
+/* The source ships no dark scheme. An ADDITION, declared in the ledger. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --canvas-base: rgb(14 13 20);
+    --orb-1: radial-gradient(52rem 38rem at 8% -6%,  rgb(var(--ch-violet) / 0.34), transparent 62%);
+    --orb-2: radial-gradient(44rem 34rem at 96% 4%,  rgb(var(--ch-gold)   / 0.18), transparent 60%);
+    --orb-3: radial-gradient(58rem 44rem at 78% 52%, rgb(var(--ch-orchid) / 0.16), transparent 64%);
+    --orb-4: radial-gradient(50rem 40rem at 14% 88%, rgb(var(--ch-amber)  / 0.12), transparent 62%);
+    --orb-5: radial-gradient(64rem 48rem at 50% 118%, rgb(var(--ch-violet) / 0.22), transparent 68%);
+
+    --glass-pane:        rgb(var(--ch-deep) / 0.72);
+    --glass-pane-strong: rgb(var(--ch-deep) / 0.88);
+    --glass-veil:        rgb(var(--ch-deep) / 0.56);
+    --glass-tint:        rgb(var(--ch-violet) / 0.18);
+    --glass-sheen: linear-gradient(135deg,
+        rgb(var(--ch-paper) / 0.10) 0%,
+        rgb(var(--ch-paper) / 0.02) 44%,
+        rgb(var(--ch-paper) / 0.06) 100%);
+    --glass-border:      rgb(var(--ch-paper) / 0.14);
+    --glass-border-firm: rgb(var(--ch-paper) / 0.18);
+    --glass-inset:
+        inset 0 1px 0 rgb(var(--ch-paper) / 0.12),
+        inset 0 -1px 0 rgb(var(--ch-ink) / 0.30);
+    --glass-shadow:
+        0 1px 2px rgb(var(--ch-ink) / 0.40),
+        0 8px 24px rgb(var(--ch-ink) / 0.45),
+        0 24px 60px rgb(var(--ch-ink) / 0.50);
+    --glass-shadow-lift:
+        0 2px 6px rgb(var(--ch-ink) / 0.45),
+        0 16px 40px rgb(var(--ch-ink) / 0.55),
+        0 40px 90px rgb(var(--ch-ink) / 0.60);
+    --ink-strong: rgb(var(--ch-paper) / 1);
+    --ink-body:   rgb(var(--ch-paper) / 0.88);
+    --ink-muted:  rgb(var(--ch-paper) / 0.66);
+    --rule:       rgb(var(--ch-paper) / 0.14);
+    --focus-ring: rgb(var(--ch-gold) / 0.95);
+  }
+}
