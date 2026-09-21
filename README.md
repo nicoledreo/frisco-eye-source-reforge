@@ -70,7 +70,21 @@ _tooling/       build script, verification probes, capture harness
   Neither renders on any page; the first is referenced only in `og:image`/`twitter:image`
   on one blog post. Left in `main` for fidelity.
 - The release gate carries **6 documented failures**, unchanged from the initial build.
-  See `main/audit/gate.json`.
+  Its overall verdict is therefore `NOT-READY`. Re-read 2026-09-22 — still 23 PASS / 6 FAIL
+  / 0 UNPROVEN. What the six actually are, from `main/audit/gate.json`:
+
+  | Check | Stage | Why it fails |
+  |---|---|---|
+  | `C22` Pixel-for-pixel match vs. source | pixeldiff | **Inapplicable by design** — this build is a deliberate glass reskin, so pixel parity against the original can never pass. Worst drift 99.447% on `index.1440.png`. |
+  | `C03` Every crawled page fetched | crawl | 17 source pages failed to fetch during harvest — source-side. |
+  | `C04` Content captured for every page | extract | 6 pages under 50 chars of body text, all `/slideshow/*` — genuinely near-empty at source. |
+  | `C05` No unresolved JS-rendered shell | extract | 41 pages flagged as likely JS-rendered but captured statically. The one worth a second look. |
+  | `C06` SEO inventory captured | extract | 1 source page had no `<title>`. |
+  | `C07` Image inventory with real dimensions | assets | 1 same-origin image never downloaded. |
+
+  Five of the six are either inapplicable to a reskin (`C22`) or record gaps in the
+  **source** site rather than defects in this rebuild. Content parity is separately
+  measured at 287/287, 100.0% recall, 0 major.
 
 ## Preview branch
 
@@ -79,3 +93,21 @@ EyeSource's own public Google Maps browser key, so the three map iframes are rep
 with a static location card linking to the same `place_id`. Serving the key from
 `github.io` would spend their Maps quota. The `main` branch and the handoff bundle keep
 the source-faithful markup.
+
+### On the embedded Maps key
+
+`main` preserves the key as it appears in the source, in 4 files. This is a deliberate
+decision, not an oversight, and it adds **no exposure** beyond what the origin site
+already publishes — verified 2026-09-22 by comparing both strings:
+
+| | |
+|---|---|
+| `friscoeyesource.com` homepage | key present, served publicly (HTTP 200) |
+| this repo, `main` | **byte-identical** to the above |
+| this repo, `gh-pages` | 0 occurrences |
+| the live preview | 0 occurrences |
+
+Google Maps *browser* keys are designed to be public and are restricted by HTTP referrer
+rather than kept secret. Because the preview never loads a map, no request is ever billed
+to their quota. Scrubbing `main` would rewrite public history and cost source fidelity
+while the key stayed public on the origin site regardless, so it was left in place.
