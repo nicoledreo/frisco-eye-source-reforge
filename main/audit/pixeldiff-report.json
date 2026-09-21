@@ -1,0 +1,191 @@
+{
+  "schema": "site-reforge/pixeldiff-report@1",
+  "generated": "2026-09-21T05:35:52.281Z",
+  "threshold": 0.02,
+  "tolerance": 8,
+  "pairCount": 8,
+  "verdict": "DRIFT",
+  "worst": [
+    {
+      "file": "index.1440.png",
+      "ratio": 0.994472,
+      "verdict": "SIZE-MISMATCH"
+    },
+    {
+      "file": "index.1024.png",
+      "ratio": 0.990627,
+      "verdict": "SIZE-MISMATCH"
+    },
+    {
+      "file": "index.768.png",
+      "ratio": 0.929652,
+      "verdict": "SIZE-MISMATCH"
+    },
+    {
+      "file": "index.390.png",
+      "ratio": 0.887165,
+      "verdict": "SIZE-MISMATCH"
+    },
+    {
+      "file": "eye-exams.1024.png",
+      "ratio": 0.642785,
+      "verdict": "SIZE-MISMATCH"
+    }
+  ],
+  "unpairedBaseline": [],
+  "unpairedRebuild": [],
+  "pairs": [
+    {
+      "file": "eye-exams.1024.png",
+      "slug": "eye-exams",
+      "width": 1024,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1865373,
+      "compared": 2902016,
+      "ratio": 0.642785,
+      "baselineSize": [
+        1024,
+        2834
+      ],
+      "rebuildSize": [
+        1024,
+        5010
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/eye-exams.1024.png"
+    },
+    {
+      "file": "eye-exams.1440.png",
+      "slug": "eye-exams",
+      "width": 1440,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 2437269,
+      "compared": 4109760,
+      "ratio": 0.593044,
+      "baselineSize": [
+        1440,
+        2854
+      ],
+      "rebuildSize": [
+        1440,
+        4128
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/eye-exams.1440.png"
+    },
+    {
+      "file": "eye-exams.390.png",
+      "slug": "eye-exams",
+      "width": 390,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1342666,
+      "compared": 2168010,
+      "ratio": 0.619308,
+      "baselineSize": [
+        390,
+        5559
+      ],
+      "rebuildSize": [
+        390,
+        7282
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/eye-exams.390.png"
+    },
+    {
+      "file": "eye-exams.768.png",
+      "slug": "eye-exams",
+      "width": 768,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 2302316,
+      "compared": 3607296,
+      "ratio": 0.638239,
+      "baselineSize": [
+        768,
+        4697
+      ],
+      "rebuildSize": [
+        768,
+        5246
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/eye-exams.768.png"
+    },
+    {
+      "file": "index.1024.png",
+      "slug": "index",
+      "width": 1024,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 6170607,
+      "compared": 6228992,
+      "ratio": 0.990627,
+      "baselineSize": [
+        1024,
+        6083
+      ],
+      "rebuildSize": [
+        1024,
+        12202
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/index.1024.png"
+    },
+    {
+      "file": "index.1440.png",
+      "slug": "index",
+      "width": 1440,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 8887241,
+      "compared": 8936640,
+      "ratio": 0.994472,
+      "baselineSize": [
+        1440,
+        6206
+      ],
+      "rebuildSize": [
+        1440,
+        10384
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/index.1440.png"
+    },
+    {
+      "file": "index.390.png",
+      "slug": "index",
+      "width": 390,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 2315741,
+      "compared": 2610270,
+      "ratio": 0.887165,
+      "baselineSize": [
+        390,
+        6693
+      ],
+      "rebuildSize": [
+        390,
+        12342
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/index.390.png"
+    },
+    {
+      "file": "index.768.png",
+      "slug": "index",
+      "width": 768,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 5875995,
+      "compared": 6320640,
+      "ratio": 0.929652,
+      "baselineSize": [
+        768,
+        8230
+      ],
+      "rebuildSize": [
+        768,
+        11250
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/index.768.png"
+    }
+  ]
+}

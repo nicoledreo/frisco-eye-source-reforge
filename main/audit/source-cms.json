@@ -1,0 +1,54 @@
+{
+  "schema": "site-reforge/source-cms@1",
+  "generated": "2026-09-21T03:09:30.553Z",
+  "detected": [
+    {
+      "id": "wordpress",
+      "label": "WordPress",
+      "matchedPatterns": 3,
+      "evidence": [
+        "/\\/wp-content\\//i",
+        "/\\/wp-includes\\//i",
+        "/wp-emoji/i"
+      ],
+      "pages": 287
+    },
+    {
+      "id": "woocommerce",
+      "label": "WooCommerce",
+      "matchedPatterns": 1,
+      "evidence": [
+        "/woocommerce/i"
+      ],
+      "pages": 266
+    },
+    {
+      "id": "duda",
+      "label": "Duda",
+      "matchedPatterns": 1,
+      "evidence": [
+        "/dudamobile|dmAlbum|d-page/i"
+      ],
+      "pages": 80
+    },
+    {
+      "id": "aem",
+      "label": "Adobe Experience Manager",
+      "matchedPatterns": 1,
+      "evidence": [
+        "/cq:/i"
+      ],
+      "pages": 1
+    },
+    {
+      "id": "weebly",
+      "label": "Weebly",
+      "matchedPatterns": 1,
+      "evidence": [
+        "/weebly\\.com|cdn\\d?\\.editmysite\\.com/i"
+      ],
+      "pages": 1
+    }
+  ],
+  "note": "Every id listed here MUST be absent from dist/ before packaging. sr-decontaminate.mjs enforces it."
+}

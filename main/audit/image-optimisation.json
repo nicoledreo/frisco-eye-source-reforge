@@ -1,0 +1,2396 @@
+{
+  "schema": "site-reforge/image-optimisation@1",
+  "generated": "2026-09-21T03:37:25.581Z",
+  "build": "dist",
+  "mode": "audit",
+  "encoder": "not-used",
+  "settings": {
+    "quality": 82,
+    "maxWidth": 2560
+  },
+  "totals": {
+    "images": 197,
+    "bytesBefore": 12199820,
+    "bytesAfter": 12199820,
+    "converted": 0,
+    "refsRewritten": 0
+  },
+  "formats": {
+    "jpeg": 124,
+    "png": 63,
+    "gif": 8,
+    "unknown": 2
+  },
+  "images": [
+    {
+      "file": "assets/057ff62b-eye-emergencies-bg.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 219,
+      "bytesBefore": 12150,
+      "bytesAfter": 12150,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/058afb7c-Blond-Female-Pretty-Eyes-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 234676,
+      "bytesAfter": 234676,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/05cb0333-carolina-bonito-321678-e1510660691286.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 581,
+      "bytesBefore": 64642,
+      "bytesAfter": 64642,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/061d4198-snowflake1.png",
+      "format": "png",
+      "width": 500,
+      "height": 500,
+      "bytesBefore": 2765,
+      "bytesAfter": 2765,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/0676b7e6-OPTOS-DAYTONA.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 47505,
+      "bytesAfter": 47505,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/06b0fbff-Girls-Sunglasses-Boardwalk-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 186265,
+      "bytesAfter": 186265,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/074b1bdb-uv-large.jpg",
+      "format": "jpeg",
+      "width": 200,
+      "height": 133,
+      "bytesBefore": 3834,
+      "bytesAfter": 3834,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/0752b7de-eye-rub-businessman.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 90595,
+      "bytesAfter": 90595,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/098a48af-1526401368.png",
+      "format": "png",
+      "width": 32,
+      "height": 32,
+      "bytesBefore": 1346,
+      "bytesAfter": 1346,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/0a40095a-eyeglass_guide_logo.png",
+      "format": "png",
+      "width": 240,
+      "height": 114,
+      "bytesBefore": 3053,
+      "bytesAfter": 3053,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/0abc4e9c-baby-20pouting-20vertical-20slide.png",
+      "format": "png",
+      "width": 400,
+      "height": 464,
+      "bytesBefore": 214954,
+      "bytesAfter": 214954,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/0af3381d-winter-bgs-girl-glamourous-sunglasses.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 113990,
+      "bytesAfter": 113990,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/0bf8f56d-cigna.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 9501,
+      "bytesAfter": 9501,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/10a89bc9-transitions-girlonphone.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 189,
+      "bytesBefore": 35730,
+      "bytesAfter": 35730,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/14d00756-jamie_in_the_fall.JPG",
+      "format": "jpeg",
+      "width": 300,
+      "height": 400,
+      "bytesBefore": 49531,
+      "bytesAfter": 49531,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/16144d03-oliver-peoples.gif",
+      "format": "gif",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 2871,
+      "bytesAfter": 2871,
+      "flags": [
+        "GIF"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/1639478c-dryeye_diagram.jpg",
+      "format": "jpeg",
+      "width": 255,
+      "height": 235,
+      "bytesBefore": 15330,
+      "bytesAfter": 15330,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/17358e23-a-woman---cellphone.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 322683,
+      "bytesAfter": 322683,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/1ae320b0-new-orange.png",
+      "format": "png",
+      "width": 123,
+      "height": 87,
+      "bytesBefore": 6986,
+      "bytesAfter": 6986,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/1b38e18e-Woman-Mountains-Taking-Picture-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 219129,
+      "bytesAfter": 219129,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/1c7088de-latisse-before-after.jpg",
+      "format": "jpeg",
+      "width": 427,
+      "height": 288,
+      "bytesBefore": 100893,
+      "bytesAfter": 100893,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/1e5ea9f0-Man-Middle-Aged-Glasses-1280x853-1.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 61570,
+      "bytesAfter": 61570,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/205ae245-Senior-Woman-with-Flowers-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 110754,
+      "bytesAfter": 110754,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/24a24984-snowflake2.png",
+      "format": "png",
+      "width": 400,
+      "height": 400,
+      "bytesBefore": 4867,
+      "bytesAfter": 4867,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/258aea44-caucasian-family-pyramid-300x278.png",
+      "format": "png",
+      "width": 300,
+      "height": 278,
+      "bytesBefore": 95128,
+      "bytesAfter": 95128,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/275e9a06-studying-reading-boy.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 82122,
+      "bytesAfter": 82122,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/277a6ebc-girl-20with-20alphabet.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 354,
+      "bytesBefore": 83911,
+      "bytesAfter": 83911,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/27fcdfe7-winter-bgs-girl-blows-snow.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 381225,
+      "bytesAfter": 381225,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/296452df-chosen-sprite.png",
+      "format": "png",
+      "width": 52,
+      "height": 37,
+      "bytesBefore": 538,
+      "bytesAfter": 538,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/2980dd92-lindberg2.jpg",
+      "format": "jpeg",
+      "width": 400,
+      "height": 546,
+      "bytesBefore": 44273,
+      "bytesAfter": 44273,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/2a4fe363-haggar.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 3088,
+      "bytesAfter": 3088,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/2b32ed3e-womanandmicroscope3.JPG",
+      "format": "jpeg",
+      "width": 300,
+      "height": 200,
+      "bytesBefore": 17966,
+      "bytesAfter": 17966,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/2d5e056c-NowFeaturingTag3.png",
+      "format": "png",
+      "width": 334,
+      "height": 48,
+      "bytesBefore": 2237,
+      "bytesAfter": 2237,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/2dd9a5da-doctors_picture_e2272d4073f24ee2321582bea46acfe9-320x427.jpeg",
+      "format": "jpeg",
+      "width": 320,
+      "height": 427,
+      "bytesBefore": 26811,
+      "bytesAfter": 26811,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/2f412a91-vsp.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 11693,
+      "bytesAfter": 11693,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/3175037b-cash.png",
+      "format": "png",
+      "width": 51,
+      "height": 32,
+      "bytesBefore": 2232,
+      "bytesAfter": 2232,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/32bf6bb6-versace.gif",
+      "format": "gif",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 4933,
+      "bytesAfter": 4933,
+      "flags": [
+        "GIF"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/32c97b02-IMG_0491-min.jpg",
+      "format": "jpeg",
+      "width": 750,
+      "height": 408,
+      "bytesBefore": 37367,
+      "bytesAfter": 37367,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/382bf041-christmas-20--20brown-20paper-20package.jpg",
+      "format": "jpeg",
+      "width": 350,
+      "height": 297,
+      "bytesBefore": 24433,
+      "bytesAfter": 24433,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/3d1037d3-arrow.png",
+      "format": "png",
+      "width": 25,
+      "height": 60,
+      "bytesBefore": 316,
+      "bytesAfter": 316,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/3f55728d-ray-ban-250x300.jpg",
+      "format": "jpeg",
+      "width": 250,
+      "height": 299,
+      "bytesBefore": 9151,
+      "bytesAfter": 9151,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/3fb418d5-BB-Hero-child-glasses-1280x853.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 71344,
+      "bytesAfter": 71344,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/406666c6-IMG_1631.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 225,
+      "bytesBefore": 32126,
+      "bytesAfter": 32126,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/423ea43a-Dark-Hair-Man-Purple-Shirt-Sunglasses-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 176534,
+      "bytesAfter": 176534,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/434c3111-IMG_0492-min.jpg",
+      "format": "jpeg",
+      "width": 748,
+      "height": 408,
+      "bytesBefore": 30748,
+      "bytesAfter": 30748,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/4572beaf-girl-in-funny-glasses.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 375,
+      "bytesBefore": 23319,
+      "bytesAfter": 23319,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/486001ae-Happy20Family20Outside201280x480_preview2-1024x384.jpeg",
+      "format": "jpeg",
+      "width": 1024,
+      "height": 384,
+      "bytesBefore": 61093,
+      "bytesAfter": 61093,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/48906fec-mastercard.png",
+      "format": "png",
+      "width": 51,
+      "height": 32,
+      "bytesBefore": 2036,
+      "bytesAfter": 2036,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/4890c082-university_guy-slide-v1.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 146110,
+      "bytesAfter": 146110,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/4a49935c-puttingincontact.JPG",
+      "format": "jpeg",
+      "width": 300,
+      "height": 200,
+      "bytesBefore": 9805,
+      "bytesAfter": 9805,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/4abbec08-spectera.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 7403,
+      "bytesAfter": 7403,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/4c87f0cd-senior-20couple-20in-20orange-20and-20white.png",
+      "format": "png",
+      "width": 284,
+      "height": 350,
+      "bytesBefore": 194434,
+      "bytesAfter": 194434,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/4d2d6941-cross-eye-emerg.png",
+      "format": "png",
+      "width": 113,
+      "height": 117,
+      "bytesBefore": 1183,
+      "bytesAfter": 1183,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/4d3d34e9-flowers2.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 375,
+      "bytesBefore": 90605,
+      "bytesAfter": 90605,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/51da4cc7-Male-Sunglasses-and-Tie-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 77193,
+      "bytesAfter": 77193,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/5234c816-blond_womanpink_flowers.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 137236,
+      "bytesAfter": 137236,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/532c91cb-Cute-smiling-boy-with-glasses-1280x853-300x200.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 200,
+      "bytesBefore": 6600,
+      "bytesAfter": 6600,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/5376b74d-girl_in_sunglasses2.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 335,
+      "bytesBefore": 40257,
+      "bytesAfter": 40257,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/56270914-girl-beside-balcony.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 375,
+      "bytesBefore": 72692,
+      "bytesAfter": 72692,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/56e2bbf1-mature_lady-background.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 168039,
+      "bytesAfter": 168039,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/575e286a-nutrition853-nutri-girl-2.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 82486,
+      "bytesAfter": 82486,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/58d9b4a0-4Halloween-lenses.png",
+      "format": "png",
+      "width": 1129,
+      "height": 255,
+      "bytesBefore": 49964,
+      "bytesAfter": 49964,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/59a58448-eye-injury.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 97993,
+      "bytesAfter": 97993,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/5a7d921f-avesis.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 4364,
+      "bytesAfter": 4364,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/5c75645b-Cibalogo.png",
+      "format": "gif",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 3777,
+      "bytesAfter": 3777,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/5d125245-night-driving-blues-and-reds.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 84454,
+      "bytesAfter": 84454,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/5e60e3d1-white_sneakers_on_track.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 139387,
+      "bytesAfter": 139387,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/5e7be194-jelly-bean.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 17462,
+      "bytesAfter": 17462,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/6019fa78-glassesonkeyboard2.JPG",
+      "format": "jpeg",
+      "width": 300,
+      "height": 200,
+      "bytesBefore": 14129,
+      "bytesAfter": 14129,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/62013f5d-PageHeaderImage.jpg",
+      "format": "jpeg",
+      "width": 1193,
+      "height": 404,
+      "bytesBefore": 35894,
+      "bytesAfter": 35894,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/648a0289-check.png",
+      "format": "png",
+      "width": 51,
+      "height": 32,
+      "bytesBefore": 1488,
+      "bytesAfter": 1488,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/650256eb-404.png",
+      "format": "png",
+      "width": 485,
+      "height": 388,
+      "bytesBefore": 223771,
+      "bytesAfter": 223771,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/65191773-tennis-large.jpg",
+      "format": "jpeg",
+      "width": 200,
+      "height": 133,
+      "bytesBefore": 9354,
+      "bytesAfter": 9354,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/67008b21-transitions-ladyreading.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 188,
+      "bytesBefore": 37340,
+      "bytesAfter": 37340,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/670f3d77-humana.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 1675,
+      "bytesAfter": 1675,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/6835f5f6-clipart-042.jpg",
+      "format": "jpeg",
+      "width": 150,
+      "height": 224,
+      "bytesBefore": 21181,
+      "bytesAfter": 21181,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/6a48158a-prada.gif",
+      "format": "gif",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 2375,
+      "bytesAfter": 2375,
+      "flags": [
+        "GIF"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/6b444ecc-womanandmicroscope.JPG",
+      "format": "jpeg",
+      "width": 300,
+      "height": 200,
+      "bytesBefore": 18096,
+      "bytesAfter": 18096,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/6bacd29f-eyewear-african-american-male.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 69700,
+      "bytesAfter": 69700,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/6c2e958e-discover.png",
+      "format": "png",
+      "width": 51,
+      "height": 32,
+      "bytesBefore": 1286,
+      "bytesAfter": 1286,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/6cdff4eb-adin-thomas.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 9772,
+      "bytesAfter": 9772,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/6f71fccc-boy-20in-20front-20of-20eye-20chart.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 461,
+      "bytesBefore": 74326,
+      "bytesAfter": 74326,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/706e9882-Woman-Hat-Makeup-Blond-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 484657,
+      "bytesAfter": 484657,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/714fb532-cataracts-icon.jpg",
+      "format": "jpeg",
+      "width": 100,
+      "height": 68,
+      "bytesBefore": 2152,
+      "bytesAfter": 2152,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/717167d2-dry-eyes-droplet_250x376.jpg",
+      "format": "jpeg",
+      "width": 324,
+      "height": 250,
+      "bytesBefore": 4446,
+      "bytesAfter": 4446,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/744564c5-4ON2tzqw5GNU7H4U.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 1905,
+      "bytesAfter": 1905,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/7656a219-Blond-Female-Looking-Down-1280x480-1.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 305610,
+      "bytesAfter": 305610,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/79f46389-Family-Dancing-on-Beach-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 133202,
+      "bytesAfter": 133202,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/80cc9c19-dolce-and-gabbana.gif",
+      "format": "gif",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 2761,
+      "bytesAfter": 2761,
+      "flags": [
+        "GIF"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/82688fb4-Glaucoma-20Eye-20Diagram.jpg",
+      "format": "jpeg",
+      "width": 258,
+      "height": 148,
+      "bytesBefore": 12021,
+      "bytesAfter": 12021,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/82a6fbf1-db4k.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 17488,
+      "bytesAfter": 17488,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/8534b862-father-20waving-20with-20child.png",
+      "format": "png",
+      "width": 400,
+      "height": 267,
+      "bytesBefore": 159962,
+      "bytesAfter": 159962,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/864c6ecc-BB-Hero-male-trying-on-glasses-1280x853.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 109071,
+      "bytesAfter": 109071,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/8713d154-keilidh-ewan-189124-e1510661641792.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 62585,
+      "bytesAfter": 62585,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/876cabff-IMG_0481-min-1.jpg",
+      "format": "jpeg",
+      "width": 750,
+      "height": 526,
+      "bytesBefore": 54206,
+      "bytesAfter": 54206,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/878d6628-happy_mother_daughter-640x427.jpg",
+      "format": "jpeg",
+      "width": 640,
+      "height": 427,
+      "bytesBefore": 34449,
+      "bytesAfter": 34449,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/899e513f-clipart-048.jpg",
+      "format": "jpeg",
+      "width": 224,
+      "height": 150,
+      "bytesBefore": 20697,
+      "bytesAfter": 20697,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/8b17be29-Thumbnail-Emerg.jpg",
+      "format": "jpeg",
+      "width": 325,
+      "height": 217,
+      "bytesBefore": 11300,
+      "bytesAfter": 11300,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/8bfefa47-Liu-20Jo-20Ad.jpg",
+      "format": "jpeg",
+      "width": 250,
+      "height": 300,
+      "bytesBefore": 229404,
+      "bytesAfter": 229404,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/8c2be6b0-Halloween1280x853_preview1.jpeg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 101527,
+      "bytesAfter": 101527,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/8cc7c82e-cactus2.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 225,
+      "bytesBefore": 47141,
+      "bytesAfter": 47141,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/8da8509a-Woman-Dark-Eyes-Gazing-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 489919,
+      "bytesAfter": 489919,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/90ab9eaf-coach.gif",
+      "format": "gif",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 3971,
+      "bytesAfter": 3971,
+      "flags": [
+        "GIF"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/92be0034-rayban-color.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 34883,
+      "bytesAfter": 34883,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/92ccfc9b-mom-20and-20dad-20with-20child-20in-20pink.png",
+      "format": "png",
+      "width": 400,
+      "height": 301,
+      "bytesBefore": 182769,
+      "bytesAfter": 182769,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/9318bfaa-Happy20Girl20Fingers20Near20Eyes201280x480_preview1-1024x384.jpeg",
+      "format": "jpeg",
+      "width": 1024,
+      "height": 384,
+      "bytesBefore": 59141,
+      "bytesAfter": 59141,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/94e5fae8-clipart-036.jpg",
+      "format": "jpeg",
+      "width": 224,
+      "height": 150,
+      "bytesBefore": 25816,
+      "bytesAfter": 25816,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/9547b48c-paint-brushes-black-white.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 71446,
+      "bytesAfter": 71446,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/970f5d4e-laptop-20with-20eye.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 338,
+      "bytesBefore": 41011,
+      "bytesAfter": 41011,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/9904a80a-nerf-gun-2_640x350.jpg",
+      "format": "jpeg",
+      "width": 640,
+      "height": 350,
+      "bytesBefore": 16489,
+      "bytesAfter": 16489,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/99aaf89d-dad-riding-bike-with-daughter.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 400,
+      "bytesBefore": 31472,
+      "bytesAfter": 31472,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/9a04a51d-Dad-Hugging-Baby-Girl-1280-x-853.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 87702,
+      "bytesAfter": 87702,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/9b2e3231-ribbon.png",
+      "format": "png",
+      "width": 129,
+      "height": 155,
+      "bytesBefore": 5519,
+      "bytesAfter": 5519,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/9d831497-new-blue.png",
+      "format": "png",
+      "width": 123,
+      "height": 87,
+      "bytesBefore": 7005,
+      "bytesAfter": 7005,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/a0c2eefb-colours-in-optics.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 14369,
+      "bytesAfter": 14369,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/a0d07c40-F4M3ViS8N2VCafqP.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 3797,
+      "bytesAfter": 3797,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/a107eb5a-woman_removing_contact4.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 746,
+      "bytesBefore": 38233,
+      "bytesAfter": 38233,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/a38e083c-debit.png",
+      "format": "png",
+      "width": 51,
+      "height": 32,
+      "bytesBefore": 16127,
+      "bytesAfter": 16127,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/aa70ccc4-eyes--green-close-up-woman.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 118077,
+      "bytesAfter": 118077,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/aae51a3c-michael-ryen-one.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 4883,
+      "bytesAfter": 4883,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/aae769da-clipart-011.jpg",
+      "format": "jpeg",
+      "width": 224,
+      "height": 150,
+      "bytesBefore": 32510,
+      "bytesAfter": 32510,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/ab1ce6c4-father-20and-20son-20shaking-20hands.png",
+      "format": "png",
+      "width": 400,
+      "height": 322,
+      "bytesBefore": 210706,
+      "bytesAfter": 210706,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/ab5c58e6-woman-20with-20laptop.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 334,
+      "bytesBefore": 43472,
+      "bytesAfter": 43472,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/abb82b3a-Woman-Hands-in-Heart-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 77083,
+      "bytesAfter": 77083,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/abdd11d8-n1OE2oeYJIsO0V1M.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 5089,
+      "bytesAfter": 5089,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/acde83ca-macular-degeneration-diagram.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 243,
+      "bytesBefore": 29681,
+      "bytesAfter": 29681,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/ad6f0d83-Male-Teen-Texting-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 490578,
+      "bytesAfter": 490578,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/ae81be36-IMG_0489-min-300x234.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 234,
+      "bytesBefore": 13854,
+      "bytesAfter": 13854,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/aeec6b43-chosen-sprite-2x.png",
+      "format": "png",
+      "width": 104,
+      "height": 74,
+      "bytesBefore": 738,
+      "bytesAfter": 738,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/af2bc211-doctors_picture_e2272d4073f24ee2321582bea46acfe9.jpeg",
+      "format": "jpeg",
+      "width": 480,
+      "height": 640,
+      "bytesBefore": 53727,
+      "bytesAfter": 53727,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/b4cd3896-eye-med.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 13579,
+      "bytesAfter": 13579,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/b5ddbe78-united-healthcare.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 4126,
+      "bytesAfter": 4126,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/b5ec7880-woman-20smelling-20flowers.jpeg",
+      "format": "jpeg",
+      "width": 333,
+      "height": 500,
+      "bytesBefore": 36698,
+      "bytesAfter": 36698,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/b691eb76-sports-soccer-females-caucasian.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 159295,
+      "bytesAfter": 159295,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/b7f00471-glasses-american-20woman-sofa.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 99837,
+      "bytesAfter": 99837,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/ba6ddce9-house.jpg",
+      "format": "jpeg",
+      "width": 225,
+      "height": 300,
+      "bytesBefore": 55761,
+      "bytesAfter": 55761,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/c1d5cee0-prada-300x250.jpg",
+      "format": "jpeg",
+      "width": 250,
+      "height": 300,
+      "bytesBefore": 13532,
+      "bytesAfter": 13532,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/c27f8ea1-Acuvue.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 4894,
+      "bytesAfter": 4894,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/c36ce5a7-happy_mother_daughter.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 102872,
+      "bytesAfter": 102872,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/c3e7e1ba-watermelon-mike.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 375,
+      "bytesBefore": 68787,
+      "bytesAfter": 68787,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/c517c06f-spring-enchanted-forest.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 165144,
+      "bytesAfter": 165144,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/c5fb43ec-visa.png",
+      "format": "png",
+      "width": 51,
+      "height": 32,
+      "bytesBefore": 1274,
+      "bytesAfter": 1274,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/c7f084ae-CooperVision.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 14027,
+      "bytesAfter": 14027,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/ca4a15fc-Woman-Putting-in-Contact-1280x853.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 73711,
+      "bytesAfter": 73711,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/cb7017ad-daytona-300x239.png",
+      "format": "png",
+      "width": 300,
+      "height": 239,
+      "bytesBefore": 52127,
+      "bytesAfter": 52127,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/cbedc346-pCNz9nWTuyqdmzjV.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 13817,
+      "bytesAfter": 13817,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/cc6a8468-caucasian-family-pyramid.png",
+      "format": "png",
+      "width": 565,
+      "height": 523,
+      "bytesBefore": 335860,
+      "bytesAfter": 335860,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/cd5b9c3a-IMG_0490-min-300x210.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 210,
+      "bytesBefore": 11522,
+      "bytesAfter": 11522,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/cd7e616a-clipart-010.jpg",
+      "format": "unknown",
+      "width": 0,
+      "height": 0,
+      "bytesBefore": 142989,
+      "bytesAfter": 142989,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/cde3facc-michael-kors.gif",
+      "format": "gif",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 2586,
+      "bytesAfter": 2586,
+      "flags": [
+        "GIF"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/ce6761f7-review-quote.png",
+      "format": "unknown",
+      "width": 0,
+      "height": 0,
+      "bytesBefore": 223,
+      "bytesAfter": 223,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/cff8cc53-man_rubbing_eyes.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 71392,
+      "bytesAfter": 71392,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/d03a2b31-pattern-part2.png",
+      "format": "png",
+      "width": 161,
+      "height": 161,
+      "bytesBefore": 2167,
+      "bytesAfter": 2167,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/d20b0e6b-Cute-Happy-Children-Hugging-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 109608,
+      "bytesAfter": 109608,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/d22b8d0b-Oliver-20Peoples-20ad.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 599,
+      "bytesBefore": 112047,
+      "bytesAfter": 112047,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/d3cfcb76-superior-vision-.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 9418,
+      "bytesAfter": 9418,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/d601b3a0-louis-luso.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 8144,
+      "bytesAfter": 8144,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/d9a9ab48-medicare.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 9019,
+      "bytesAfter": 9019,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/dae3ad56-BandL.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 9309,
+      "bytesAfter": 9309,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/db1bab3c-Teen-Boy-Blue-Glasses-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 24613,
+      "bytesAfter": 24613,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/dc599eed-Woman-with-glasses-sitting-by-wall-1280x853-300x200.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 200,
+      "bytesBefore": 13699,
+      "bytesAfter": 13699,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/dd33adb8-blue-20eye-20between-20fingers.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 288,
+      "bytesBefore": 21787,
+      "bytesAfter": 21787,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/de499dbe-senior_man_in_thought.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 333,
+      "bytesBefore": 38495,
+      "bytesAfter": 38495,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/df41fb34-Astigmatism-20Focal-20Image.jpg",
+      "format": "jpeg",
+      "width": 623,
+      "height": 334,
+      "bytesBefore": 57563,
+      "bytesAfter": 57563,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/df8a3ad0-Woman-Sunglasses-on-Head-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 99417,
+      "bytesAfter": 99417,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/e049395c-black-version-eye-source-logo.png",
+      "format": "png",
+      "width": 684,
+      "height": 455,
+      "bytesBefore": 18127,
+      "bytesAfter": 18127,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/e123846d-eyeball-drawing.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 139,
+      "bytesBefore": 4379,
+      "bytesAfter": 4379,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/e17a53f0-clipart-033.jpg",
+      "format": "jpeg",
+      "width": 224,
+      "height": 150,
+      "bytesBefore": 23070,
+      "bytesAfter": 23070,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/e528308e-lensvial1.jpg",
+      "format": "jpeg",
+      "width": 400,
+      "height": 175,
+      "bytesBefore": 9296,
+      "bytesAfter": 9296,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/e5e8716f-antireflective-large.jpg",
+      "format": "jpeg",
+      "width": 200,
+      "height": 133,
+      "bytesBefore": 3904,
+      "bytesAfter": 3904,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/e60856b4-coach_2_250x300-2.jpg",
+      "format": "jpeg",
+      "width": 250,
+      "height": 300,
+      "bytesBefore": 9667,
+      "bytesAfter": 9667,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/e6e4e0bd-toy-20wearing-20glasses.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 479,
+      "bytesBefore": 74724,
+      "bytesAfter": 74724,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/e9031cfd-suntrends.gif",
+      "format": "gif",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 2694,
+      "bytesAfter": 2694,
+      "flags": [
+        "GIF"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/e911b13d-boat-rowing-at-sunset.jpg",
+      "format": "jpeg",
+      "width": 400,
+      "height": 300,
+      "bytesBefore": 13705,
+      "bytesAfter": 13705,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/e9ff564f-snowflake3.png",
+      "format": "png",
+      "width": 300,
+      "height": 300,
+      "bytesBefore": 3117,
+      "bytesAfter": 3117,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/ebf7e5ce-aC9WUwSk6DO88chj.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 4873,
+      "bytesAfter": 4873,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/edd5098e-lilly-pulitzer.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 10645,
+      "bytesAfter": 10645,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/eff83b07-joanna-kosinska-354705-e1510663247413.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 24521,
+      "bytesAfter": 24521,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f177986d-clipart-032.jpg",
+      "format": "jpeg",
+      "width": 224,
+      "height": 150,
+      "bytesBefore": 22878,
+      "bytesAfter": 22878,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f1be03cd-blue-cross-blue-sheild.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 10191,
+      "bytesAfter": 10191,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f2281399-Shielding20Eyes20From20Sun201280x853_preview1.jpeg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "bytesBefore": 134540,
+      "bytesAfter": 134540,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f23a1231-glasses5.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 335,
+      "bytesBefore": 35067,
+      "bytesAfter": 35067,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f30d892e-advantica.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 13805,
+      "bytesAfter": 13805,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f4c5620b-Man20Red20Cap20Squinting201280x480_preview1.jpeg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 46035,
+      "bytesAfter": 46035,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f769b860-transitions-girlwithbag.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 187,
+      "bytesBefore": 8798,
+      "bytesAfter": 8798,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f7b61a9a-clipart-038.jpg",
+      "format": "jpeg",
+      "width": 150,
+      "height": 224,
+      "bytesBefore": 26065,
+      "bytesAfter": 26065,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f8e466e7-eye-disorder-headache-african-american-woman-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 55171,
+      "bytesAfter": 55171,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f91e544f-tag.png",
+      "format": "png",
+      "width": 123,
+      "height": 87,
+      "bytesBefore": 7005,
+      "bytesAfter": 7005,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f94692d7-zgkoZO9s6bV5dEcJ.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 11714,
+      "bytesAfter": 11714,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/f996e42c-familywithdog.jpg",
+      "format": "jpeg",
+      "width": 332,
+      "height": 500,
+      "bytesBefore": 57678,
+      "bytesAfter": 57678,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/fa330841-transitions-groupshot.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 187,
+      "bytesBefore": 12620,
+      "bytesAfter": 12620,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/fa698029-new-black.png",
+      "format": "png",
+      "width": 123,
+      "height": 87,
+      "bytesBefore": 6778,
+      "bytesAfter": 6778,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/facf4a25-IMG_0486-min-300x288.jpg",
+      "format": "jpeg",
+      "width": 300,
+      "height": 288,
+      "bytesBefore": 10456,
+      "bytesAfter": 10456,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/fc108c35-writing-1149962_1280.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 854,
+      "bytesBefore": 65442,
+      "bytesAfter": 65442,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/fc6d5c93-man_in_glasses2.jpg",
+      "format": "jpeg",
+      "width": 500,
+      "height": 335,
+      "bytesBefore": 124000,
+      "bytesAfter": 124000,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/fe5ad934-Woman-Something-in-Eye-1280x480.jpg",
+      "format": "jpeg",
+      "width": 1280,
+      "height": 480,
+      "bytesBefore": 281290,
+      "bytesAfter": 281290,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/fedcf081-mes-vision.png",
+      "format": "png",
+      "width": 133,
+      "height": 110,
+      "bytesBefore": 11500,
+      "bytesAfter": 11500,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "none"
+    }
+  ]
+}

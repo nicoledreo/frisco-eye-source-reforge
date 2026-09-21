@@ -1,0 +1,6290 @@
+{
+  "schema": "site-reforge/architecture@1",
+  "generated": "2026-09-21T03:09:30.525Z",
+  "origin": "https://www.friscoeyesource.com",
+  "pageTypes": {
+    "home": 1,
+    "page": 72,
+    "form": 117,
+    "blog-index": 1,
+    "article": 91,
+    "legal": 1,
+    "portfolio": 2,
+    "service": 1,
+    "about": 1
+  },
+  "urlDepthHistogram": {
+    "0": 1,
+    "1": 101,
+    "2": 37,
+    "3": 40,
+    "4": 81,
+    "5": 27
+  },
+  "primaryNav": [
+    {
+      "label": "Hours & Location",
+      "onPages": 287
+    },
+    {
+      "label": "Our Eye Doctor",
+      "onPages": 287
+    },
+    {
+      "label": "Eye Care Services",
+      "onPages": 287
+    },
+    {
+      "label": "Eyeglasses",
+      "onPages": 287
+    },
+    {
+      "label": "Contact Lenses",
+      "onPages": 287
+    },
+    {
+      "label": "Insurance",
+      "onPages": 287
+    },
+    {
+      "label": "Our Eye Care Clinic",
+      "onPages": 286
+    },
+    {
+      "label": "OptiLight and OptiPlus",
+      "onPages": 286
+    }
+  ],
+  "globalFooterCandidates": [
+    {
+      "onPages": 285,
+      "sample": "Hours & Location Our Eye Doctor Eye Care Services Eyeglasses Contact Lenses Insurance Hours & Location Our Eye Doctor Eye Care Services Eyeglasses Contact Lenses Insurance Home Contact Us What’s New Disclaimer Privacy Policy Home Contact Us What’s New Disclaimer Privacy Policy Eye Source - Carey Brooks, OD - Located at 8049 Preston Road Ste 200 , Frisco , TX 75034 Phone: 214-872-2400 https://www.f"
+    }
+  ],
+  "formsByAction": [
+    {
+      "action": "/#gf_20 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/#gf_21 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "https://www.friscoeyesource.com/ [get]",
+      "pages": [
+        "https://www.friscoeyesource.com/1-eye-allergies-2016",
+        "https://www.friscoeyesource.com/10-eye-healthy-foods-to-eat-this-year-2017",
+        "https://www.friscoeyesource.com/10-steps-to-prevent-vision-loss",
+        "https://www.friscoeyesource.com/10-tips-to-teach-children-about-eye-safety-2016",
+        "https://www.friscoeyesource.com/404-page-not-found",
+        "https://www.friscoeyesource.com/5-ways-to-ensure-healthy-vision",
+        "https://www.friscoeyesource.com/6-common-eye-myths-debunked",
+        "https://www.friscoeyesource.com/6-crazy-holiday-eye-injuries-to-avoid-2017",
+        "https://www.friscoeyesource.com/6-things-you-need-to-know-about-cataracts",
+        "https://www.friscoeyesource.com/6-ways-to-prevent-amd-2017",
+        "https://www.friscoeyesource.com/7-eye-symptoms-you-should-not-ignore-2018",
+        "https://www.friscoeyesource.com/8-tips-to-relieve-winter-dry-eyes-2018",
+        "https://www.friscoeyesource.com/all-about-night-blindness-2018",
+        "https://www.friscoeyesource.com/amd-awareness-could-save-your-vision-2018",
+        "https://www.friscoeyesource.com/an-active-and-eye-safe-lifestyle-2016",
+        "https://www.friscoeyesource.com/aoa-privacy-policy",
+        "https://www.friscoeyesource.com/april-is-womens-eye-health-and-safety-month-2017",
+        "https://www.friscoeyesource.com/are-nerf-guns-a-dangerous-holiday-present-2018",
+        "https://www.friscoeyesource.com/are-you-ignoring-your-dry-eyes-2017",
+        "https://www.friscoeyesource.com/are-your-eyes-dry-do-they-often-burn-or-feel-gritty",
+        "https://www.friscoeyesource.com/are-your-eyes-sensitive-to-light-2017",
+        "https://www.friscoeyesource.com/author/friscoeyesource",
+        "https://www.friscoeyesource.com/bifocal-and-multifocal-contact-lenses-2016",
+        "https://www.friscoeyesource.com/can-you-really-go-blind-from-looking-at-a-solar-eclipse",
+        "https://www.friscoeyesource.com/cataract-awareness-and-prevention-2017",
+        "https://www.friscoeyesource.com/cataract-awareness-month-2016-2",
+        "https://www.friscoeyesource.com/category/news",
+        "https://www.friscoeyesource.com/category/our-doctors",
+        "https://www.friscoeyesource.com/category/our-doctors",
+        "https://www.friscoeyesource.com/category/uncategorized",
+        "https://www.friscoeyesource.com/contact-us",
+        "https://www.friscoeyesource.com/contact-us/appointment-request-form",
+        "https://www.friscoeyesource.com/contact-us/contact-form",
+        "https://www.friscoeyesource.com/contact-us/patient-registration-form",
+        "https://www.friscoeyesource.com/cutting-edge-eye-dentification-2016",
+        "https://www.friscoeyesource.com/decorative-lenses-could-cost-you-your-vision",
+        "https://www.friscoeyesource.com/diabetes-and-your-eyes-2018",
+        "https://www.friscoeyesource.com/disclaimer",
+        "https://www.friscoeyesource.com/dry-eye-syndrome-causes-and-cures-2016",
+        "https://www.friscoeyesource.com/enjoying-life-during-eye-allergy-season",
+        "https://www.friscoeyesource.com/exercise-and-your-eye-health-2018",
+        "https://www.friscoeyesource.com/eye-care-services",
+        "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams",
+        "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams/hard-to-fit",
+        "https://www.friscoeyesource.com/eye-care-services/emergency-eye-care-services",
+        "https://www.friscoeyesource.com/eye-care-services/eye-conditions",
+        "https://www.friscoeyesource.com/eye-care-services/eye-conditions/astigmatism-diagnosis-treatment",
+        "https://www.friscoeyesource.com/eye-care-services/eye-conditions/dry-eye-disease-and-treatment",
+        "https://www.friscoeyesource.com/eye-care-services/eye-conditions/presbyopia-diagnosis-and-treatment",
+        "https://www.friscoeyesource.com/eye-care-services/eye-emergencies-pinkred-eyes",
+        "https://www.friscoeyesource.com/eye-care-services/eye-exams",
+        "https://www.friscoeyesource.com/eye-care-services/eye-exams/advanced-technology",
+        "https://www.friscoeyesource.com/eye-care-services/eye-exams/pediatric-eye-exams",
+        "https://www.friscoeyesource.com/eye-care-services/eye-exams/pediatric-eye-exams/kids-vision-learning",
+        "https://www.friscoeyesource.com/eye-care-services/eye-exams/what-to-expect",
+        "https://www.friscoeyesource.com/eye-care-services/lasik-refractive-surgery-co-management",
+        "https://www.friscoeyesource.com/eye-care-services/latisse",
+        "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases",
+        "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/cataract-surgery-co-management",
+        "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/glaucoma-testing-treatment",
+        "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/treating-diabetic-retinopathy",
+        "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/treating-macular-degeneration",
+        "https://www.friscoeyesource.com/eye-care-services/optilight-and-optiplus",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/are-contact-lenses-a-good-choice-for-kids",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/childrens-vision-faqs",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/childrens-vision-video",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/controlling-nearsightedness-in-children",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/vision-therapy-for-children",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/your-infants-visual-development",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/blue-lighthigh-energy-visible-hev-light-and-your-eyes",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/children-and-computer-vision-syndrome",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/computer-glasses",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/worker-productivity-and-computer-vision-syndrome",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/contact-lens-basics",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/amblyopia-lazy-eye",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/blepharitis",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/cmv-retinitis",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/corneal-transplant",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/dry-eye-syndrome",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/eye-allergies",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/eye-floaters-and-spots",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/farsighted-hyperopia",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/keratoconus",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/nearsighted-myopia",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/ocular-hypertension",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/photophobia",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/pingueculae-pterygia",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/pink-eye-conjunctivitis",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/presbyopia",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/ptosis",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/retinal-detachment",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/retinitis-pigmentosa",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/styes",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/uveitis",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/cataract-surgery-treatment",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/cataracts-video",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/causes-of-cataracts",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/common-questions-about-presbyopia-correcting-iols",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/more-about-cataracts",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/signs-symptoms",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/causes-of-diabetic-retinopathy",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/overview-of-diabetic-retinopathy",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/signs-and-symptoms-of-diabetic-retinopathy",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/treatment-for-diabetic-retinopathy",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/forms-of-macular-degeneration",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/overview",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/symptoms-risk-factors-of-macular-degeneration",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/treatment-of-macular-degeneration",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/autorefractor",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/eye-dilation",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/glaucoma-test",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/ophthalmoscope",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/optomap",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/peripheral-vision-test",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/phoropter",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/puffer-test",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/retinoscope",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/slit-lamp-exam",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/snellen-chart",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/vision-screening",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/vision-testing",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/eye-exams-for-contact-lenses",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/medications",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/preparing-for-an-eye-exam",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/visiting-your-eye-care-professional",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/what-to-ask",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/what-to-expect",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/why-are-eye-exams-important",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/your-comprehensive-eye-exam",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/glossary-of-eye-care-terms",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/healthy-sight",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/how-the-eye-works",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/protecting-your-eyes",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-glare",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-uv-rays",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/dry-eye-after-menopause",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/how-progressive-lenses-work",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/multifocal-eyeglass-lenses",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/occupational-bifocal-and-trifocals",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/reading-glasses-after-40",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60/age-your-vision-changes-solutions",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60/seven-tips-for-optimal-vision",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60/suggestions-for-age-related-vision-loss",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/corneal-inlays-and-onlays",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/corneal-transplant",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/corrective-eye-surgery-basics",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik-criteria-for-success",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik-risks-and-complications",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/prk",
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/surgery-for-presbyopia",
+        "https://www.friscoeyesource.com/eye-health-for-college-students-2018",
+        "https://www.friscoeyesource.com/eye-lid-cleansing-for-dry-eye",
+        "https://www.friscoeyesource.com/eye-safe-toys-and-gifts-for-this-holiday-season",
+        "https://www.friscoeyesource.com/eyeglasses-contacts",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/bifocal-and-multifocal-contact-lenses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/contact-lenses-for-the-hard-to-fit-patient",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/disposable-contacts",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/eye-exams-for-contact-lenses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/gas-permeable-gp-contact-lenses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/order-contact-lenses-online",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/our-featured-brands",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/toric-contact-lenses-for-astigmatism",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/designer-frames",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics/eyeglass-frames",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics/lens-options-for-eyeglasses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics/womens-eyeglass-frames",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-guide",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/kids-optical",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/anti-reflective",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/scratch-resistant",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/uv-protection",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/bifocal-lenses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/caring-for-lenses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/eyeglass-frame-materials",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/frame-maintenance",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/high-index-and-aspheric-lenses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/polycarbonate-lenses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/nonprescription-sunglasses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglass-treatments",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglasses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/sunglasses-for-kids",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/are-transitions-right-for-you",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/original-transitions-lenses",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transition-solfx-sunwear-products",
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transitions-xtractive",
+        "https://www.friscoeyesource.com/eyelid-twitches-2018",
+        "https://www.friscoeyesource.com/fall-eye-allergies-2016",
+        "https://www.friscoeyesource.com/got-a-shiner-2017",
+        "https://www.friscoeyesource.com/guidelines-for-picking-the-right-pair-of-shades",
+        "https://www.friscoeyesource.com/halloween-eye-safety-2017",
+        "https://www.friscoeyesource.com/have-an-eye-safe-halloween-2018",
+        "https://www.friscoeyesource.com/healthy-aging-for-the-eyes-2018",
+        "https://www.friscoeyesource.com/holiday-season-shopping-2016",
+        "https://www.friscoeyesource.com/hours-location",
+        "https://www.friscoeyesource.com/how-contact-lenses-can-be-a-danger-to-your-eyes-2016",
+        "https://www.friscoeyesource.com/how-do-we-see",
+        "https://www.friscoeyesource.com/how-pregnancy-affects-vision",
+        "https://www.friscoeyesource.com/how-to-guide-for-buying-sunglasses-2018",
+        "https://www.friscoeyesource.com/how-to-prevent-diabetic-vision-loss",
+        "https://www.friscoeyesource.com/how-uv-damages-your-eyes-2016",
+        "https://www.friscoeyesource.com/infant-eyesight-2018",
+        "https://www.friscoeyesource.com/innovations-in-color-blindness-2016",
+        "https://www.friscoeyesource.com/inside-a-life-with-color-vision-deficiency-2017",
+        "https://www.friscoeyesource.com/insurance",
+        "https://www.friscoeyesource.com/insurance/faqs-of-vision-insurance-plans",
+        "https://www.friscoeyesource.com/insurance/whats-in-your-vision-insurance-plan",
+        "https://www.friscoeyesource.com/is-screen-time-dangerous-for-kids-2018",
+        "https://www.friscoeyesource.com/is-your-babys-eyesight-developing-normally",
+        "https://www.friscoeyesource.com/its-time-to-be-serious-about-home-eye-safety",
+        "https://www.friscoeyesource.com/location/eyesource-pllc",
+        "https://www.friscoeyesource.com/november-is-diabetes-awareness-month-2016",
+        "https://www.friscoeyesource.com/ocular-migraines-2018",
+        "https://www.friscoeyesource.com/our-eye-care-clinic",
+        "https://www.friscoeyesource.com/our-eye-care-clinic/associations-awards",
+        "https://www.friscoeyesource.com/our-eye-doctor",
+        "https://www.friscoeyesource.com/pink-stinging-eyes",
+        "https://www.friscoeyesource.com/pink-stinging-eyes-2",
+        "https://www.friscoeyesource.com/poolside-eye-safety-2016",
+        "https://www.friscoeyesource.com/prevent-age-related-macular-degeneration-2016",
+        "https://www.friscoeyesource.com/progressive-myopia-2018",
+        "https://www.friscoeyesource.com/protective-sports-eyewear-is-a-serious-matter",
+        "https://www.friscoeyesource.com/refocus-on-the-digital-age-with-computer-glasses",
+        "https://www.friscoeyesource.com/resolve-to-prevent-glaucoma-2016",
+        "https://www.friscoeyesource.com/rubbing-your-eyes-2018",
+        "https://www.friscoeyesource.com/signs-that-your-child-has-a-vision-problem-2018",
+        "https://www.friscoeyesource.com/sjogren-awareness-2017",
+        "https://www.friscoeyesource.com/slideshow/childpage-slideshow",
+        "https://www.friscoeyesource.com/slideshow/clinic",
+        "https://www.friscoeyesource.com/slideshow/doctor",
+        "https://www.friscoeyesource.com/slideshow/eyeglasses",
+        "https://www.friscoeyesource.com/slideshow/hours-and-location",
+        "https://www.friscoeyesource.com/slideshow/insurance",
+        "https://www.friscoeyesource.com/slideshow/services",
+        "https://www.friscoeyesource.com/smoking-and-vision-2017",
+        "https://www.friscoeyesource.com/sneak-thief-of-sight-january-2017",
+        "https://www.friscoeyesource.com/snow-blindness-winter-vacation-2017",
+        "https://www.friscoeyesource.com/solar-eclipse-2017",
+        "https://www.friscoeyesource.com/sports-vision-deconstructed-2018",
+        "https://www.friscoeyesource.com/sunwear-for-a-bright-future-2016",
+        "https://www.friscoeyesource.com/tag/all-about-vision",
+        "https://www.friscoeyesource.com/tag/eye-emergencies",
+        "https://www.friscoeyesource.com/tag/gsp-eye-emergencies",
+        "https://www.friscoeyesource.com/talk-about-blue-light-2017",
+        "https://www.friscoeyesource.com/team/carey-brooks",
+        "https://www.friscoeyesource.com/testimonial/dr-brooks-genuinely-cares-about-her-patients",
+        "https://www.friscoeyesource.com/the-dangers-of-an-online-eye-test-2018",
+        "https://www.friscoeyesource.com/the-right-way-to-clean-your-glasses-2017",
+        "https://www.friscoeyesource.com/the-sneak-thief-of-sight-2018",
+        "https://www.friscoeyesource.com/ultraviolet-light-and-your-eyes-2018",
+        "https://www.friscoeyesource.com/understanding-eye-color-2017",
+        "https://www.friscoeyesource.com/website-accessibility-policy",
+        "https://www.friscoeyesource.com/welcome-to-our-new-website",
+        "https://www.friscoeyesource.com/welcome-to-our-new-website-2",
+        "https://www.friscoeyesource.com/what-is-a-stye-anyway-2016",
+        "https://www.friscoeyesource.com/what-women-need-to-know-about-eye-health",
+        "https://www.friscoeyesource.com/what-you-need-to-know-about-firework-eye-safety",
+        "https://www.friscoeyesource.com/what-you-need-to-know-to-help-world-blindness-2017",
+        "https://www.friscoeyesource.com/whats-new",
+        "https://www.friscoeyesource.com/when-20-20-vision-isnt-enough-for-your-child-2016",
+        "https://www.friscoeyesource.com/why-do-we-need-glasses",
+        "https://www.friscoeyesource.com/women-and-diabetes-world-diabetes-day-2017",
+        "https://www.friscoeyesource.com/women-eye-health-5-tips-for-optimal-vision-for-life-2018",
+        "https://www.friscoeyesource.com/workplace-eye-wellness-the-dangers-of-blue-light-2016",
+        "https://www.friscoeyesource.com/your-childs-hidden-vision-problem-2017"
+      ],
+      "fields": [
+        "s"
+      ]
+    },
+    {
+      "action": "/1-eye-allergies-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/1-eye-allergies-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/10-eye-healthy-foods-to-eat-this-year-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/10-eye-healthy-foods-to-eat-this-year-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/10-steps-to-prevent-vision-loss/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/10-steps-to-prevent-vision-loss"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/10-tips-to-teach-children-about-eye-safety-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/10-tips-to-teach-children-about-eye-safety-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/404-page-not-found/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/404-page-not-found"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/5-ways-to-ensure-healthy-vision/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/5-ways-to-ensure-healthy-vision"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/6-common-eye-myths-debunked/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/6-common-eye-myths-debunked"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/6-crazy-holiday-eye-injuries-to-avoid-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/6-crazy-holiday-eye-injuries-to-avoid-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/6-things-you-need-to-know-about-cataracts/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/6-things-you-need-to-know-about-cataracts"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/6-ways-to-prevent-amd-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/6-ways-to-prevent-amd-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/7-eye-symptoms-you-should-not-ignore-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/7-eye-symptoms-you-should-not-ignore-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/8-tips-to-relieve-winter-dry-eyes-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/8-tips-to-relieve-winter-dry-eyes-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/all-about-night-blindness-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/all-about-night-blindness-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/amd-awareness-could-save-your-vision-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/amd-awareness-could-save-your-vision-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/an-active-and-eye-safe-lifestyle-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/an-active-and-eye-safe-lifestyle-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/aoa-privacy-policy/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/aoa-privacy-policy"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/april-is-womens-eye-health-and-safety-month-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/april-is-womens-eye-health-and-safety-month-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/are-nerf-guns-a-dangerous-holiday-present-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/are-nerf-guns-a-dangerous-holiday-present-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/are-you-ignoring-your-dry-eyes-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/are-you-ignoring-your-dry-eyes-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/are-your-eyes-dry-do-they-often-burn-or-feel-gritty/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/are-your-eyes-dry-do-they-often-burn-or-feel-gritty"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/are-your-eyes-sensitive-to-light-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/are-your-eyes-sensitive-to-light-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/author/friscoeyesource/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/author/friscoeyesource"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/bifocal-and-multifocal-contact-lenses-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/bifocal-and-multifocal-contact-lenses-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/can-you-really-go-blind-from-looking-at-a-solar-eclipse/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/can-you-really-go-blind-from-looking-at-a-solar-eclipse"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/cataract-awareness-and-prevention-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/cataract-awareness-and-prevention-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/cataract-awareness-month-2016-2/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/cataract-awareness-month-2016-2"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/category/news/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/category/news"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/category/our-doctors/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/category/our-doctors"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/category/uncategorized/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/category/uncategorized"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/contact-us/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/contact-us"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/contact-us/appointment-request-form/#gf_9 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/contact-us/appointment-request-form"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_12",
+        "input_13",
+        "input_16",
+        "submit",
+        "input_1",
+        "input_9",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/contact-us/contact-form/#gf_10 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/contact-us/contact-form"
+      ],
+      "fields": [
+        "input_8.3",
+        "input_8.6",
+        "input_2",
+        "input_4",
+        "input_4",
+        "input_4",
+        "input_9",
+        "input_10",
+        "input_12",
+        "submit",
+        "input_3",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/contact-us/contact-form/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/contact-us/contact-form"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/contact-us/patient-registration-form/#gf_12 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/contact-us/patient-registration-form"
+      ],
+      "fields": [
+        "input_8.3",
+        "input_8.6",
+        "input_8.8",
+        "input_9.1",
+        "input_9.2",
+        "input_9.3",
+        "input_9.4",
+        "input_9.5",
+        "input_6",
+        "input_10",
+        "input_11",
+        "input_5",
+        "input_7",
+        "input_7",
+        "input_15",
+        "input_92",
+        "input_23",
+        "input_24",
+        "input_19",
+        "input_20",
+        "input_25",
+        "input_14.1",
+        "input_14.2",
+        "input_14.3",
+        "input_14.4",
+        "input_14.5",
+        "input_14.6",
+        "input_14.7",
+        "input_14.8",
+        "input_14.9",
+        "input_14.11",
+        "input_14.12",
+        "input_14.13",
+        "input_14.14",
+        "input_14.15",
+        "input_14.16",
+        "input_14.17",
+        "input_14.18",
+        "input_14.19",
+        "input_14.21",
+        "input_14.22",
+        "input_14.23",
+        "input_14.24",
+        "input_14.25",
+        "input_14.26",
+        "input_14.27",
+        "input_14.28",
+        "input_27",
+        "input_28",
+        "input_82",
+        "input_82",
+        "input_30.1",
+        "input_30.2",
+        "input_30.3",
+        "input_30.4",
+        "input_30.5",
+        "input_30.6",
+        "input_30.7",
+        "input_30.8",
+        "input_30.9",
+        "input_31",
+        "input_32",
+        "input_33",
+        "input_34.1",
+        "input_34.2",
+        "input_34.3",
+        "input_34.4",
+        "input_34.5",
+        "input_34.6",
+        "input_34.7",
+        "input_34.8",
+        "input_83",
+        "input_83",
+        "input_36",
+        "input_37",
+        "input_38",
+        "input_39",
+        "input_40",
+        "input_41",
+        "input_42.1",
+        "input_42.2",
+        "input_42.3",
+        "input_42.4",
+        "input_42.5",
+        "input_42.6",
+        "input_42.7",
+        "input_44",
+        "input_45",
+        "input_46",
+        "input_47",
+        "input_56.1",
+        "input_56.2",
+        "input_56.3",
+        "input_56.4",
+        "input_56.5",
+        "input_56.6",
+        "input_56.7",
+        "input_56.8",
+        "input_56.9",
+        "input_56.11",
+        "input_56.12",
+        "input_56.13",
+        "input_56.14",
+        "input_59",
+        "input_60",
+        "input_61.1",
+        "input_61.2",
+        "input_61.3",
+        "input_61.4",
+        "input_61.5",
+        "input_62.3",
+        "input_62.6",
+        "input_63",
+        "input_64",
+        "input_65",
+        "input_66",
+        "input_84",
+        "input_84",
+        "input_75",
+        "input_74",
+        "input_73.1",
+        "input_73.2",
+        "input_73.3",
+        "input_73.4",
+        "input_73.5",
+        "input_72.3",
+        "input_72.6",
+        "input_71",
+        "input_70",
+        "input_69",
+        "input_68",
+        "input_80.1",
+        "input_93",
+        "submit",
+        "input_50",
+        "input_51",
+        "input_52",
+        "input_53",
+        "input_54",
+        "input_55",
+        "input_78",
+        "ak_hp_textarea",
+        "input_8.2",
+        "input_9.6",
+        "input_87",
+        "input_88",
+        "input_90",
+        "input_17",
+        "input_18",
+        "input_22",
+        "input_91",
+        "input_48",
+        "input_49",
+        "input_61.6",
+        "input_73.6"
+      ]
+    },
+    {
+      "action": "/contact-us/patient-registration-form/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/contact-us/patient-registration-form"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/cutting-edge-eye-dentification-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/cutting-edge-eye-dentification-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/decorative-lenses-could-cost-you-your-vision/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/decorative-lenses-could-cost-you-your-vision"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/diabetes-and-your-eyes-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/diabetes-and-your-eyes-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/disclaimer/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/disclaimer"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/dry-eye-syndrome-causes-and-cures-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/dry-eye-syndrome-causes-and-cures-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/enjoying-life-during-eye-allergy-season/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/enjoying-life-during-eye-allergy-season"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/exercise-and-your-eye-health-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/exercise-and-your-eye-health-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/contact-lens-exams/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/contact-lens-exams/hard-to-fit/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams/hard-to-fit"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/emergency-eye-care-services/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/emergency-eye-care-services"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/eye-conditions/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/eye-conditions"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/eye-conditions/astigmatism-diagnosis-treatment/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/eye-conditions/astigmatism-diagnosis-treatment"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/eye-conditions/dry-eye-disease-and-treatment/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/eye-conditions/dry-eye-disease-and-treatment"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/eye-conditions/presbyopia-diagnosis-and-treatment/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/eye-conditions/presbyopia-diagnosis-and-treatment"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/eye-emergencies-pinkred-eyes/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/eye-emergencies-pinkred-eyes"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/eye-exams/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/eye-exams"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/eye-exams/advanced-technology/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/eye-exams/advanced-technology"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/eye-exams/pediatric-eye-exams/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/eye-exams/pediatric-eye-exams"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/eye-exams/pediatric-eye-exams/kids-vision-learning/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/eye-exams/pediatric-eye-exams/kids-vision-learning"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/eye-exams/what-to-expect/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/eye-exams/what-to-expect"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/lasik-refractive-surgery-co-management/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/lasik-refractive-surgery-co-management"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/latisse/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/latisse"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/management-of-ocular-diseases/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/management-of-ocular-diseases/cataract-surgery-co-management/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/cataract-surgery-co-management"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/management-of-ocular-diseases/glaucoma-testing-treatment/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/glaucoma-testing-treatment"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/management-of-ocular-diseases/treating-diabetic-retinopathy/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/treating-diabetic-retinopathy"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/management-of-ocular-diseases/treating-macular-degeneration/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/treating-macular-degeneration"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/optilight-and-optiplus/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/optilight-and-optiplus"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/childrens-vision/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/childrens-vision/are-contact-lenses-a-good-choice-for-kids/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/are-contact-lenses-a-good-choice-for-kids"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/childrens-vision/childrens-vision-faqs/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/childrens-vision-faqs"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/childrens-vision/childrens-vision-video/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/childrens-vision-video"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/childrens-vision/controlling-nearsightedness-in-children/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/controlling-nearsightedness-in-children"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/childrens-vision/vision-therapy-for-children/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/vision-therapy-for-children"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/childrens-vision/your-infants-visual-development/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/your-infants-visual-development"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/computer-eyestrain/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/computer-eyestrain/blue-lighthigh-energy-visible-hev-light-and-your-eyes/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/blue-lighthigh-energy-visible-hev-light-and-your-eyes"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/computer-eyestrain/children-and-computer-vision-syndrome/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/children-and-computer-vision-syndrome"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/computer-eyestrain/computer-glasses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/computer-glasses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/computer-eyestrain/worker-productivity-and-computer-vision-syndrome/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/worker-productivity-and-computer-vision-syndrome"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/contact-lens-basics/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/contact-lens-basics"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/amblyopia-lazy-eye/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/amblyopia-lazy-eye"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/blepharitis/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/blepharitis"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/cmv-retinitis/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/cmv-retinitis"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/corneal-transplant/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/corneal-transplant"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/dry-eye-syndrome/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/dry-eye-syndrome"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/eye-allergies/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/eye-allergies"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/eye-floaters-and-spots/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/eye-floaters-and-spots"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/farsighted-hyperopia/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/farsighted-hyperopia"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/keratoconus/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/keratoconus"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/nearsighted-myopia/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/nearsighted-myopia"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/ocular-hypertension/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/ocular-hypertension"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/photophobia/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/photophobia"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/pingueculae-pterygia/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/pingueculae-pterygia"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/pink-eye-conjunctivitis/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/pink-eye-conjunctivitis"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/presbyopia/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/presbyopia"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/ptosis/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/ptosis"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/retinal-detachment/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/retinal-detachment"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/retinitis-pigmentosa/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/retinitis-pigmentosa"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/styes/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/styes"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-conditions-info/uveitis/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/uveitis"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/cataracts/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/cataracts/cataract-surgery-treatment/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/cataract-surgery-treatment"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/cataracts/cataracts-video/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/cataracts-video"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/cataracts/causes-of-cataracts/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/causes-of-cataracts"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/cataracts/common-questions-about-presbyopia-correcting-iols/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/common-questions-about-presbyopia-correcting-iols"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/cataracts/more-about-cataracts/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/more-about-cataracts"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/cataracts/signs-symptoms/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/signs-symptoms"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/causes-of-diabetic-retinopathy/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/causes-of-diabetic-retinopathy"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/overview-of-diabetic-retinopathy/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/overview-of-diabetic-retinopathy"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/signs-and-symptoms-of-diabetic-retinopathy/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/signs-and-symptoms-of-diabetic-retinopathy"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/treatment-for-diabetic-retinopathy/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/treatment-for-diabetic-retinopathy"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/forms-of-macular-degeneration/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/forms-of-macular-degeneration"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/overview/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/overview"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/symptoms-risk-factors-of-macular-degeneration/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/symptoms-risk-factors-of-macular-degeneration"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/treatment-of-macular-degeneration/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/treatment-of-macular-degeneration"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/autorefractor/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/autorefractor"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/eye-dilation/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/eye-dilation"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/glaucoma-test/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/glaucoma-test"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/ophthalmoscope/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/ophthalmoscope"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/optomap/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/optomap"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/peripheral-vision-test/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/peripheral-vision-test"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/phoropter/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/phoropter"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/puffer-test/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/puffer-test"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/retinoscope/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/retinoscope"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/slit-lamp-exam/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/slit-lamp-exam"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/snellen-chart/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/snellen-chart"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/vision-screening/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/vision-screening"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/common-tests/vision-testing/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/vision-testing"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/eye-exams-for-contact-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/eye-exams-for-contact-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/medications/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/medications"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/preparing-for-an-eye-exam/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/preparing-for-an-eye-exam"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/visiting-your-eye-care-professional/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/visiting-your-eye-care-professional"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/what-to-ask/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/what-to-ask"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/what-to-expect/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/what-to-expect"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/why-are-eye-exams-important/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/why-are-eye-exams-important"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/eye-exams/your-comprehensive-eye-exam/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/your-comprehensive-eye-exam"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/glossary-of-eye-care-terms/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/glossary-of-eye-care-terms"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/healthy-sight/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/healthy-sight"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/how-the-eye-works/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/how-the-eye-works"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/protecting-your-eyes/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/protecting-your-eyes"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-glare/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-glare"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-uv-rays/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-uv-rays"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-over-40/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-over-40/dry-eye-after-menopause/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/dry-eye-after-menopause"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-over-40/how-progressive-lenses-work/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/how-progressive-lenses-work"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-over-40/multifocal-eyeglass-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/multifocal-eyeglass-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-over-40/occupational-bifocal-and-trifocals/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/occupational-bifocal-and-trifocals"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-over-40/reading-glasses-after-40/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/reading-glasses-after-40"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-over-60/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-over-60/age-your-vision-changes-solutions/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60/age-your-vision-changes-solutions"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-over-60/seven-tips-for-optimal-vision/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60/seven-tips-for-optimal-vision"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-over-60/suggestions-for-age-related-vision-loss/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60/suggestions-for-age-related-vision-loss"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-surgery/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-surgery/corneal-inlays-and-onlays/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/corneal-inlays-and-onlays"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-surgery/corneal-transplant/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/corneal-transplant"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-surgery/corrective-eye-surgery-basics/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/corrective-eye-surgery-basics"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-surgery/lasik/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-surgery/lasik-criteria-for-success/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik-criteria-for-success"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-surgery/lasik-risks-and-complications/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik-risks-and-complications"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-surgery/prk/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/prk"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-care-services/your-eye-health/vision-surgery/surgery-for-presbyopia/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/surgery-for-presbyopia"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-health-for-college-students-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-health-for-college-students-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-lid-cleansing-for-dry-eye/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-lid-cleansing-for-dry-eye"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eye-safe-toys-and-gifts-for-this-holiday-season/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eye-safe-toys-and-gifts-for-this-holiday-season"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/contact-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/contact-lenses/bifocal-and-multifocal-contact-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/bifocal-and-multifocal-contact-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/contact-lenses/contact-lenses-for-the-hard-to-fit-patient/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/contact-lenses-for-the-hard-to-fit-patient"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/contact-lenses/disposable-contacts/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/disposable-contacts"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/contact-lenses/eye-exams-for-contact-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/eye-exams-for-contact-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/contact-lenses/gas-permeable-gp-contact-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/gas-permeable-gp-contact-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/contact-lenses/order-contact-lenses-online/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/order-contact-lenses-online"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/contact-lenses/our-featured-brands/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/our-featured-brands"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/contact-lenses/toric-contact-lenses-for-astigmatism/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/toric-contact-lenses-for-astigmatism"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/designer-frames/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/designer-frames"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/eyeglass-basics/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/eyeglass-basics/eyeglass-frames/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics/eyeglass-frames"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/eyeglass-basics/lens-options-for-eyeglasses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics/lens-options-for-eyeglasses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/eyeglass-basics/womens-eyeglass-frames/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics/womens-eyeglass-frames"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/eyeglass-guide/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-guide"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/kids-optical/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/kids-optical"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/lens-treatments/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/lens-treatments/anti-reflective/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/anti-reflective"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/lens-treatments/scratch-resistant/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/scratch-resistant"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/lens-treatments/uv-protection/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/uv-protection"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/bifocal-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/bifocal-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/caring-for-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/caring-for-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/eyeglass-frame-materials/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/eyeglass-frame-materials"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/frame-maintenance/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/frame-maintenance"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/high-index-and-aspheric-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/high-index-and-aspheric-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/polycarbonate-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/polycarbonate-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/sunglasses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/sunglasses/nonprescription-sunglasses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/nonprescription-sunglasses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglass-treatments/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglass-treatments"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglasses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglasses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/sunglasses/sunglasses-for-kids/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/sunglasses-for-kids"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/transitions-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/transitions-lenses/are-transitions-right-for-you/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/are-transitions-right-for-you"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/transitions-lenses/original-transitions-lenses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/original-transitions-lenses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/transitions-lenses/transition-solfx-sunwear-products/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transition-solfx-sunwear-products"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyeglasses-contacts/eyeglasses/transitions-lenses/transitions-xtractive/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transitions-xtractive"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/eyelid-twitches-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/eyelid-twitches-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/fall-eye-allergies-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/fall-eye-allergies-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/got-a-shiner-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/got-a-shiner-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/guidelines-for-picking-the-right-pair-of-shades/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/guidelines-for-picking-the-right-pair-of-shades"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/halloween-eye-safety-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/halloween-eye-safety-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/have-an-eye-safe-halloween-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/have-an-eye-safe-halloween-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/healthy-aging-for-the-eyes-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/healthy-aging-for-the-eyes-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/holiday-season-shopping-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/holiday-season-shopping-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/hours-location/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/hours-location"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/how-contact-lenses-can-be-a-danger-to-your-eyes-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/how-contact-lenses-can-be-a-danger-to-your-eyes-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/how-do-we-see/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/how-do-we-see"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/how-pregnancy-affects-vision/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/how-pregnancy-affects-vision"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/how-to-guide-for-buying-sunglasses-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/how-to-guide-for-buying-sunglasses-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/how-to-prevent-diabetic-vision-loss/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/how-to-prevent-diabetic-vision-loss"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/how-uv-damages-your-eyes-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/how-uv-damages-your-eyes-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/infant-eyesight-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/infant-eyesight-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/innovations-in-color-blindness-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/innovations-in-color-blindness-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/inside-a-life-with-color-vision-deficiency-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/inside-a-life-with-color-vision-deficiency-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/insurance/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/insurance"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/insurance/faqs-of-vision-insurance-plans/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/insurance/faqs-of-vision-insurance-plans"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/insurance/whats-in-your-vision-insurance-plan/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/insurance/whats-in-your-vision-insurance-plan"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/is-screen-time-dangerous-for-kids-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/is-screen-time-dangerous-for-kids-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/is-your-babys-eyesight-developing-normally/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/is-your-babys-eyesight-developing-normally"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/its-time-to-be-serious-about-home-eye-safety/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/its-time-to-be-serious-about-home-eye-safety"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/location/eyesource-pllc/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/location/eyesource-pllc"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/november-is-diabetes-awareness-month-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/november-is-diabetes-awareness-month-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/ocular-migraines-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/ocular-migraines-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/our-eye-care-clinic/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/our-eye-care-clinic"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/our-eye-care-clinic/associations-awards/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/our-eye-care-clinic/associations-awards"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/our-eye-doctor/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/our-eye-doctor"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/pink-stinging-eyes/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/pink-stinging-eyes"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/pink-stinging-eyes-2/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/pink-stinging-eyes-2"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/poolside-eye-safety-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/poolside-eye-safety-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/prevent-age-related-macular-degeneration-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/prevent-age-related-macular-degeneration-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/progressive-myopia-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/progressive-myopia-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/protective-sports-eyewear-is-a-serious-matter/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/protective-sports-eyewear-is-a-serious-matter"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/refocus-on-the-digital-age-with-computer-glasses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/refocus-on-the-digital-age-with-computer-glasses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/resolve-to-prevent-glaucoma-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/resolve-to-prevent-glaucoma-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/rubbing-your-eyes-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/rubbing-your-eyes-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/signs-that-your-child-has-a-vision-problem-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/signs-that-your-child-has-a-vision-problem-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/sjogren-awareness-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/sjogren-awareness-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/slideshow/childpage-slideshow/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/slideshow/childpage-slideshow"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/slideshow/clinic/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/slideshow/clinic"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/slideshow/doctor/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/slideshow/doctor"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/slideshow/eyeglasses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/slideshow/eyeglasses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/slideshow/hours-and-location/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/slideshow/hours-and-location"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/slideshow/insurance/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/slideshow/insurance"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/slideshow/services/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/slideshow/services"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/smoking-and-vision-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/smoking-and-vision-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/sneak-thief-of-sight-january-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/sneak-thief-of-sight-january-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/snow-blindness-winter-vacation-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/snow-blindness-winter-vacation-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/solar-eclipse-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/solar-eclipse-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/sports-vision-deconstructed-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/sports-vision-deconstructed-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/sunwear-for-a-bright-future-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/sunwear-for-a-bright-future-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/tag/all-about-vision/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/tag/all-about-vision"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/tag/eye-emergencies/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/tag/eye-emergencies"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/tag/gsp-eye-emergencies/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/tag/gsp-eye-emergencies"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/talk-about-blue-light-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/talk-about-blue-light-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/team/carey-brooks/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/team/carey-brooks"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "(same page) [get]",
+      "pages": [
+        "https://www.friscoeyesource.com/template/footer",
+        "https://www.friscoeyesource.com/template/footer",
+        "https://www.friscoeyesource.com/template/header",
+        "https://www.friscoeyesource.com/template/header"
+      ],
+      "fields": []
+    },
+    {
+      "action": "/testimonial/dr-brooks-genuinely-cares-about-her-patients/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/testimonial/dr-brooks-genuinely-cares-about-her-patients"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/the-dangers-of-an-online-eye-test-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/the-dangers-of-an-online-eye-test-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/the-right-way-to-clean-your-glasses-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/the-right-way-to-clean-your-glasses-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/the-sneak-thief-of-sight-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/the-sneak-thief-of-sight-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/ultraviolet-light-and-your-eyes-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/ultraviolet-light-and-your-eyes-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/understanding-eye-color-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/understanding-eye-color-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/website-accessibility-policy/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/website-accessibility-policy"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/welcome-to-our-new-website/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/welcome-to-our-new-website"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/welcome-to-our-new-website-2/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/welcome-to-our-new-website-2"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/what-is-a-stye-anyway-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/what-is-a-stye-anyway-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/what-women-need-to-know-about-eye-health/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/what-women-need-to-know-about-eye-health"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/what-you-need-to-know-about-firework-eye-safety/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/what-you-need-to-know-about-firework-eye-safety"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/what-you-need-to-know-to-help-world-blindness-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/what-you-need-to-know-to-help-world-blindness-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/whats-new/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/whats-new"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/when-20-20-vision-isnt-enough-for-your-child-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/when-20-20-vision-isnt-enough-for-your-child-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/why-do-we-need-glasses/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/why-do-we-need-glasses"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/women-and-diabetes-world-diabetes-day-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/women-and-diabetes-world-diabetes-day-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/women-eye-health-5-tips-for-optimal-vision-for-life-2018/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/women-eye-health-5-tips-for-optimal-vision-for-life-2018"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/workplace-eye-wellness-the-dangers-of-blue-light-2016/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/workplace-eye-wellness-the-dangers-of-blue-light-2016"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    },
+    {
+      "action": "/your-childs-hidden-vision-problem-2017/#gf_22 [post]",
+      "pages": [
+        "https://www.friscoeyesource.com/your-childs-hidden-vision-problem-2017"
+      ],
+      "fields": [
+        "input_3",
+        "input_3",
+        "input_11.3",
+        "input_11.6",
+        "input_16",
+        "input_16",
+        "input_12",
+        "input_13",
+        "input_20",
+        "submit",
+        "input_19",
+        "ak_hp_textarea"
+      ]
+    }
+  ],
+  "orphanPages": [
+    "https://www.friscoeyesource.com/404-page-not-found",
+    "https://www.friscoeyesource.com/author/friscoeyesource",
+    "https://www.friscoeyesource.com/category/our-doctors",
+    "https://www.friscoeyesource.com/category/uncategorized",
+    "https://www.friscoeyesource.com/slideshow/childpage-slideshow",
+    "https://www.friscoeyesource.com/slideshow/clinic",
+    "https://www.friscoeyesource.com/slideshow/doctor",
+    "https://www.friscoeyesource.com/slideshow/eyeglasses",
+    "https://www.friscoeyesource.com/slideshow/hours-and-location",
+    "https://www.friscoeyesource.com/slideshow/insurance",
+    "https://www.friscoeyesource.com/slideshow/services",
+    "https://www.friscoeyesource.com/tag/all-about-vision",
+    "https://www.friscoeyesource.com/tag/eye-emergencies",
+    "https://www.friscoeyesource.com/tag/gsp-eye-emergencies",
+    "https://www.friscoeyesource.com/template/footer",
+    "https://www.friscoeyesource.com/template/header",
+    "https://www.friscoeyesource.com/testimonial/dr-brooks-genuinely-cares-about-her-patients"
+  ]
+}

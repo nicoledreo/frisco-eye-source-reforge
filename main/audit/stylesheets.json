@@ -1,0 +1,188 @@
+{
+  "schema": "site-reforge/stylesheets@1",
+  "generated": "2026-09-21T03:12:40.975Z",
+  "discovered": [
+    "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/2650-layout.css?ver=2e25bdad05e8af82563b9525efab93e6",
+    "https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11",
+    "https://www.friscoeyesource.com/wp-content/themes/flex/style.css?v=2025-02-11",
+    "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.9.2",
+    "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.9.2",
+    "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.9.2",
+    "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.9.2",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/2458-layout-partial.css?ver=7b27abee8ce6932f7ae501d750a4a477",
+    "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/legacy/css/datepicker.min.css?ver=2.9.2",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/3626-layout.css?ver=302826bf4ee03bfa87ed278f5a9e5b49",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/3516-layout.css?ver=5831a6774f04997040d3431b35fff06b",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/3514-layout.css?ver=45b74c92794abc63208ff25d1c4701c8",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/3515-layout.css?ver=9eccc3c9b5d1eb436c1b6571fb46e3b2",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/4365-layout.css?ver=cca06fc0483627eadf65c4eef9a75fc5",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/8-layout.css?ver=11e57a4fdcb2af09e14c666f8bdd670a",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/55-layout.css?ver=80f6e0a508ff634b42697cada70930a1",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/128-layout.css?ver=8495a4e80f85c1363239d64aaf927228",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/126-layout.css?ver=ada9eaeb1902b82460583d6e7713bd1a",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/1746-layout.css?ver=3062a65d41b6ab4998115b3bc82f789b",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/129-layout.css?ver=b3c979df7ec6cb3741b15c8655c4bc26",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/127-layout.css?ver=9bb9d6b666c78c2d6223a635291d8668",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/130-layout.css?ver=ae4938515cfc57c824328bc8a99b3a62",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/125-layout.css?ver=b455a51484909a292464aacf145ba8df",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/1700-layout.css?ver=5747d3b39cb0b8d7de0c5140392331b7",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/4-layout.css?ver=b96bb540a9ba5f3e6a2a53e169f2b06a",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/9-layout.css?ver=c9166317f74d1a5df9d82f1a31225b21",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/3-layout.css?ver=8f5fbf5839476be5da819fb056db429e",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/2458-layout.css?ver=cfca3710cbd0ea13971aebbe887e7e79",
+    "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/2455-layout.css?ver=5014fc5ba42a543f50b84e3fbfa51fd4"
+  ],
+  "saved": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+      "savedAs": "css2-family-Raleway-ital-wght-0-300-0-400-0-700-1-300-1-400-1-700-family-Raleway-ital-wght-0-300-0-4-58f0e05f.css",
+      "bytes": 1317
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11",
+      "savedAs": "wp-content-themes-_default-css-public.css-v-2025-02-11.css",
+      "bytes": 247988
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/2650-layout.css?ver=2e25bdad05e8af82563b9525efab93e6",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-2650-layout.css-ver-2e25bdad05e8af82563b9525efab93e6.css",
+      "bytes": 34688
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/themes/flex/style.css?v=2025-02-11",
+      "savedAs": "wp-content-themes-flex-style.css-v-2025-02-11.css",
+      "bytes": 5950
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.9.2",
+      "savedAs": "wp-content-plugins-gravityforms-legacy-css-formreset.min.css-ver-2.9.2.css",
+      "bytes": 3860
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.9.2",
+      "savedAs": "wp-content-plugins-gravityforms-legacy-css-formsmain.min.css-ver-2.9.2.css",
+      "bytes": 83159
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.9.2",
+      "savedAs": "wp-content-plugins-gravityforms-legacy-css-readyclass.min.css-ver-2.9.2.css",
+      "bytes": 30750
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.9.2",
+      "savedAs": "wp-content-plugins-gravityforms-legacy-css-browsers.min.css-ver-2.9.2.css",
+      "bytes": 8407
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/2458-layout-partial.css?ver=7b27abee8ce6932f7ae501d750a4a477",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-2458-layout-partial.css-ver-7b27abee8ce6932f7ae501d750a4a477.css",
+      "bytes": 1632
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/legacy/css/datepicker.min.css?ver=2.9.2",
+      "savedAs": "wp-content-plugins-gravityforms-legacy-css-datepicker.min.css-ver-2.9.2.css",
+      "bytes": 6796
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/3626-layout.css?ver=302826bf4ee03bfa87ed278f5a9e5b49",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-3626-layout.css-ver-302826bf4ee03bfa87ed278f5a9e5b49.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/3514-layout.css?ver=45b74c92794abc63208ff25d1c4701c8",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-3514-layout.css-ver-45b74c92794abc63208ff25d1c4701c8.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/3516-layout.css?ver=5831a6774f04997040d3431b35fff06b",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-3516-layout.css-ver-5831a6774f04997040d3431b35fff06b.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/3515-layout.css?ver=9eccc3c9b5d1eb436c1b6571fb46e3b2",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-3515-layout.css-ver-9eccc3c9b5d1eb436c1b6571fb46e3b2.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/4365-layout.css?ver=cca06fc0483627eadf65c4eef9a75fc5",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-4365-layout.css-ver-cca06fc0483627eadf65c4eef9a75fc5.css",
+      "bytes": 15979
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/55-layout.css?ver=80f6e0a508ff634b42697cada70930a1",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-55-layout.css-ver-80f6e0a508ff634b42697cada70930a1.css",
+      "bytes": 16256
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/8-layout.css?ver=11e57a4fdcb2af09e14c666f8bdd670a",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-8-layout.css-ver-11e57a4fdcb2af09e14c666f8bdd670a.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/128-layout.css?ver=8495a4e80f85c1363239d64aaf927228",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-128-layout.css-ver-8495a4e80f85c1363239d64aaf927228.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/126-layout.css?ver=ada9eaeb1902b82460583d6e7713bd1a",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-126-layout.css-ver-ada9eaeb1902b82460583d6e7713bd1a.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/1746-layout.css?ver=3062a65d41b6ab4998115b3bc82f789b",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-1746-layout.css-ver-3062a65d41b6ab4998115b3bc82f789b.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/127-layout.css?ver=9bb9d6b666c78c2d6223a635291d8668",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-127-layout.css-ver-9bb9d6b666c78c2d6223a635291d8668.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/129-layout.css?ver=b3c979df7ec6cb3741b15c8655c4bc26",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-129-layout.css-ver-b3c979df7ec6cb3741b15c8655c4bc26.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/130-layout.css?ver=ae4938515cfc57c824328bc8a99b3a62",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-130-layout.css-ver-ae4938515cfc57c824328bc8a99b3a62.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/1700-layout.css?ver=5747d3b39cb0b8d7de0c5140392331b7",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-1700-layout.css-ver-5747d3b39cb0b8d7de0c5140392331b7.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/125-layout.css?ver=b455a51484909a292464aacf145ba8df",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-125-layout.css-ver-b455a51484909a292464aacf145ba8df.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/4-layout.css?ver=b96bb540a9ba5f3e6a2a53e169f2b06a",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-4-layout.css-ver-b96bb540a9ba5f3e6a2a53e169f2b06a.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/3-layout.css?ver=8f5fbf5839476be5da819fb056db429e",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-3-layout.css-ver-8f5fbf5839476be5da819fb056db429e.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/9-layout.css?ver=c9166317f74d1a5df9d82f1a31225b21",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-9-layout.css-ver-c9166317f74d1a5df9d82f1a31225b21.css",
+      "bytes": 16077
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/2458-layout.css?ver=cfca3710cbd0ea13971aebbe887e7e79",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-2458-layout.css-ver-cfca3710cbd0ea13971aebbe887e7e79.css",
+      "bytes": 17274
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/uploads/sites/2391/bb-plugin/cache/2455-layout.css?ver=5014fc5ba42a543f50b84e3fbfa51fd4",
+      "savedAs": "wp-content-uploads-sites-2391-bb-plugin-cache-2455-layout.css-ver-5014fc5ba42a543f50b84e3fbfa51fd4.css",
+      "bytes": 18208
+    }
+  ]
+}

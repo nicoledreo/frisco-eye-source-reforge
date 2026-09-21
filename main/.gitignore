@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+Thumbs.db
+.tmp/
+# audit/raw holds the untouched live-site capture — keep it, it is the evidence.

@@ -1,0 +1,71 @@
+{
+  "schema": "site-reforge/scripts@1",
+  "generated": "2026-09-21T03:10:31.023Z",
+  "note": "Same-origin <script src> only. A third-party script is an outbound dependency of the site, not an asset of it; vendoring one would change what the page does.",
+  "discovered": [
+    "https://www.friscoeyesource.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://www.friscoeyesource.com/wp-content/themes/_default/js/public.js?v=2025-02-11",
+    "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.2",
+    "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.9.2",
+    "https://www.friscoeyesource.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+    "https://www.friscoeyesource.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3"
+  ],
+  "saved": [
+    {
+      "url": "https://www.friscoeyesource.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "savedAs": "1041a90e-jquery.min.js",
+      "bytes": 87553
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.2",
+      "savedAs": "d7a1baff-jquery.json.min.js",
+      "bytes": 1823
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.9.2",
+      "savedAs": "be53a0fe-jquery.maskedinput.min.js",
+      "bytes": 4159
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-content/themes/_default/js/public.js?v=2025-02-11",
+      "savedAs": "e36652be-public.js",
+      "bytes": 270312
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+      "savedAs": "b7d97c14-core.min.js",
+      "bytes": 21464
+    },
+    {
+      "url": "https://www.friscoeyesource.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3",
+      "savedAs": "fcef5f11-datepicker.min.js",
+      "bytes": 36748
+    }
+  ],
+  "map": {
+    "https://www.friscoeyesource.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": "/scripts/1041a90e-jquery.min.js",
+    "//www.friscoeyesource.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": "/scripts/1041a90e-jquery.min.js",
+    "/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": "/scripts/1041a90e-jquery.min.js",
+    "/wp-includes/js/jquery/jquery.min.js": "/scripts/1041a90e-jquery.min.js",
+    "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.2": "/scripts/d7a1baff-jquery.json.min.js",
+    "//www.friscoeyesource.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.2": "/scripts/d7a1baff-jquery.json.min.js",
+    "/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.2": "/scripts/d7a1baff-jquery.json.min.js",
+    "/wp-content/plugins/gravityforms/js/jquery.json.min.js": "/scripts/d7a1baff-jquery.json.min.js",
+    "https://www.friscoeyesource.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.9.2": "/scripts/be53a0fe-jquery.maskedinput.min.js",
+    "//www.friscoeyesource.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.9.2": "/scripts/be53a0fe-jquery.maskedinput.min.js",
+    "/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.9.2": "/scripts/be53a0fe-jquery.maskedinput.min.js",
+    "/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js": "/scripts/be53a0fe-jquery.maskedinput.min.js",
+    "https://www.friscoeyesource.com/wp-content/themes/_default/js/public.js?v=2025-02-11": "/scripts/e36652be-public.js",
+    "//www.friscoeyesource.com/wp-content/themes/_default/js/public.js?v=2025-02-11": "/scripts/e36652be-public.js",
+    "/wp-content/themes/_default/js/public.js?v=2025-02-11": "/scripts/e36652be-public.js",
+    "/wp-content/themes/_default/js/public.js": "/scripts/e36652be-public.js",
+    "https://www.friscoeyesource.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3": "/scripts/b7d97c14-core.min.js",
+    "//www.friscoeyesource.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3": "/scripts/b7d97c14-core.min.js",
+    "/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3": "/scripts/b7d97c14-core.min.js",
+    "/wp-includes/js/jquery/ui/core.min.js": "/scripts/b7d97c14-core.min.js",
+    "https://www.friscoeyesource.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3": "/scripts/fcef5f11-datepicker.min.js",
+    "//www.friscoeyesource.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3": "/scripts/fcef5f11-datepicker.min.js",
+    "/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3": "/scripts/fcef5f11-datepicker.min.js",
+    "/wp-includes/js/jquery/ui/datepicker.min.js": "/scripts/fcef5f11-datepicker.min.js"
+  }
+}

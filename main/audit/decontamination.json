@@ -1,0 +1,12 @@
+{
+  "schema": "site-reforge/decontamination@1",
+  "generated": "2026-09-21T05:35:54.220Z",
+  "target": "C:\\Users\\nicol\\clone-site-output\\friscoeyesource-reforge\\main\\dist",
+  "filesFound": 306,
+  "filesScanned": 306,
+  "filesSkipped": 0,
+  "counts": {},
+  "clean": true,
+  "verdict": "CLEAN",
+  "findings": []
+}

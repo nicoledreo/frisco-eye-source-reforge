@@ -1,0 +1,599 @@
+{
+  "schema": "site-reforge/failures@1",
+  "items": [
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/sitemap",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/sitemap",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/sitemap/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:21.646Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/privacy-policy",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/privacy-policy",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/privacy-policy/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:23.694Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams/orthokeratology-crt-vst",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams/orthokeratology-crt-vst",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams/orthokeratology-crt-vst/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:23.694Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/specialty-eyewear",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/specialty-eyewear",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/specialty-eyewear/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:27.554Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/sunwear-video",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/sunwear-video",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/sunwear-video/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:32.559Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transitions-lenses-video",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transitions-lenses-video",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transitions-lenses-video/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:32.559Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-glare",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-glare",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-glare/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:35.423Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-uv-rays",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-uv-rays",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-uv-rays/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:37.544Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/specialty-eyewear",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/specialty-eyewear",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/specialty-eyewear/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:37.544Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/progressive-lenses",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/progressive-lenses",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/progressive-lenses/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:39.751Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/photochromic-lenses",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/photochromic-lenses",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/photochromic-lenses/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:39.751Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/performance-and-sport-sunglasses",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/performance-and-sport-sunglasses",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/performance-and-sport-sunglasses/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:42.136Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/prescription-eyeglasses/consider-a-second-pair-of-glasses",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/prescription-eyeglasses/consider-a-second-pair-of-glasses",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/prescription-eyeglasses/consider-a-second-pair-of-glasses/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:07:42.136Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/sitemap",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/sitemap",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/sitemap/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:37.061Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/privacy-policy",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/privacy-policy",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/privacy-policy/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:37.061Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams/orthokeratology-crt-vst",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams/orthokeratology-crt-vst",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams/orthokeratology-crt-vst/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:39.462Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/specialty-eyewear",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/specialty-eyewear",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/specialty-eyewear/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:39.462Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/sunwear-video",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/sunwear-video",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/sunwear-video/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:41.871Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transitions-lenses-video",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transitions-lenses-video",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transitions-lenses-video/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:41.871Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-glare",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-glare",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-glare/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:43.942Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-uv-rays",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-uv-rays",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-uv-rays/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:43.942Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/specialty-eyewear",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/specialty-eyewear",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/specialty-eyewear/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:46.140Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/progressive-lenses",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/progressive-lenses",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/progressive-lenses/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:46.140Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/photochromic-lenses",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/photochromic-lenses",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/photochromic-lenses/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:48.427Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/performance-and-sport-sunglasses",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/performance-and-sport-sunglasses",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/performance-and-sport-sunglasses/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:48.427Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/eyeglasses-contacts/prescription-eyeglasses/consider-a-second-pair-of-glasses",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/eyeglasses-contacts/prescription-eyeglasses/consider-a-second-pair-of-glasses",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/eyeglasses-contacts/prescription-eyeglasses/consider-a-second-pair-of-glasses/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:52.548Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/your-eye-health/eye-diseases/macular-degeneration",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/your-eye-health/eye-diseases/macular-degeneration",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/your-eye-health/eye-diseases/macular-degeneration/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:57.557Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/your-eye-health/eye-diseases/cataracts",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/your-eye-health/eye-diseases/cataracts",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/your-eye-health/eye-diseases/cataracts/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:57.557Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/your-eye-health/eye-diseases/cataracts/cataracts-video",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/your-eye-health/eye-diseases/cataracts/cataracts-video",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/your-eye-health/eye-diseases/cataracts/cataracts-video/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:59.727Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.friscoeyesource.com/our-eye-doctors",
+      "reason": "status 404",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://www.friscoeyesource.com/our-eye-doctors",
+            "status": 301,
+            "to": "https://www.friscoeyesource.com/our-eye-doctors/"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:08:59.727Z",
+      "accepted": true,
+      "acceptedReason": "Pre-existing 404 on the LIVE site — a broken internal link Frisco Eye Source already ships. It cannot be rebuilt because it never existed; every surviving link to it was dropped rather than pointed at a dead page. Reported to the client in docs/CHANGE-LOG.md.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "assets:image",
+      "target": "https://da4e1j5r7gw87.cloudfront.net/wp-content/uploads/2017/11/Female20Sunglasses20Outdoors20Winter201280x853_preview1.jpeg",
+      "reason": "status 404",
+      "at": "2026-09-21T03:11:10.475Z",
+      "accepted": true,
+      "acceptedReason": "Source CDN returned status 404 for this asset. The image is unreachable at origin, so no local copy is possible; the reference was dropped rather than shipped as a remote wp-content path. Re-supply from the client media library to restore it.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "assets:image",
+      "target": "https://da4e1j5r7gw87.cloudfront.net/wp-content/uploads/images/1280x853/xAfrican-Woman-Trying-on-Glasses-1280x853-300x200.jpg.pagespeed.ic.wLXI3xJUkn.jpg",
+      "reason": "status 404",
+      "at": "2026-09-21T03:11:28.860Z",
+      "accepted": true,
+      "acceptedReason": "Source CDN returned status 404 for this asset. The image is unreachable at origin, so no local copy is possible; the reference was dropped rather than shipped as a remote wp-content path. Re-supply from the client media library to restore it.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "assets:image",
+      "target": "https://da4e1j5r7gw87.cloudfront.net/wp-content/uploads/images/1280x853/xcontacts_eye_close-up-woman-300x200.jpg.pagespeed.ic.QP_zitpqKu.jpg",
+      "reason": "status 404",
+      "at": "2026-09-21T03:11:29.638Z",
+      "accepted": true,
+      "acceptedReason": "Source CDN returned status 404 for this asset. The image is unreachable at origin, so no local copy is possible; the reference was dropped rather than shipped as a remote wp-content path. Re-supply from the client media library to restore it.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "assets:image",
+      "target": "https://da4e1j5r7gw87.cloudfront.net/wp-content/uploads/sites/2391/2025/01/WebSite-Banner.jpg",
+      "reason": "refused: HTTP 403",
+      "at": "2026-09-21T03:12:05.489Z",
+      "accepted": true,
+      "acceptedReason": "Source CDN returned refused: HTTP 403 for this asset. The image is unreachable at origin, so no local copy is possible; the reference was dropped rather than shipped as a remote wp-content path. Re-supply from the client media library to restore it.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "assets:image",
+      "target": "https://da4e1j5r7gw87.cloudfront.net/wp-content/uploads/sites/2391/2025/02/image_4_0.jpeg",
+      "reason": "refused: HTTP 403",
+      "at": "2026-09-21T03:12:06.159Z",
+      "accepted": true,
+      "acceptedReason": "Source CDN returned refused: HTTP 403 for this asset. The image is unreachable at origin, so no local copy is possible; the reference was dropped rather than shipped as a remote wp-content path. Re-supply from the client media library to restore it.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    },
+    {
+      "stage": "assets:image",
+      "target": "https://www.friscoeyesource.com/clipart/people/clipart-048.jpg",
+      "reason": "status 404",
+      "at": "2026-09-21T03:12:22.593Z",
+      "accepted": true,
+      "acceptedReason": "Source CDN returned status 404 for this asset. The image is unreachable at origin, so no local copy is possible; the reference was dropped rather than shipped as a remote wp-content path. Re-supply from the client media library to restore it.",
+      "acceptedAt": "2026-09-21T03:37:23.349Z"
+    }
+  ]
+}

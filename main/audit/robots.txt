@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-signup.php
+Disallow: /trackback
+Disallow: /comments
+Disallow: */trackback
+Disallow: */comments
+
+Sitemap: https://www.friscoeyesource.com/sitemap.xml

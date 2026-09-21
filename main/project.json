@@ -1,0 +1,151 @@
+{
+  "schema": "site-reforge/project@1",
+  "name": "frisco-eye-source",
+  "targetUrl": "https://www.friscoeyesource.com/",
+  "origin": "https://www.friscoeyesource.com",
+  "createdAt": "2026-09-21T02:59:49.651Z",
+  "updatedAt": "2026-09-21T05:35:58.255Z",
+  "config": {
+    "maxPages": 500,
+    "concurrency": 2,
+    "includeSubdomains": false,
+    "breakpoints": [
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "pixelDiffThreshold": 0.02,
+    "contentRecallFloor": 0.95,
+    "requestDelayMs": 400,
+    "requestHeaders": {}
+  },
+  "tooling": {
+    "browser": "unknown",
+    "imageGen": "unknown",
+    "detectedAt": null
+  },
+  "stages": {
+    "intake": {
+      "status": "done",
+      "at": "2026-09-21T03:08:22.602Z",
+      "note": "workspace created"
+    },
+    "crawl": {
+      "status": "done",
+      "at": "2026-09-21T03:08:59.732Z",
+      "note": "304 pages, 17 failed"
+    },
+    "extract": {
+      "status": "done",
+      "at": "2026-09-21T03:09:30.555Z",
+      "note": "287 pages extracted"
+    },
+    "assets": {
+      "status": "partial",
+      "at": "2026-09-21T03:12:40.976Z",
+      "note": "209/215 assets on disk"
+    },
+    "capture": {
+      "status": "done",
+      "at": "2026-09-21T03:17:34.311Z",
+      "note": "captures merged"
+    },
+    "tokens": {
+      "status": "done",
+      "at": "2026-09-21T03:17:41.078Z",
+      "note": "computed (browser capture)"
+    },
+    "motion": {
+      "status": "done",
+      "at": "2026-09-21T03:17:42.782Z",
+      "note": "90 keyframes, 186 animated elements"
+    },
+    "presets": {
+      "status": "done",
+      "at": "2026-09-21T03:17:52.007Z",
+      "note": "186 presets from 27 files"
+    },
+    "ux": {
+      "status": "partial",
+      "at": "2026-09-21T03:32:02.195Z",
+      "note": "1203 rows, 1203 UNSET"
+    },
+    "brand": {
+      "status": "partial",
+      "at": "2026-09-21T03:17:41.078Z",
+      "note": "tokens emitted; brand-system.md still owed"
+    },
+    "implement": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "clone": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "cloneVerify": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "responsive": {
+      "status": "done",
+      "at": "2026-09-21T05:35:11.416Z",
+      "note": "8 sweeps at 1024/1440/390/768"
+    },
+    "seo": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "performance": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "decontaminate": {
+      "status": "done",
+      "at": "2026-09-21T05:35:54.223Z",
+      "note": "CLEAN (0 traces)"
+    },
+    "parity": {
+      "status": "done",
+      "at": "2026-09-21T05:35:42.752Z",
+      "note": "PARITY — 46 findings"
+    },
+    "fabrication": {
+      "status": "done",
+      "at": "2026-09-21T05:35:44.539Z",
+      "note": "SOURCED — 0 findings"
+    },
+    "pixeldiff": {
+      "status": "fail",
+      "at": "2026-09-21T05:35:52.284Z",
+      "note": "DRIFT — 8/8 pairs over threshold"
+    },
+    "sweep": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "functional": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "gate": {
+      "status": "fail",
+      "at": "2026-09-21T05:35:54.489Z",
+      "note": "NOT-READY — 23/29 passing"
+    },
+    "package": {
+      "status": "forced",
+      "at": "2026-09-21T05:35:58.255Z",
+      "note": "frisco-eye-source-handoff-v20260921.zip — 1143 entries, 83755467 bytes"
+    }
+  },
+  "notes": []
+}

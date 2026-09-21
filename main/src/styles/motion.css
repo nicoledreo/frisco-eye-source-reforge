@@ -1,0 +1,879 @@
+/* motion.css — replication of the source site motion.
+ * Keyframes below are VERBATIM from the live capture.
+ * Do not re-type them: a retyped keyframe is a different animation.
+ * Source: audit/motion-inventory.json
+ */
+
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rotate {
+  100% { transform: rotate(360deg); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes pulse_animation {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes snow {
+  0% { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  50% { background-position: 500px 500px, 100px 200px, -100px 150px; }
+  100% { background-position: 500px 1000px, 200px 400px, -100px 300px; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes bounce {
+  20%, 53%, 80%, 0%, 100% { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); transform: translate3d(0px, 0px, 0px); }
+  40%, 43% { animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); transform: translate3d(0px, -30px, 0px); }
+  70% { animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); transform: translate3d(0px, -15px, 0px); }
+  90% { transform: translate3d(0px, -4px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes flash {
+  50%, 0%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes pulse {
+  0% { transform: scale3d(1, 1, 1); }
+  50% { transform: scale3d(1.05, 1.05, 1.05); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rubberBand {
+  0% { transform: scale3d(1, 1, 1); }
+  30% { transform: scale3d(1.25, 0.75, 1); }
+  40% { transform: scale3d(0.75, 1.25, 1); }
+  50% { transform: scale3d(1.15, 0.85, 1); }
+  65% { transform: scale3d(0.95, 1.05, 1); }
+  75% { transform: scale3d(1.05, 0.95, 1); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes shake {
+  0%, 100% { transform: translate3d(0px, 0px, 0px); }
+  10%, 30%, 50%, 70%, 90% { transform: translate3d(-10px, 0px, 0px); }
+  20%, 40%, 60%, 80% { transform: translate3d(10px, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes headShake {
+  6.5% { transform: translateX(-6px) rotateY(-9deg); }
+  18.5% { transform: translateX(5px) rotateY(7deg); }
+  31.5% { transform: translateX(-3px) rotateY(-5deg); }
+  43.5% { transform: translateX(2px) rotateY(3deg); }
+  50% { transform: translateX(0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes swing {
+  20% { transform: rotate3d(0, 0, 1, 15deg); }
+  40% { transform: rotate3d(0, 0, 1, -10deg); }
+  60% { transform: rotate3d(0, 0, 1, 5deg); }
+  80% { transform: rotate3d(0, 0, 1, -5deg); }
+  100% { transform: rotate3d(0, 0, 1, 0deg); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes tada {
+  0% { transform: scale3d(1, 1, 1); }
+  10%, 20% { transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); }
+  30%, 50%, 70%, 90% { transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); }
+  40%, 60%, 80% { transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes wobble {
+  0% { transform: none; }
+  15% { transform: translate3d(-25%, 0px, 0px) rotate3d(0, 0, 1, -5deg); }
+  30% { transform: translate3d(20%, 0px, 0px) rotate3d(0, 0, 1, 3deg); }
+  45% { transform: translate3d(-15%, 0px, 0px) rotate3d(0, 0, 1, -3deg); }
+  60% { transform: translate3d(10%, 0px, 0px) rotate3d(0, 0, 1, 2deg); }
+  75% { transform: translate3d(-5%, 0px, 0px) rotate3d(0, 0, 1, -1deg); }
+  100% { transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes jello {
+  11.1%, 0%, 100% { transform: none; }
+  22.2% { transform: skewX(-12.5deg) skewY(-12.5deg); }
+  33.3% { transform: skewX(6.25deg) skewY(6.25deg); }
+  44.4% { transform: skewX(-3.125deg) skewY(-3.125deg); }
+  55.5% { transform: skewX(1.5625deg) skewY(1.5625deg); }
+  66.6% { transform: skewX(-0.78125deg) skewY(-0.78125deg); }
+  77.7% { transform: skewX(0.390625deg) skewY(0.390625deg); }
+  88.8% { transform: skewX(-0.195312deg) skewY(-0.195312deg); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes bounceIn {
+  20%, 40%, 60%, 80%, 0%, 100% { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% { opacity: 0; transform: scale3d(0.3, 0.3, 0.3); }
+  20% { transform: scale3d(1.1, 1.1, 1.1); }
+  40% { transform: scale3d(0.9, 0.9, 0.9); }
+  60% { opacity: 1; transform: scale3d(1.03, 1.03, 1.03); }
+  80% { transform: scale3d(0.97, 0.97, 0.97); }
+  100% { opacity: 1; transform: scale3d(1, 1, 1); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes bounceInDown {
+  60%, 75%, 90%, 0%, 100% { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% { opacity: 0; transform: translate3d(0px, -3000px, 0px); }
+  60% { opacity: 1; transform: translate3d(0px, 25px, 0px); }
+  75% { transform: translate3d(0px, -10px, 0px); }
+  90% { transform: translate3d(0px, 5px, 0px); }
+  100% { transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes bounceInLeft {
+  60%, 75%, 90%, 0%, 100% { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% { opacity: 0; transform: translate3d(-3000px, 0px, 0px); }
+  60% { opacity: 1; transform: translate3d(25px, 0px, 0px); }
+  75% { transform: translate3d(-10px, 0px, 0px); }
+  90% { transform: translate3d(5px, 0px, 0px); }
+  100% { transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes bounceInRight {
+  60%, 75%, 90%, 0%, 100% { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% { opacity: 0; transform: translate3d(3000px, 0px, 0px); }
+  60% { opacity: 1; transform: translate3d(-25px, 0px, 0px); }
+  75% { transform: translate3d(10px, 0px, 0px); }
+  90% { transform: translate3d(-5px, 0px, 0px); }
+  100% { transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes bounceInUp {
+  60%, 75%, 90%, 0%, 100% { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% { opacity: 0; transform: translate3d(0px, 3000px, 0px); }
+  60% { opacity: 1; transform: translate3d(0px, -20px, 0px); }
+  75% { transform: translate3d(0px, 10px, 0px); }
+  90% { transform: translate3d(0px, -5px, 0px); }
+  100% { transform: translate3d(0px, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes bounceOut {
+  20% { transform: scale3d(0.9, 0.9, 0.9); }
+  50%, 55% { opacity: 1; transform: scale3d(1.1, 1.1, 1.1); }
+  100% { opacity: 0; transform: scale3d(0.3, 0.3, 0.3); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes bounceOutDown {
+  20% { transform: translate3d(0px, 10px, 0px); }
+  40%, 45% { opacity: 1; transform: translate3d(0px, -20px, 0px); }
+  100% { opacity: 0; transform: translate3d(0px, 2000px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes bounceOutLeft {
+  20% { opacity: 1; transform: translate3d(20px, 0px, 0px); }
+  100% { opacity: 0; transform: translate3d(-2000px, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes bounceOutRight {
+  20% { opacity: 1; transform: translate3d(-20px, 0px, 0px); }
+  100% { opacity: 0; transform: translate3d(2000px, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes bounceOutUp {
+  20% { transform: translate3d(0px, -10px, 0px); }
+  40%, 45% { opacity: 1; transform: translate3d(0px, 20px, 0px); }
+  100% { opacity: 0; transform: translate3d(0px, -2000px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeInDown {
+  0% { opacity: 0; transform: translate3d(0px, -100%, 0px); }
+  100% { opacity: 1; transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeInDownBig {
+  0% { opacity: 0; transform: translate3d(0px, -2000px, 0px); }
+  100% { opacity: 1; transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeInLeft {
+  0% { opacity: 0; transform: translate3d(-100%, 0px, 0px); }
+  100% { opacity: 1; transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeInLeftBig {
+  0% { opacity: 0; transform: translate3d(-2000px, 0px, 0px); }
+  100% { opacity: 1; transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeInRight {
+  0% { opacity: 0; transform: translate3d(100%, 0px, 0px); }
+  100% { opacity: 1; transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeInRightBig {
+  0% { opacity: 0; transform: translate3d(2000px, 0px, 0px); }
+  100% { opacity: 1; transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translate3d(0px, 100%, 0px); }
+  100% { opacity: 1; transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeInUpBig {
+  0% { opacity: 0; transform: translate3d(0px, 2000px, 0px); }
+  100% { opacity: 1; transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeOutDown {
+  0% { opacity: 1; }
+  100% { opacity: 0; transform: translate3d(0px, 100%, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeOutDownBig {
+  0% { opacity: 1; }
+  100% { opacity: 0; transform: translate3d(0px, 2000px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeOutLeft {
+  0% { opacity: 1; }
+  100% { opacity: 0; transform: translate3d(-100%, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeOutLeftBig {
+  0% { opacity: 1; }
+  100% { opacity: 0; transform: translate3d(-2000px, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeOutRight {
+  0% { opacity: 1; }
+  100% { opacity: 0; transform: translate3d(100%, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeOutRightBig {
+  0% { opacity: 1; }
+  100% { opacity: 0; transform: translate3d(2000px, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeOutUp {
+  0% { opacity: 1; }
+  100% { opacity: 0; transform: translate3d(0px, -100%, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes fadeOutUpBig {
+  0% { opacity: 1; }
+  100% { opacity: 0; transform: translate3d(0px, -2000px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes flip {
+  0% { transform: perspective(400px) rotate3d(0, 1, 0, -360deg); animation-timing-function: ease-out; }
+  40% { transform: perspective(400px) translate3d(0px, 0px, 150px) rotate3d(0, 1, 0, -190deg); animation-timing-function: ease-out; }
+  50% { transform: perspective(400px) translate3d(0px, 0px, 150px) rotate3d(0, 1, 0, -170deg); animation-timing-function: ease-in; }
+  80% { transform: perspective(400px) scale3d(0.95, 0.95, 0.95); animation-timing-function: ease-in; }
+  100% { transform: perspective(400px); animation-timing-function: ease-in; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes flipInX {
+  0% { transform: perspective(400px) rotate3d(1, 0, 0, 90deg); animation-timing-function: ease-in; opacity: 0; }
+  40% { transform: perspective(400px) rotate3d(1, 0, 0, -20deg); animation-timing-function: ease-in; }
+  60% { transform: perspective(400px) rotate3d(1, 0, 0, 10deg); opacity: 1; }
+  80% { transform: perspective(400px) rotate3d(1, 0, 0, -5deg); }
+  100% { transform: perspective(400px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes flipInY {
+  0% { transform: perspective(400px) rotate3d(0, 1, 0, 90deg); animation-timing-function: ease-in; opacity: 0; }
+  40% { transform: perspective(400px) rotate3d(0, 1, 0, -20deg); animation-timing-function: ease-in; }
+  60% { transform: perspective(400px) rotate3d(0, 1, 0, 10deg); opacity: 1; }
+  80% { transform: perspective(400px) rotate3d(0, 1, 0, -5deg); }
+  100% { transform: perspective(400px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes flipOutX {
+  0% { transform: perspective(400px); }
+  30% { transform: perspective(400px) rotate3d(1, 0, 0, -20deg); opacity: 1; }
+  100% { transform: perspective(400px) rotate3d(1, 0, 0, 90deg); opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes flipOutY {
+  0% { transform: perspective(400px); }
+  30% { transform: perspective(400px) rotate3d(0, 1, 0, -15deg); opacity: 1; }
+  100% { transform: perspective(400px) rotate3d(0, 1, 0, 90deg); opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes lightSpeedIn {
+  0% { transform: translate3d(100%, 0px, 0px) skewX(-30deg); opacity: 0; }
+  60% { transform: skewX(20deg); opacity: 1; }
+  80% { transform: skewX(-5deg); opacity: 1; }
+  100% { transform: none; opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes lightSpeedOut {
+  0% { opacity: 1; }
+  100% { transform: translate3d(100%, 0px, 0px) skewX(30deg); opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rotateIn {
+  0% { transform-origin: center center; transform: rotate3d(0, 0, 1, -200deg); opacity: 0; }
+  100% { transform-origin: center center; transform: none; opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rotateInDownLeft {
+  0% { transform-origin: left bottom; transform: rotate3d(0, 0, 1, -45deg); opacity: 0; }
+  100% { transform-origin: left bottom; transform: none; opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rotateInDownRight {
+  0% { transform-origin: right bottom; transform: rotate3d(0, 0, 1, 45deg); opacity: 0; }
+  100% { transform-origin: right bottom; transform: none; opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rotateInUpLeft {
+  0% { transform-origin: left bottom; transform: rotate3d(0, 0, 1, 45deg); opacity: 0; }
+  100% { transform-origin: left bottom; transform: none; opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rotateInUpRight {
+  0% { transform-origin: right bottom; transform: rotate3d(0, 0, 1, -90deg); opacity: 0; }
+  100% { transform-origin: right bottom; transform: none; opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rotateOut {
+  0% { transform-origin: center center; opacity: 1; }
+  100% { transform-origin: center center; transform: rotate3d(0, 0, 1, 200deg); opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rotateOutDownLeft {
+  0% { transform-origin: left bottom; opacity: 1; }
+  100% { transform-origin: left bottom; transform: rotate3d(0, 0, 1, 45deg); opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rotateOutDownRight {
+  0% { transform-origin: right bottom; opacity: 1; }
+  100% { transform-origin: right bottom; transform: rotate3d(0, 0, 1, -45deg); opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rotateOutUpLeft {
+  0% { transform-origin: left bottom; opacity: 1; }
+  100% { transform-origin: left bottom; transform: rotate3d(0, 0, 1, -45deg); opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rotateOutUpRight {
+  0% { transform-origin: right bottom; opacity: 1; }
+  100% { transform-origin: right bottom; transform: rotate3d(0, 0, 1, 90deg); opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes hinge {
+  0% { transform-origin: left top; animation-timing-function: ease-in-out; }
+  20%, 60% { transform: rotate3d(0, 0, 1, 80deg); transform-origin: left top; animation-timing-function: ease-in-out; }
+  40%, 80% { transform: rotate3d(0, 0, 1, 60deg); transform-origin: left top; animation-timing-function: ease-in-out; opacity: 1; }
+  100% { transform: translate3d(0px, 700px, 0px); opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rollIn {
+  0% { opacity: 0; transform: translate3d(-100%, 0px, 0px) rotate3d(0, 0, 1, -120deg); }
+  100% { opacity: 1; transform: none; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes rollOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; transform: translate3d(100%, 0px, 0px) rotate3d(0, 0, 1, 120deg); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes zoomIn {
+  0% { opacity: 0; transform: scale3d(0.3, 0.3, 0.3); }
+  50% { opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes zoomInDown {
+  0% { opacity: 0; transform: scale3d(0.1, 0.1, 0.1) translate3d(0px, -1000px, 0px); animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% { opacity: 1; transform: scale3d(0.475, 0.475, 0.475) translate3d(0px, 60px, 0px); animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes zoomInLeft {
+  0% { opacity: 0; transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0px, 0px); animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% { opacity: 1; transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0px, 0px); animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes zoomInRight {
+  0% { opacity: 0; transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0px, 0px); animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% { opacity: 1; transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0px, 0px); animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes zoomInUp {
+  0% { opacity: 0; transform: scale3d(0.1, 0.1, 0.1) translate3d(0px, 1000px, 0px); animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% { opacity: 1; transform: scale3d(0.475, 0.475, 0.475) translate3d(0px, -60px, 0px); animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes zoomOut {
+  0% { opacity: 1; }
+  50% { opacity: 0; transform: scale3d(0.3, 0.3, 0.3); }
+  100% { opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes zoomOutDown {
+  40% { opacity: 1; transform: scale3d(0.475, 0.475, 0.475) translate3d(0px, -60px, 0px); animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  100% { opacity: 0; transform: scale3d(0.1, 0.1, 0.1) translate3d(0px, 2000px, 0px); transform-origin: center bottom; animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes zoomOutLeft {
+  40% { opacity: 1; transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0px, 0px); }
+  100% { opacity: 0; transform: scale(0.1) translate3d(-2000px, 0px, 0px); transform-origin: left center; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes zoomOutRight {
+  40% { opacity: 1; transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0px, 0px); }
+  100% { opacity: 0; transform: scale(0.1) translate3d(2000px, 0px, 0px); transform-origin: right center; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes zoomOutUp {
+  40% { opacity: 1; transform: scale3d(0.475, 0.475, 0.475) translate3d(0px, 60px, 0px); animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  100% { opacity: 0; transform: scale3d(0.1, 0.1, 0.1) translate3d(0px, -2000px, 0px); transform-origin: center bottom; animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes slideInDown {
+  0% { transform: translate3d(0px, -100%, 0px); visibility: visible; }
+  100% { transform: translate3d(0px, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes slideInLeft {
+  0% { transform: translate3d(-100%, 0px, 0px); visibility: visible; }
+  100% { transform: translate3d(0px, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes slideInRight {
+  0% { transform: translate3d(100%, 0px, 0px); visibility: visible; }
+  100% { transform: translate3d(0px, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes slideInUp {
+  0% { transform: translate3d(0px, 100%, 0px); visibility: visible; }
+  100% { transform: translate3d(0px, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes slideOutDown {
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { visibility: hidden; transform: translate3d(0px, 100%, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes slideOutLeft {
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { visibility: hidden; transform: translate3d(-100%, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes slideOutRight {
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { visibility: hidden; transform: translate3d(100%, 0px, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes slideOutUp {
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { visibility: hidden; transform: translate3d(0px, -100%, 0px); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes lightboxLoader {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes gfadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes gfadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes gslideInLeft {
+  0% { opacity: 0; transform: translate3d(-60%, 0px, 0px); }
+  100% { visibility: visible; transform: translate3d(0px, 0px, 0px); opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes gslideOutLeft {
+  0% { opacity: 1; visibility: visible; transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(-60%, 0px, 0px); opacity: 0; visibility: hidden; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes gslideInRight {
+  0% { opacity: 0; visibility: visible; transform: translate3d(60%, 0px, 0px); }
+  100% { transform: translate3d(0px, 0px, 0px); opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes gslideOutRight {
+  0% { opacity: 1; visibility: visible; transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(60%, 0px, 0px); opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes gzoomIn {
+  0% { opacity: 0; transform: scale3d(0.3, 0.3, 0.3); }
+  100% { opacity: 1; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes gzoomOut {
+  0% { opacity: 1; }
+  50% { opacity: 0; transform: scale3d(0.3, 0.3, 0.3); }
+  100% { opacity: 0; }
+}
+/* from capture https://www.friscoeyesource.com/wp-content/themes/_default/css/public.css?v=2025-02-11 */
+@keyframes splide-loading {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1turn); }
+}
+
+/* --- easing tokens observed on the source ------------------------------ */
+:root {
+  --ease-1: cubic-bezier(0.215,.61,.355,1);
+  --ease-2: cubic-bezier(0.55,.055,.675,.19);
+  --ease-3: cubic-bezier(0.175,.885,.32,1);
+  --ease-4: cubic-bezier(0.755,.050,.855,.060);
+  --ease-5: cubic-bezier(0.3,0,0,1.5);
+  --ease-6: cubic-bezier(.67, .17, .4, .83);
+  --dur-1: 0.2s;
+  --dur-2: 0.3s;
+  --dur-3: 0.4s;
+  --dur-4: 0.15s;
+}
+
+/* --- per-element motion measured on the source -------------------------- */
+/* Each block below is what the ORIGINAL element resolved to. Re-apply these
+   to the equivalent rebuilt component; the selector names will differ, the
+   VALUES must not. */
+/* div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a904d480936c > div.fl-col.fl-node-5a904d4809426:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-col-group.fl-node-5a904d4809463:nth-of-type(2) > div.fl-col.fl-node-5a904d48094a0:nth-of-type(2) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-button > div.fl-module-content.fl-node-content > div.ecp-button-wrapper.ecp-instance-Xwu72x4MPc > a.ecp-button.ecp-instance-Xwu72x4MPc > span.ecp-icon:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-col-group.fl-node-5a904d480936c > div.fl-col.fl-node-5a904d4809426:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-col-group.fl-node-5a904d4809463:nth-of-type(2) > div.fl-col.fl-node-5a904d48094a0:nth-of-type(2) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-button > div.fl-module-content.fl-node-content > div.ecp-button-wrapper.ecp-instance-Xwu72x4MPc > a.ecp-button.ecp-instance-Xwu72x4MPc > span.ecp-icon:nth-of-type(1) > span.ecp-icon-svg  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a904d480936c > div.fl-col.fl-node-5a904d4809426:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-col-group.fl-node-5a904d4809463:nth-of-type(2) > div.fl-col.fl-node-5a904d48094de:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-button > div.fl-module-content.fl-node-content > div.ecp-button-wrapper.ecp-instance-BmcgkvMUaq > a.ecp-button.ecp-instance-BmcgkvMUaq > span.ecp-icon:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-col-group.fl-node-5a904d480936c > div.fl-col.fl-node-5a904d4809426:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-col-group.fl-node-5a904d4809463:nth-of-type(2) > div.fl-col.fl-node-5a904d48094de:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-button > div.fl-module-content.fl-node-content > div.ecp-button-wrapper.ecp-instance-BmcgkvMUaq > a.ecp-button.ecp-instance-BmcgkvMUaq > span.ecp-icon:nth-of-type(1) > span.ecp-icon-svg  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a904d480921d > div.fl-col.fl-node-5a904d480925f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-menu > div.fl-module-content.fl-node-content > div.ecp-menu-wrapper.ecp-instance-RvB3H1ugPL > nav.menu-.2 > ul > li.a1i0s0.menu-item:nth-of-type(1) > span.ecp-icon.ecp-menu-icon-parent  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+  transform: matrix(1, 0, 0, 1, 0, -4.89844);
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a904d480921d > div.fl-col.fl-node-5a904d480925f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-menu > div.fl-module-content.fl-node-content > div.ecp-menu-wrapper.ecp-instance-RvB3H1ugPL > nav.menu-.2 > ul > li.menu-item.menu-item-type-post_type:nth-of-type(3) > span.ecp-icon.ecp-menu-icon-parent  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+  transform: matrix(1, 0, 0, 1, 0, -4.89844);
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(3) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(1) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(1) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon > span.ecp-icon-svg  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(3) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(2) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(2) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon > span.ecp-icon-svg  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(3) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(3) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(3) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon > span.ecp-icon-svg  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(3) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(4) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(4) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon > span.ecp-icon-svg  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* #choice_20_3_0  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #choice_20_3_1  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #input_20_11_3  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #input_20_11_6  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #choice_20_16_0  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #choice_20_16_1  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #gform_submit_button_20  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #splide02-list  @1024px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, -6118, 0);
+}
+/* #splide02 > ul.splide__pagination  @1024px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, -207.445, 0);
+}
+/* #splide02 > ul.splide__pagination > li:nth-of-type(1) > button.splide__pagination__page.is-active  @1024px */
+.REPLACE-ME {
+  transition: transform 0.2s linear;
+  transform: matrix(1.4, 0, 0, 1.4, 0, 0);
+}
+/* #splide02 > ul.splide__pagination > li:nth-of-type(2) > button.splide__pagination__page  @1024px */
+.REPLACE-ME {
+  transition: transform 0.2s linear;
+}
+/* #splide02 > ul.splide__pagination > li:nth-of-type(3) > button.splide__pagination__page  @1024px */
+.REPLACE-ME {
+  transition: transform 0.2s linear;
+}
+/* #splide02 > ul.splide__pagination > li:nth-of-type(4) > button.splide__pagination__page  @1024px */
+.REPLACE-ME {
+  transition: transform 0.2s linear;
+}
+/* #splide02 > ul.splide__pagination > li:nth-of-type(5) > button.splide__pagination__page  @1024px */
+.REPLACE-ME {
+  transition: transform 0.2s linear;
+}
+/* #splide02 > ul.splide__pagination > li:nth-of-type(6) > button.splide__pagination__page  @1024px */
+.REPLACE-ME {
+  transition: transform 0.2s linear;
+}
+/* #splide02 > ul.splide__pagination > li:nth-of-type(7) > button.splide__pagination__page  @1024px */
+.REPLACE-ME {
+  transition: transform 0.2s linear;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa08434 > div.fl-col.fl-node-5a9042aa08475 > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-gallery:nth-of-type(2) > div.fl-module-content.fl-node-content > div.ecp-gallery.ecp-gallery-shape-rounded > div.ecp-gallery-item:nth-of-type(1) > div.ecp-gallery-item-wrapper > div.ecp-gallery-item-photo:nth-of-type(1) > img  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(8) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa08434 > div.fl-col.fl-node-5a9042aa08475 > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-gallery:nth-of-type(2) > div.fl-module-content.fl-node-content > div.ecp-gallery.ecp-gallery-shape-rounded > div.ecp-gallery-item:nth-of-type(1) > div.ecp-gallery-item-wrapper > div.ecp-gallery-item-caption:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa08434 > div.fl-col.fl-node-5a9042aa08475 > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-gallery:nth-of-type(2) > div.fl-module-content.fl-node-content > div.ecp-gallery.ecp-gallery-shape-rounded > div.ecp-gallery-item:nth-of-type(2) > div.ecp-gallery-item-wrapper > div.ecp-gallery-item-photo:nth-of-type(1) > img  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(8) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa08434 > div.fl-col.fl-node-5a9042aa08475 > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-gallery:nth-of-type(2) > div.fl-module-content.fl-node-content > div.ecp-gallery.ecp-gallery-shape-rounded > div.ecp-gallery-item:nth-of-type(2) > div.ecp-gallery-item-wrapper > div.ecp-gallery-item-caption:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa08434 > div.fl-col.fl-node-5a9042aa08475 > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-gallery:nth-of-type(2) > div.fl-module-content.fl-node-content > div.ecp-gallery.ecp-gallery-shape-rounded > div.ecp-gallery-item:nth-of-type(3) > div.ecp-gallery-item-wrapper > div.ecp-gallery-item-photo:nth-of-type(1) > img  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(8) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa08434 > div.fl-col.fl-node-5a9042aa08475 > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-gallery:nth-of-type(2) > div.fl-module-content.fl-node-content > div.ecp-gallery.ecp-gallery-shape-rounded > div.ecp-gallery-item:nth-of-type(3) > div.ecp-gallery-item-wrapper > div.ecp-gallery-item-caption:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa08434 > div.fl-col.fl-node-5a9042aa08475 > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-gallery:nth-of-type(2) > div.fl-module-content.fl-node-content > div.ecp-gallery.ecp-gallery-shape-rounded > div.ecp-gallery-item:nth-of-type(4) > div.ecp-gallery-item-wrapper > div.ecp-gallery-item-photo:nth-of-type(1) > img  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(8) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa08434 > div.fl-col.fl-node-5a9042aa08475 > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-gallery:nth-of-type(2) > div.fl-module-content.fl-node-content > div.ecp-gallery.ecp-gallery-shape-rounded > div.ecp-gallery-item:nth-of-type(4) > div.ecp-gallery-item-wrapper > div.ecp-gallery-item-caption:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-builder-content.fl-builder-content-2650 > div.fl-row.fl-row-full-width:nth-of-type(9) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07ca8 > div.fl-col.fl-node-5a9042aa07cf4:nth-of-type(1) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-callout:nth-of-type(1) > div.fl-module-content.fl-node-content > div.ecp-callout.ecp-instance-k4WXTIvVZ9 > div.ecp-callout-nonimagery > div.ecp-callout-title:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(9) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07ca8 > div.fl-col.fl-node-5a9042aa07cf4:nth-of-type(1) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-callout:nth-of-type(1) > div.fl-module-content.fl-node-content > div.ecp-callout.ecp-instance-k4WXTIvVZ9 > div.ecp-callout-nonimagery > div.ecp-callout-title:nth-of-type(1) > h3.ecp-heading-tag  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.ecp-entry-content > div.fl-builder-content.fl-builder-content-2650 > div.fl-row.fl-row-full-width:nth-of-type(9) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07ca8 > div.fl-col.fl-node-5a9042aa07cf4:nth-of-type(1) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-button:nth-of-type(2) > div.fl-module-content.fl-node-content > a.ecp-button.ecp-instance-Sp0C3tqijl > span.ecp-icon:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-builder-content.fl-builder-content-2650 > div.fl-row.fl-row-full-width:nth-of-type(9) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07ca8 > div.fl-col.fl-node-5a9042aa07cf4:nth-of-type(1) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-button:nth-of-type(2) > div.fl-module-content.fl-node-content > a.ecp-button.ecp-instance-Sp0C3tqijl > span.ecp-icon:nth-of-type(1) > span.ecp-icon-svg  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* #splide01-slide01  @1024px */
+.REPLACE-ME {
+  transition: opacity 0.4s cubic-bezier(0.42, 0.65, 0.27, 0.99);
+}
+/* div.fl-builder-content.fl-builder-content-2650 > div.fl-row.fl-row-full-width:nth-of-type(12) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07972:nth-of-type(2) > div.fl-col.fl-node-5a9042aa079af:nth-of-type(1) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-callout > div.fl-module-content.fl-node-content > div.ecp-callout.ecp-instance-VLwmQRfyJg > div.ecp-callout-imagery:nth-of-type(1) > div.ecp-callout-imagery-overlay:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-builder-content.fl-builder-content-2650 > div.fl-row.fl-row-full-width:nth-of-type(12) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07972:nth-of-type(2) > div.fl-col.fl-node-5a9042aa079af:nth-of-type(1) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-callout > div.fl-module-content.fl-node-content > div.ecp-callout.ecp-instance-VLwmQRfyJg > div.ecp-callout-nonimagery:nth-of-type(2) > div.ecp-callout-title:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(12) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07972:nth-of-type(2) > div.fl-col.fl-node-5a9042aa079af:nth-of-type(1) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-callout > div.fl-module-content.fl-node-content > div.ecp-callout.ecp-instance-VLwmQRfyJg > div.ecp-callout-nonimagery:nth-of-type(2) > div.ecp-callout-title:nth-of-type(1) > h4.ecp-heading-tag  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-builder-content.fl-builder-content-2650 > div.fl-row.fl-row-full-width:nth-of-type(12) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07972:nth-of-type(2) > div.fl-col.fl-node-5a9042aa079ee:nth-of-type(2) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-callout > div.fl-module-content.fl-node-content > div.ecp-callout.ecp-instance-3qLp0QJ8iN > div.ecp-callout-imagery:nth-of-type(1) > div.ecp-callout-imagery-overlay:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-builder-content.fl-builder-content-2650 > div.fl-row.fl-row-full-width:nth-of-type(12) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07972:nth-of-type(2) > div.fl-col.fl-node-5a9042aa079ee:nth-of-type(2) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-callout > div.fl-module-content.fl-node-content > div.ecp-callout.ecp-instance-3qLp0QJ8iN > div.ecp-callout-nonimagery:nth-of-type(2) > div.ecp-callout-title:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(12) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07972:nth-of-type(2) > div.fl-col.fl-node-5a9042aa079ee:nth-of-type(2) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-callout > div.fl-module-content.fl-node-content > div.ecp-callout.ecp-instance-3qLp0QJ8iN > div.ecp-callout-nonimagery:nth-of-type(2) > div.ecp-callout-title:nth-of-type(1) > h4.ecp-heading-tag  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-builder-content.fl-builder-content-2650 > div.fl-row.fl-row-full-width:nth-of-type(12) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07972:nth-of-type(2) > div.fl-col.fl-node-5a9042aa08576:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-callout > div.fl-module-content.fl-node-content > div.ecp-callout.ecp-instance-Aa4Y5bripJ > div.ecp-callout-imagery:nth-of-type(1) > div.ecp-callout-imagery-overlay:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-builder-content.fl-builder-content-2650 > div.fl-row.fl-row-full-width:nth-of-type(12) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07972:nth-of-type(2) > div.fl-col.fl-node-5a9042aa08576:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-callout > div.fl-module-content.fl-node-content > div.ecp-callout.ecp-instance-Aa4Y5bripJ > div.ecp-callout-nonimagery:nth-of-type(2) > div.ecp-callout-title:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(12) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa07972:nth-of-type(2) > div.fl-col.fl-node-5a9042aa08576:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-callout > div.fl-module-content.fl-node-content > div.ecp-callout.ecp-instance-Aa4Y5bripJ > div.ecp-callout-nonimagery:nth-of-type(2) > div.ecp-callout-title:nth-of-type(1) > h4.ecp-heading-tag  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* div.ecp-widget.widget_template-2:nth-of-type(1) > div.fl-builder-content.fl-builder-content-2458 > div.fl-row.fl-row-full-width > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9050ea37dcb > div.fl-col.fl-node-5a9050ea37e4e > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-socialicons:nth-of-type(3) > div.fl-module-content.fl-node-content > div.ecp-iconset.ecp-instance-JloLpjyS56 > a.ecp-icon.ecp-icon-background:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-builder-content.fl-builder-content-2458 > div.fl-row.fl-row-full-width > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9050ea37dcb > div.fl-col.fl-node-5a9050ea37e4e > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-socialicons:nth-of-type(3) > div.fl-module-content.fl-node-content > div.ecp-iconset.ecp-instance-JloLpjyS56 > a.ecp-icon.ecp-icon-background:nth-of-type(1) > span.ecp-icon-svg  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.ecp-widget.widget_template-2:nth-of-type(1) > div.fl-builder-content.fl-builder-content-2458 > div.fl-row.fl-row-full-width > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9050ea37dcb > div.fl-col.fl-node-5a9050ea37e4e > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-socialicons:nth-of-type(3) > div.fl-module-content.fl-node-content > div.ecp-iconset.ecp-instance-JloLpjyS56 > a.ecp-icon.ecp-icon-background:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-builder-content.fl-builder-content-2458 > div.fl-row.fl-row-full-width > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9050ea37dcb > div.fl-col.fl-node-5a9050ea37e4e > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-socialicons:nth-of-type(3) > div.fl-module-content.fl-node-content > div.ecp-iconset.ecp-instance-JloLpjyS56 > a.ecp-icon.ecp-icon-background:nth-of-type(2) > span.ecp-icon-svg  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.ecp-widget.widget_template-2:nth-of-type(1) > div.fl-builder-content.fl-builder-content-2458 > div.fl-row.fl-row-full-width > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9050ea37dcb > div.fl-col.fl-node-5a9050ea37e4e > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-socialicons:nth-of-type(3) > div.fl-module-content.fl-node-content > div.ecp-iconset.ecp-instance-JloLpjyS56 > a.ecp-icon.ecp-icon-background:nth-of-type(3)  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-builder-content.fl-builder-content-2458 > div.fl-row.fl-row-full-width > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9050ea37dcb > div.fl-col.fl-node-5a9050ea37e4e > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-socialicons:nth-of-type(3) > div.fl-module-content.fl-node-content > div.ecp-iconset.ecp-instance-JloLpjyS56 > a.ecp-icon.ecp-icon-background:nth-of-type(3) > span.ecp-icon-svg  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a904d480936c > div.fl-col.fl-node-5a904d4809426:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-col-group.fl-node-5a904d4809463:nth-of-type(2) > div.fl-col.fl-node-5a904d48094a0:nth-of-type(2) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-button > div.fl-module-content.fl-node-content > div.ecp-button-wrapper.ecp-instance-Xwu72x4MPc > a.ecp-button.ecp-instance-Xwu72x4MPc > span.ecp-icon:nth-of-type(1)  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-col-group.fl-node-5a904d480936c > div.fl-col.fl-node-5a904d4809426:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-col-group.fl-node-5a904d4809463:nth-of-type(2) > div.fl-col.fl-node-5a904d48094a0:nth-of-type(2) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-button > div.fl-module-content.fl-node-content > div.ecp-button-wrapper.ecp-instance-Xwu72x4MPc > a.ecp-button.ecp-instance-Xwu72x4MPc > span.ecp-icon:nth-of-type(1) > span.ecp-icon-svg  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a904d480936c > div.fl-col.fl-node-5a904d4809426:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-col-group.fl-node-5a904d4809463:nth-of-type(2) > div.fl-col.fl-node-5a904d48094de:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-button > div.fl-module-content.fl-node-content > div.ecp-button-wrapper.ecp-instance-BmcgkvMUaq > a.ecp-button.ecp-instance-BmcgkvMUaq > span.ecp-icon:nth-of-type(1)  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-col-group.fl-node-5a904d480936c > div.fl-col.fl-node-5a904d4809426:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-col-group.fl-node-5a904d4809463:nth-of-type(2) > div.fl-col.fl-node-5a904d48094de:nth-of-type(3) > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-button > div.fl-module-content.fl-node-content > div.ecp-button-wrapper.ecp-instance-BmcgkvMUaq > a.ecp-button.ecp-instance-BmcgkvMUaq > span.ecp-icon:nth-of-type(1) > span.ecp-icon-svg  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a904d480921d > div.fl-col.fl-node-5a904d480925f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-menu > div.fl-module-content.fl-node-content > div.ecp-menu-wrapper.ecp-instance-RvB3H1ugPL > nav.menu-.2 > ul > li.a1i0s0.menu-item:nth-of-type(1) > span.ecp-icon.ecp-menu-icon-parent  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+  transform: matrix(1, 0, 0, 1, 0, -4.89844);
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a904d480921d > div.fl-col.fl-node-5a904d480925f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-ecp-menu > div.fl-module-content.fl-node-content > div.ecp-menu-wrapper.ecp-instance-RvB3H1ugPL > nav.menu-.2 > ul > li.menu-item.menu-item-type-post_type:nth-of-type(3) > span.ecp-icon.ecp-menu-icon-parent  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+  transform: matrix(1, 0, 0, 1, 0, -4.89844);
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(3) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(1) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(1) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon > span.ecp-icon-svg  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(3) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(2) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(2) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon > span.ecp-icon-svg  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(3) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(3) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(3) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon > span.ecp-icon-svg  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row.fl-row-full-width:nth-of-type(3) > div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(4) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* div.fl-row-content-wrap > div.fl-row-content.fl-row-fixed-width > div.fl-col-group.fl-node-5a9042aa071ff > div.fl-col.fl-node-5a9042aa0723f > div.fl-col-content.fl-node-content > div.fl-module.fl-module-BadgesModule > div.fl-module-content.fl-node-content > div.ecp-badges.ecp-badges-samurai > a.ecp-badge.ecp-badge-samurai:nth-of-type(4) > div.ecp-badge-icon:nth-of-type(1) > span.ecp-icon > span.ecp-icon-svg  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* #choice_20_3_0  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #choice_20_3_1  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #input_20_11_3  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #input_20_11_6  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #choice_20_16_0  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #choice_20_16_1  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #gform_submit_button_20  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in-out;
+}
+/* #splide02-list  @1440px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, -6902, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "site-reforge/client-facts@1",
+  "note": "Every value here was read from the LIVE friscoeyesource.com capture in audit/raw/. Nothing is invented. Source noted per field.",
+  "legalName": "EyeSource PLLC",
+  "brand": "Eye Source",
+  "phone": [
+    "214-872-2400"
+  ],
+  "email": [],
+  "addresses": [
+    {
+      "street": "8049 Preston Road, Suite 200",
+      "locality": "Frisco",
+      "region": "TX",
+      "postalCode": "75034",
+      "country": "US",
+      "note": "Located in the same building as Wayback Burgers — from live site"
+    }
+  ],
+  "hours": "Mon Closed; Tue-Thu 9:00 AM-6:00 PM; Fri 9:00 AM-4:00 PM; Sat 9:00 AM-4:00 PM; Sun Closed",
+  "openingHours": [
+    {
+      "d": "Tuesday",
+      "o": "09:00",
+      "c": "18:00"
+    },
+    {
+      "d": "Wednesday",
+      "o": "09:00",
+      "c": "18:00"
+    },
+    {
+      "d": "Thursday",
+      "o": "09:00",
+      "c": "18:00"
+    },
+    {
+      "d": "Friday",
+      "o": "09:00",
+      "c": "16:00"
+    },
+    {
+      "d": "Saturday",
+      "o": "09:00",
+      "c": "16:00"
+    }
+  ],
+  "licences": [],
+  "certifications": [],
+  "awards": [],
+  "statistics": [],
+  "testimonials": [
+    {
+      "quote": "Dr. Brooks and Craig are amazing! It was our first time coming here but we found our new eye DR.",
+      "attribution": "Adam P.",
+      "when": "2 weeks ago",
+      "source": "live homepage https://www.friscoeyesource.com/ — audit/raw/index.html"
+    },
+    {
+      "quote": "Best and nicest eye Dr I have ever seen! And I have seen ALOT …. Office and staff is very warm and inviting",
+      "attribution": "Monica A.",
+      "when": "2 months ago",
+      "source": "live homepage https://www.friscoeyesource.com/ — audit/raw/index.html"
+    },
+    {
+      "quote": "Dr. Brooks is by far the best eye doctor I’ve ever had. She is incredibly knowledgeable, compassionate, professional, and is always quick to help when I need it most. Having moved frequently and seen numerous optometrists and specialists for my chronic uveitis, I can confidently say that Dr. Brooks stands out from the rest. She is exceptionally attentive, accommodating, and responsive whenever I have questions or experience a flare-up. Her expertise and dedication to patient care provide a level of confidence and peace of mind that is hard to find. Beyond being an outstanding doctor, Dr. Brooks and her husband have created a warm, welcoming, and patient-centered environment. Every visit feels personal, and you can tell they genuinely care about their patients’ well-being. I always leave with a smile and the reassurance that my vision and eye health are in the best possible hands. If you’re looking for an experienced, caring, and highly skilled eye doctor, I cannot recommend Dr. Brooks highly enough.",
+      "attribution": "Nicole P.",
+      "when": "3 months ago",
+      "source": "live homepage https://www.friscoeyesource.com/ — audit/raw/index.html"
+    },
+    {
+      "quote": "Dr. Carey Brooks is simply outstanding. I've been immensely impressed with her care, attention to detail, and focus on achieving the best possible outcome for her patients over the years. What sets her apart is the time she takes to truly understand my needs before making recommendations. Whether it's contact lenses or glasses, she consistently gets it right because she listens, asks the right questions, and genuinely cares about finding the best solution. I've seen quite a few eye doctors throughout my life due to my poor vision, and none have come close to the standard of care I've experienced in this office. The professionalism, expertise, and patient-centered approach are second to none. 10 out of 10. I highly recommend Dr. Brooks and her team to anyone looking for exceptional eye care.",
+      "attribution": "Thomas C.",
+      "when": "3 months ago",
+      "source": "live homepage https://www.friscoeyesource.com/ — audit/raw/index.html"
+    },
+    {
+      "quote": "Dr. Brooks and Craig were amazing! First, I had my insurance info wrong. They still took care of me and then helped me get it figured out. Dr. Brooks was very nice and professional, gave great care, and had great equipment. So happy I was recommended here.",
+      "attribution": "Calie A.",
+      "when": "3 months ago",
+      "source": "live homepage https://www.friscoeyesource.com/ — audit/raw/index.html"
+    },
+    {
+      "quote": "Ordered Zeiss lenses for my daughter and myself this year, they are amazing! Great service and they have the best lenses you can get.",
+      "attribution": "Jonhua Q.",
+      "when": "5 months ago",
+      "source": "live homepage https://www.friscoeyesource.com/ — audit/raw/index.html"
+    },
+    {
+      "quote": "Dr. Brooks has been my eye doctor for many years and has been amazing every minute of it! She is the one who figured out my contact allergy and helped me get the right allergy prescriptions to safely use contacts when I was still getting used to glasses when I was younger. The glasses prescriptions I get from her are always super accurate and overall I really enjoy my annual office visits with her",
+      "attribution": "Emily P.",
+      "when": "7 months ago",
+      "source": "live homepage https://www.friscoeyesource.com/ — audit/raw/index.html"
+    }
+  ],
+  "clients": [],
+  "guarantees": [],
+  "pricing": [],
+  "services": [],
+  "sources": {
+    "phone": "audit/raw/index.html tel: link",
+    "address": "audit/raw/hours-location.html",
+    "hours": "audit/raw/hours-location.html",
+    "legalName": "Organization JSON-LD in audit/raw/index.html"
+  },
+  "testimonialsNote": "Harvested verbatim from the live homepage capture (audit/raw/index.html) by _tooling/extract-reviews. Recorded here so sr-fabrication can trace them: the rebuild presents them as <blockquote>/<cite> cards, and the detector matches structured testimonials against this list. Nothing here was written by hand."
+}

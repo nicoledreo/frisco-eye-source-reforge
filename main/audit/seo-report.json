@@ -1,0 +1,2277 @@
+{
+  "schema": "site-reforge/seo-report@1",
+  "generated": "2026-09-21T05:32:34.092Z",
+  "origin": "https://www.friscoeyesource.com",
+  "buildDir": "dist",
+  "siteUrl": "https://www.friscoeyesource.com",
+  "mode": "standing (clone served elsewhere)",
+  "limits": {
+    "titleMax": 60,
+    "titleMin": 15,
+    "descMax": 160,
+    "descMin": 50
+  },
+  "pages": 287,
+  "emitted": {
+    "wrote": [
+      {
+        "file": "robots.txt",
+        "from": "source robots.txt, Sitemap: lines dropped",
+        "droppedRules": [
+          "Disallow: /wp-admin/",
+          "Disallow: /wp-login.php",
+          "Disallow: /wp-signup.php",
+          "Disallow: /trackback",
+          "Disallow: /comments",
+          "Disallow: */trackback",
+          "Disallow: */comments"
+        ]
+      },
+      {
+        "file": "robots.txt",
+        "from": "rule dropped, path not served here: Disallow: /wp-admin/ · Disallow: /wp-login.php · Disallow: /wp-signup.php · Disallow: /trackback · Disallow: /comments · Disallow: */trackback · Disallow: */comments"
+      },
+      {
+        "file": "sitemap.xml",
+        "from": "287 pages the build actually serves"
+      },
+      {
+        "file": "llms.txt",
+        "from": "287 pages"
+      }
+    ],
+    "skipped": [],
+    "pages": 287
+  },
+  "externalLinks": null,
+  "repaired": {
+    "pagesTouched": 287,
+    "fieldsWritten": 3144
+  },
+  "counts": {
+    "source": {
+      "minor": 122,
+      "major": 186,
+      "blocker": 3
+    },
+    "migration": {
+      "major": 1,
+      "minor": 1
+    },
+    "byCode": {
+      "title-too-long": 35,
+      "description-too-long": 31,
+      "h1-multiple": 2,
+      "title-too-short": 50,
+      "description-missing": 117,
+      "alt-missing": 55,
+      "canonical-missing": 7,
+      "title-missing": 1,
+      "og-title-missing": 1,
+      "h1-missing": 2,
+      "title-duplicate": 5,
+      "description-duplicate": 2,
+      "canonical-points-elsewhere": 3,
+      "url-shape-changed": 1,
+      "redirects-absent": 1
+    }
+  },
+  "findings": {
+    "source": [
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/",
+        "field": "title",
+        "detail": "64 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/",
+        "field": "description",
+        "detail": "303 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "h1-multiple",
+        "page": "https://www.friscoeyesource.com/",
+        "field": "h1",
+        "detail": "2 H1 elements"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/1-eye-allergies-2016",
+        "field": "title",
+        "detail": "13 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/1-eye-allergies-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/10-eye-healthy-foods-to-eat-this-year-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/10-eye-healthy-foods-to-eat-this-year-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/10-steps-to-prevent-vision-loss",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/10-steps-to-prevent-vision-loss",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/10-tips-to-teach-children-about-eye-safety-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/404-page-not-found",
+        "field": "title",
+        "detail": "3 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/404-page-not-found",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/5-ways-to-ensure-healthy-vision",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/5-ways-to-ensure-healthy-vision",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/6-common-eye-myths-debunked",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/6-common-eye-myths-debunked",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/6-crazy-holiday-eye-injuries-to-avoid-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/6-crazy-holiday-eye-injuries-to-avoid-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/6-things-you-need-to-know-about-cataracts",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/6-things-you-need-to-know-about-cataracts",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/6-ways-to-prevent-amd-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/7-eye-symptoms-you-should-not-ignore-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/7-eye-symptoms-you-should-not-ignore-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/8-tips-to-relieve-winter-dry-eyes-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/all-about-night-blindness-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/all-about-night-blindness-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/amd-awareness-could-save-your-vision-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/amd-awareness-could-save-your-vision-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/an-active-and-eye-safe-lifestyle-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/aoa-privacy-policy",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/april-is-womens-eye-health-and-safety-month-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/april-is-womens-eye-health-and-safety-month-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/are-nerf-guns-a-dangerous-holiday-present-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/are-you-ignoring-your-dry-eyes-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/are-you-ignoring-your-dry-eyes-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/are-your-eyes-dry-do-they-often-burn-or-feel-gritty",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/are-your-eyes-sensitive-to-light-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/are-your-eyes-sensitive-to-light-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/author/friscoeyesource",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "canonical-missing",
+        "page": "https://www.friscoeyesource.com/author/friscoeyesource",
+        "field": "canonical",
+        "detail": "no rel=canonical"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/bifocal-and-multifocal-contact-lenses-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/can-you-really-go-blind-from-looking-at-a-solar-eclipse",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/can-you-really-go-blind-from-looking-at-a-solar-eclipse",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/cataract-awareness-and-prevention-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/cataract-awareness-and-prevention-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/cataract-awareness-month-2016-2",
+        "field": "title",
+        "detail": "62 chars (limit 60)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/cataract-awareness-month-2016-2",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/category/news",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "canonical-missing",
+        "page": "https://www.friscoeyesource.com/category/news",
+        "field": "canonical",
+        "detail": "no rel=canonical"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://www.friscoeyesource.com/category/our-doctors",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/category/our-doctors",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "canonical-missing",
+        "page": "https://www.friscoeyesource.com/category/our-doctors",
+        "field": "canonical",
+        "detail": "no rel=canonical"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://www.friscoeyesource.com/category/our-doctors",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/category/uncategorized",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "canonical-missing",
+        "page": "https://www.friscoeyesource.com/category/uncategorized",
+        "field": "canonical",
+        "detail": "no rel=canonical"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/contact-us",
+        "field": "title",
+        "detail": "10 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/contact-us/contact-form",
+        "field": "title",
+        "detail": "8 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/cutting-edge-eye-dentification-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/decorative-lenses-could-cost-you-your-vision",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/decorative-lenses-could-cost-you-your-vision",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/diabetes-and-your-eyes-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/diabetes-and-your-eyes-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/dry-eye-syndrome-causes-and-cures-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/enjoying-life-during-eye-allergy-season",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/enjoying-life-during-eye-allergy-season",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/exercise-and-your-eye-health-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/exercise-and-your-eye-health-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services",
+        "field": "description",
+        "detail": "295 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams",
+        "field": "title",
+        "detail": "67 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams",
+        "field": "description",
+        "detail": "187 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams/hard-to-fit",
+        "field": "title",
+        "detail": "77 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams/hard-to-fit",
+        "field": "description",
+        "detail": "250 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/emergency-eye-care-services",
+        "field": "description",
+        "detail": "198 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-conditions",
+        "field": "title",
+        "detail": "61 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-conditions",
+        "field": "description",
+        "detail": "178 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-conditions/astigmatism-diagnosis-treatment",
+        "field": "description",
+        "detail": "175 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-conditions/dry-eye-disease-and-treatment",
+        "field": "description",
+        "detail": "216 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-conditions/presbyopia-diagnosis-and-treatment",
+        "field": "title",
+        "detail": "70 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-conditions/presbyopia-diagnosis-and-treatment",
+        "field": "description",
+        "detail": "270 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-emergencies-pinkred-eyes",
+        "field": "title",
+        "detail": "73 chars (limit 60)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-emergencies-pinkred-eyes",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-exams",
+        "field": "title",
+        "detail": "65 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-exams",
+        "field": "description",
+        "detail": "206 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-exams/pediatric-eye-exams",
+        "field": "description",
+        "detail": "188 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-exams/what-to-expect",
+        "field": "title",
+        "detail": "61 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-exams/what-to-expect",
+        "field": "description",
+        "detail": "189 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases",
+        "field": "description",
+        "detail": "177 chars (limit 160)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/optilight-and-optiplus",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/your-infants-visual-development",
+        "field": "title",
+        "detail": "68 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/blue-lighthigh-energy-visible-hev-light-and-your-eyes",
+        "field": "description",
+        "detail": "229 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info",
+        "field": "title",
+        "detail": "14 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/cmv-retinitis",
+        "field": "title",
+        "detail": "13 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/eye-allergies",
+        "field": "title",
+        "detail": "13 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/keratoconus",
+        "field": "title",
+        "detail": "11 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/nearsighted-myopia",
+        "field": "title",
+        "detail": "67 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/photophobia",
+        "field": "title",
+        "detail": "11 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/photophobia",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/pingueculae-pterygia",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/presbyopia",
+        "field": "title",
+        "detail": "10 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/presbyopia",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/ptosis",
+        "field": "title",
+        "detail": "6 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/ptosis",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/retinal-detachment",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/retinitis-pigmentosa",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/styes",
+        "field": "title",
+        "detail": "5 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/styes",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/uveitis",
+        "field": "title",
+        "detail": "7 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/uveitis",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases",
+        "field": "title",
+        "detail": "12 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/cataract-surgery-treatment",
+        "field": "title",
+        "detail": "67 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/common-questions-about-presbyopia-correcting-iols",
+        "field": "title",
+        "detail": "64 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/common-questions-about-presbyopia-correcting-iols",
+        "field": "description",
+        "detail": "170 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/overview",
+        "field": "title",
+        "detail": "8 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams",
+        "field": "title",
+        "detail": "9 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests",
+        "field": "title",
+        "detail": "12 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/autorefractor",
+        "field": "title",
+        "detail": "13 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/eye-dilation",
+        "field": "title",
+        "detail": "12 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/glaucoma-test",
+        "field": "title",
+        "detail": "13 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/ophthalmoscope",
+        "field": "title",
+        "detail": "14 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/optomap",
+        "field": "title",
+        "detail": "7 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/phoropter",
+        "field": "title",
+        "detail": "9 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/puffer-test",
+        "field": "title",
+        "detail": "11 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/retinoscope",
+        "field": "title",
+        "detail": "11 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/slit-lamp-exam",
+        "field": "title",
+        "detail": "14 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/snellen-chart",
+        "field": "title",
+        "detail": "13 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/vision-testing",
+        "field": "title",
+        "detail": "14 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/medications",
+        "field": "title",
+        "detail": "11 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/preparing-for-an-eye-exam",
+        "field": "title",
+        "detail": "67 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/what-to-ask",
+        "field": "title",
+        "detail": "11 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/what-to-expect",
+        "field": "title",
+        "detail": "14 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/healthy-sight",
+        "field": "title",
+        "detail": "13 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40",
+        "field": "title",
+        "detail": "14 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/dry-eye-after-menopause",
+        "field": "title",
+        "detail": "69 chars (limit 60)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/how-progressive-lenses-work",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/multifocal-eyeglass-lenses",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/occupational-bifocal-and-trifocals",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60",
+        "field": "title",
+        "detail": "14 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery",
+        "field": "title",
+        "detail": "14 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik",
+        "field": "title",
+        "detail": "5 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/prk",
+        "field": "title",
+        "detail": "3 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-health-for-college-students-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/eye-health-for-college-students-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eye-lid-cleansing-for-dry-eye",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/eye-safe-toys-and-gifts-for-this-holiday-season",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts",
+        "field": "title",
+        "detail": "64 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts",
+        "field": "description",
+        "detail": "167 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses",
+        "field": "title",
+        "detail": "14 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/bifocal-and-multifocal-contact-lenses",
+        "field": "title",
+        "detail": "62 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/disposable-contacts",
+        "field": "title",
+        "detail": "65 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/gas-permeable-gp-contact-lenses",
+        "field": "title",
+        "detail": "63 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/our-featured-brands",
+        "field": "description",
+        "detail": "163 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/toric-contact-lenses-for-astigmatism",
+        "field": "description",
+        "detail": "167 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses",
+        "field": "title",
+        "detail": "62 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/designer-frames",
+        "field": "title",
+        "detail": "61 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics",
+        "field": "description",
+        "detail": "168 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics/lens-options-for-eyeglasses",
+        "field": "title",
+        "detail": "63 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "h1-multiple",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/kids-optical",
+        "field": "h1",
+        "detail": "2 H1 elements"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/scratch-resistant",
+        "field": "title",
+        "detail": "72 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/scratch-resistant",
+        "field": "description",
+        "detail": "173 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/uv-protection",
+        "field": "description",
+        "detail": "166 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/bifocal-lenses",
+        "field": "description",
+        "detail": "188 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/eyeglass-frame-materials",
+        "field": "title",
+        "detail": "61 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses",
+        "field": "title",
+        "detail": "62 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/nonprescription-sunglasses",
+        "field": "title",
+        "detail": "3 chars"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglass-treatments",
+        "field": "title",
+        "detail": "65 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglasses",
+        "field": "description",
+        "detail": "172 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/sunglasses-for-kids",
+        "field": "description",
+        "detail": "186 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses",
+        "field": "title",
+        "detail": "64 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses",
+        "field": "description",
+        "detail": "164 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/are-transitions-right-for-you",
+        "field": "title",
+        "detail": "64 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/are-transitions-right-for-you",
+        "field": "description",
+        "detail": "161 chars (limit 160)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/eyelid-twitches-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/eyelid-twitches-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/fall-eye-allergies-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/got-a-shiner-2017",
+        "field": "title",
+        "detail": "13 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/got-a-shiner-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/got-a-shiner-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/guidelines-for-picking-the-right-pair-of-shades",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/guidelines-for-picking-the-right-pair-of-shades",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/halloween-eye-safety-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/halloween-eye-safety-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/have-an-eye-safe-halloween-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/have-an-eye-safe-halloween-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/healthy-aging-for-the-eyes-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/healthy-aging-for-the-eyes-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/holiday-season-shopping-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/hours-location",
+        "field": "title",
+        "detail": "77 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/hours-location",
+        "field": "description",
+        "detail": "195 chars (limit 160)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/how-contact-lenses-can-be-a-danger-to-your-eyes-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/how-do-we-see",
+        "field": "title",
+        "detail": "14 chars"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/how-do-we-see",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/how-pregnancy-affects-vision",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/how-pregnancy-affects-vision",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/how-to-guide-for-buying-sunglasses-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/how-to-guide-for-buying-sunglasses-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/how-to-prevent-diabetic-vision-loss",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/how-to-prevent-diabetic-vision-loss",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/how-uv-damages-your-eyes-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/infant-eyesight-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/infant-eyesight-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/innovations-in-color-blindness-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/inside-a-life-with-color-vision-deficiency-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/inside-a-life-with-color-vision-deficiency-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/insurance",
+        "field": "description",
+        "detail": "183 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/insurance/faqs-of-vision-insurance-plans",
+        "field": "title",
+        "detail": "67 chars (limit 60)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/is-screen-time-dangerous-for-kids-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/is-screen-time-dangerous-for-kids-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/is-your-babys-eyesight-developing-normally",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/is-your-babys-eyesight-developing-normally",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/its-time-to-be-serious-about-home-eye-safety",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/its-time-to-be-serious-about-home-eye-safety",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/november-is-diabetes-awareness-month-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/ocular-migraines-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/ocular-migraines-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/our-eye-doctor",
+        "field": "title",
+        "detail": "62 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/our-eye-doctor",
+        "field": "description",
+        "detail": "220 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/pink-stinging-eyes",
+        "field": "description",
+        "detail": "250 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.friscoeyesource.com/pink-stinging-eyes-2",
+        "field": "description",
+        "detail": "250 chars (limit 160)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/poolside-eye-safety-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/prevent-age-related-macular-degeneration-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/progressive-myopia-2018",
+        "field": "title",
+        "detail": "64 chars (limit 60)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/progressive-myopia-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/progressive-myopia-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/protective-sports-eyewear-is-a-serious-matter",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/refocus-on-the-digital-age-with-computer-glasses",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/refocus-on-the-digital-age-with-computer-glasses",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/resolve-to-prevent-glaucoma-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/rubbing-your-eyes-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/rubbing-your-eyes-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/signs-that-your-child-has-a-vision-problem-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/signs-that-your-child-has-a-vision-problem-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/sjogren-awareness-2017",
+        "field": "title",
+        "detail": "63 chars (limit 60)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/sjogren-awareness-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/sjogren-awareness-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/slideshow/childpage-slideshow",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/slideshow/clinic",
+        "field": "title",
+        "detail": "6 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/slideshow/clinic",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/slideshow/doctor",
+        "field": "title",
+        "detail": "6 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/slideshow/doctor",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/slideshow/eyeglasses",
+        "field": "title",
+        "detail": "10 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/slideshow/eyeglasses",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/slideshow/hours-and-location",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/slideshow/insurance",
+        "field": "title",
+        "detail": "9 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/slideshow/insurance",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/slideshow/services",
+        "field": "title",
+        "detail": "8 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/slideshow/services",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/smoking-and-vision-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/smoking-and-vision-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/sneak-thief-of-sight-january-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/snow-blindness-winter-vacation-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/snow-blindness-winter-vacation-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/solar-eclipse-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/solar-eclipse-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/sports-vision-deconstructed-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/sports-vision-deconstructed-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/sunwear-for-a-bright-future-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/tag/all-about-vision",
+        "field": "title",
+        "detail": "5 chars"
+      },
+      {
+        "severity": "major",
+        "code": "canonical-missing",
+        "page": "https://www.friscoeyesource.com/tag/all-about-vision",
+        "field": "canonical",
+        "detail": "no rel=canonical"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/tag/eye-emergencies",
+        "field": "title",
+        "detail": "73 chars (limit 60)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/tag/eye-emergencies",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "canonical-missing",
+        "page": "https://www.friscoeyesource.com/tag/eye-emergencies",
+        "field": "canonical",
+        "detail": "no rel=canonical"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.friscoeyesource.com/tag/gsp-eye-emergencies",
+        "field": "title",
+        "detail": "73 chars (limit 60)"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/tag/gsp-eye-emergencies",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "canonical-missing",
+        "page": "https://www.friscoeyesource.com/tag/gsp-eye-emergencies",
+        "field": "canonical",
+        "detail": "no rel=canonical"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/talk-about-blue-light-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/team/carey-brooks",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/template/footer",
+        "field": "title",
+        "detail": "6 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/template/footer",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "blocker",
+        "code": "h1-missing",
+        "page": "https://www.friscoeyesource.com/template/footer",
+        "field": "h1",
+        "detail": "no H1 on the page"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/template/header",
+        "field": "title",
+        "detail": "6 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/template/header",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "blocker",
+        "code": "h1-missing",
+        "page": "https://www.friscoeyesource.com/template/header",
+        "field": "h1",
+        "detail": "no H1 on the page"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/testimonial/dr-brooks-genuinely-cares-about-her-patients",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/the-dangers-of-an-online-eye-test-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/the-dangers-of-an-online-eye-test-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/the-right-way-to-clean-your-glasses-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/the-right-way-to-clean-your-glasses-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/the-sneak-thief-of-sight-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/the-sneak-thief-of-sight-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/ultraviolet-light-and-your-eyes-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/ultraviolet-light-and-your-eyes-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/understanding-eye-color-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/welcome-to-our-new-website",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/welcome-to-our-new-website-2",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/what-is-a-stye-anyway-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/what-women-need-to-know-about-eye-health",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/what-women-need-to-know-about-eye-health",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/what-you-need-to-know-about-firework-eye-safety",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/what-you-need-to-know-about-firework-eye-safety",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/what-you-need-to-know-to-help-world-blindness-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/what-you-need-to-know-to-help-world-blindness-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-short",
+        "page": "https://www.friscoeyesource.com/whats-new",
+        "field": "title",
+        "detail": "10 chars"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/when-20-20-vision-isnt-enough-for-your-child-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/why-do-we-need-glasses",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/women-and-diabetes-world-diabetes-day-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/women-and-diabetes-world-diabetes-day-2017",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/women-eye-health-5-tips-for-optimal-vision-for-life-2018",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.friscoeyesource.com/women-eye-health-5-tips-for-optimal-vision-for-life-2018",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/workplace-eye-wellness-the-dangers-of-blue-light-2016",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://www.friscoeyesource.com/your-childs-hidden-vision-problem-2017",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "major",
+        "code": "title-duplicate",
+        "page": "https://www.friscoeyesource.com/1-eye-allergies-2016",
+        "field": "title",
+        "detail": "2 pages share \"Eye Allergies\" and do NOT share one canonical — e.g. https://www.friscoeyesource.com/1-eye-allergies-2016 , https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/eye-allergies"
+      },
+      {
+        "severity": "major",
+        "code": "title-duplicate",
+        "page": "https://www.friscoeyesource.com/are-your-eyes-dry-do-they-often-burn-or-feel-gritty",
+        "field": "title",
+        "detail": "2 pages share \"Are your eyes dry? Do they often burn or feel gritty?\" and do NOT share one canonical — e.g. https://www.friscoeyesource.com/are-your-eyes-dry-do-they-often-burn-or-feel-gritty , https://www.friscoeyesource.com/category/news"
+      },
+      {
+        "severity": "major",
+        "code": "title-duplicate",
+        "page": "https://www.friscoeyesource.com/author/friscoeyesource",
+        "field": "title",
+        "detail": "3 pages share \"Should I Be Concerned When My Eyelid Twitches?\" and do NOT share one canonical — e.g. https://www.friscoeyesource.com/author/friscoeyesource , https://www.friscoeyesource.com/category/uncategorized , https://www.friscoeyesource.com/eyelid-twitches-2018"
+      },
+      {
+        "severity": "major",
+        "code": "title-duplicate",
+        "page": "https://www.friscoeyesource.com/eye-care-services/eye-emergencies-pinkred-eyes",
+        "field": "title",
+        "detail": "3 pages share \"Pink Eye | Infection, Injury, Foreign Body Removal | Eye Emergency Doc\" and do NOT share one canonical — e.g. https://www.friscoeyesource.com/eye-care-services/eye-emergencies-pinkred-eyes , https://www.friscoeyesource.com/tag/eye-emergencies , https://www.friscoeyesource.com/tag/gsp-eye-emergencies"
+      },
+      {
+        "severity": "major",
+        "code": "title-duplicate",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik",
+        "field": "title",
+        "detail": "2 pages share \"LASIK\" and do NOT share one canonical — e.g. https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik , https://www.friscoeyesource.com/tag/all-about-vision"
+      },
+      {
+        "severity": "major",
+        "code": "description-duplicate",
+        "page": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik",
+        "field": "description",
+        "detail": "2 pages share a description and do NOT share one canonical — e.g. https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik , https://www.friscoeyesource.com/tag/all-about-vision"
+      },
+      {
+        "severity": "major",
+        "code": "description-duplicate",
+        "page": "https://www.friscoeyesource.com/pink-stinging-eyes",
+        "field": "description",
+        "detail": "2 pages share a description and do NOT share one canonical — e.g. https://www.friscoeyesource.com/pink-stinging-eyes , https://www.friscoeyesource.com/pink-stinging-eyes-2"
+      },
+      {
+        "severity": "minor",
+        "code": "canonical-points-elsewhere",
+        "page": "https://www.friscoeyesource.com/pink-stinging-eyes-2",
+        "field": "canonical",
+        "detail": "canonicalises to /2018/02/14/pink-stinging-eyes — that page is indexed, this one is not"
+      },
+      {
+        "severity": "minor",
+        "code": "canonical-points-elsewhere",
+        "page": "https://www.friscoeyesource.com/welcome-to-our-new-website",
+        "field": "canonical",
+        "detail": "canonicalises to  — that page is indexed, this one is not"
+      },
+      {
+        "severity": "minor",
+        "code": "canonical-points-elsewhere",
+        "page": "https://www.friscoeyesource.com/welcome-to-our-new-website-2",
+        "field": "canonical",
+        "detail": "canonicalises to  — that page is indexed, this one is not"
+      }
+    ],
+    "migration": [
+      {
+        "severity": "major",
+        "code": "url-shape-changed",
+        "page": "-",
+        "field": "url",
+        "detail": "286 of 287 URLs changed shape (e.g. /about -> /about.html) — not blocking: this build stands beside the original, it does not replace it"
+      },
+      {
+        "severity": "minor",
+        "code": "redirects-absent",
+        "page": "-",
+        "field": "redirects",
+        "detail": "no redirect map — not needed unless this build replaces the original at its own domain (--migrating)"
+      }
+    ]
+  },
+  "note": "APPLIED. This run wrote into the build: 3144 field(s) on 287 page(s), each recorded in audit/seo-changes.json with its source. SOURCE findings are the live site's own defects and repairing them is an improvement, not a preservation. MIGRATION findings are damage the rebuild created and did not exist on the source."
+}

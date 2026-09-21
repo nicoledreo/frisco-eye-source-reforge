@@ -1,0 +1,1420 @@
+{
+  "schema": "site-reforge/design-baseline@1",
+  "generated": "2026-09-21T03:17:41.073Z",
+  "evidence": "computed (browser capture)",
+  "capturedViewports": [
+    {
+      "file": "baseline.index.1024.style.json",
+      "url": "https://www.friscoeyesource.com/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.index.1440.style.json",
+      "url": "https://www.friscoeyesource.com/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.index.390.style.json",
+      "url": "https://www.friscoeyesource.com/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.index.768.style.json",
+      "url": "https://www.friscoeyesource.com/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    }
+  ],
+  "sourceCssBytes": 11902006,
+  "sourceStylesheets": 30,
+  "inlineStyleBlocks": 6432,
+  "authorTokens": {
+    "fromSourceCss": {
+      "--wp--preset--aspect-ratio--square": "1",
+      "--wp--preset--aspect-ratio--4-3": "4/3",
+      "--wp--preset--aspect-ratio--3-4": "3/4",
+      "--wp--preset--aspect-ratio--3-2": "3/2",
+      "--wp--preset--aspect-ratio--2-3": "2/3",
+      "--wp--preset--aspect-ratio--16-9": "16/9",
+      "--wp--preset--aspect-ratio--9-16": "9/16",
+      "--wp--preset--color--black": "#000000",
+      "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+      "--wp--preset--color--white": "#ffffff",
+      "--wp--preset--color--pale-pink": "#f78da7",
+      "--wp--preset--color--vivid-red": "#cf2e2e",
+      "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+      "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+      "--wp--preset--color--light-green-cyan": "#7bdcb5",
+      "--wp--preset--color--vivid-green-cyan": "#00d084",
+      "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+      "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+      "--wp--preset--color--vivid-purple": "#9b51e0",
+      "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)",
+      "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+      "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%)",
+      "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%)",
+      "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+      "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%)",
+      "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+      "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+      "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+      "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+      "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+      "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+      "--wp--preset--font-size--small": "13px",
+      "--wp--preset--font-size--medium": "20px",
+      "--wp--preset--font-size--large": "36px",
+      "--wp--preset--font-size--x-large": "42px",
+      "--wp--preset--spacing--20": "0.44rem",
+      "--wp--preset--spacing--30": "0.67rem",
+      "--wp--preset--spacing--40": "1rem",
+      "--wp--preset--spacing--50": "1.5rem",
+      "--wp--preset--spacing--60": "2.25rem",
+      "--wp--preset--spacing--70": "3.38rem",
+      "--wp--preset--spacing--80": "5.06rem",
+      "--wp--preset--shadow--natural": "6px 6px 9px rgba(0, 0, 0, 0.2)",
+      "--wp--preset--shadow--deep": "12px 12px 50px rgba(0, 0, 0, 0.4)",
+      "--wp--preset--shadow--sharp": "6px 6px 0px rgba(0, 0, 0, 0.2)",
+      "--wp--preset--shadow--outlined": "6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1)",
+      "--wp--preset--shadow--crisp": "6px 6px 0px rgba(0, 0, 0, 1)"
+    },
+    "fromComputedRoot": {
+      "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+      "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+      "--wp--preset--shadow--outlined": "6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1)",
+      "--wp--preset--shadow--natural": "6px 6px 9px rgba(0, 0, 0, 0.2)",
+      "--wp--preset--font-size--large": "36px",
+      "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+      "--wp--preset--spacing--30": "0.67rem",
+      "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+      "--wp--preset--aspect-ratio--4-3": "4/3",
+      "--wp--preset--spacing--50": "1.5rem",
+      "--wp--preset--color--vivid-purple": "#9b51e0",
+      "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+      "--wp--preset--aspect-ratio--16-9": "16/9",
+      "--wp--preset--font-size--small": "13px",
+      "--wp--preset--color--pale-pink": "#f78da7",
+      "--wp--preset--spacing--70": "3.38rem",
+      "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+      "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+      "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+      "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+      "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%)",
+      "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+      "--wp--preset--aspect-ratio--9-16": "9/16",
+      "--wp--preset--spacing--60": "2.25rem",
+      "--wp--preset--color--vivid-red": "#cf2e2e",
+      "--wp--preset--shadow--crisp": "6px 6px 0px rgba(0, 0, 0, 1)",
+      "--wp--preset--color--vivid-green-cyan": "#00d084",
+      "--wp--preset--shadow--deep": "12px 12px 50px rgba(0, 0, 0, 0.4)",
+      "--wp--preset--color--light-green-cyan": "#7bdcb5",
+      "--wp--preset--aspect-ratio--square": "1",
+      "--wp--preset--shadow--sharp": "6px 6px 0px rgba(0, 0, 0, 0.2)",
+      "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+      "--wp--preset--spacing--80": "5.06rem",
+      "--wp--preset--color--white": "#ffffff",
+      "--wp--preset--spacing--40": "1rem",
+      "--wp--preset--font-size--medium": "20px",
+      "--wp--preset--color--black": "#000000",
+      "--wp--preset--aspect-ratio--3-4": "3/4",
+      "--wp--preset--aspect-ratio--3-2": "3/2",
+      "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+      "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%)",
+      "--wp--preset--spacing--20": "0.44rem",
+      "--wp--preset--font-size--x-large": "42px",
+      "--wp--preset--aspect-ratio--2-3": "2/3",
+      "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)",
+      "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+      "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%)"
+    }
+  },
+  "color": {
+    "text": [
+      {
+        "value": "#464451",
+        "count": 1166
+      },
+      {
+        "value": "#ffffff",
+        "count": 1106
+      },
+      {
+        "value": "#ffd700",
+        "count": 1050
+      },
+      {
+        "value": "#000000",
+        "count": 464
+      },
+      {
+        "value": "#757575",
+        "count": 64
+      },
+      {
+        "value": "#ff0000",
+        "count": 32
+      },
+      {
+        "value": "#eb1e1e",
+        "count": 28
+      },
+      {
+        "value": "#790000",
+        "count": 16
+      },
+      {
+        "value": "#666666",
+        "count": 8
+      },
+      {
+        "value": "#293d5e",
+        "count": 4
+      }
+    ],
+    "background": [
+      {
+        "value": "undefined",
+        "count": 3818
+      },
+      {
+        "value": "#000000",
+        "count": 26
+      },
+      {
+        "value": "#ffffff",
+        "count": 22
+      },
+      {
+        "value": "#00000080",
+        "count": 16
+      },
+      {
+        "value": "#f4edf4",
+        "count": 14
+      },
+      {
+        "value": "#0000004d",
+        "count": 12
+      },
+      {
+        "value": "#93605b",
+        "count": 12
+      },
+      {
+        "value": "#efefef",
+        "count": 4
+      },
+      {
+        "value": "#f4f1ec80",
+        "count": 4
+      },
+      {
+        "value": "#140d0d",
+        "count": 4
+      },
+      {
+        "value": "#000000cc",
+        "count": 2
+      },
+      {
+        "value": "#ffffff03",
+        "count": 2
+      },
+      {
+        "value": "#ffffff78",
+        "count": 2
+      }
+    ],
+    "border": [
+      {
+        "value": "#464451",
+        "count": 1166
+      },
+      {
+        "value": "#ffffff",
+        "count": 1080
+      },
+      {
+        "value": "#ffd700",
+        "count": 1050
+      },
+      {
+        "value": "#000000",
+        "count": 448
+      },
+      {
+        "value": "#757575",
+        "count": 64
+      },
+      {
+        "value": "#ff0000",
+        "count": 32
+      },
+      {
+        "value": "#eb1e1e",
+        "count": 28
+      },
+      {
+        "value": "rgb(255, 255, 255) rgb(102, 102, 102) rgb(255, 255, 255) rgb(255, 255, 255)",
+        "count": 22
+      },
+      {
+        "value": "#790000",
+        "count": 16
+      },
+      {
+        "value": "#767676",
+        "count": 12
+      },
+      {
+        "value": "#666666",
+        "count": 8
+      },
+      {
+        "value": "#293d5e",
+        "count": 4
+      },
+      {
+        "value": "rgb(0, 0, 0) rgb(204, 204, 204) rgb(204, 204, 204) rgb(0, 0, 0)",
+        "count": 4
+      },
+      {
+        "value": "rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255) rgb(102, 102, 102)",
+        "count": 4
+      }
+    ],
+    "allDeclaredInCss": [
+      {
+        "value": "#ffffff",
+        "count": 6607
+      },
+      {
+        "value": "#000000",
+        "count": 2618
+      },
+      {
+        "value": "#666666",
+        "count": 1716
+      },
+      {
+        "value": "#fff",
+        "count": 1034
+      },
+      {
+        "value": "#333",
+        "count": 583
+      },
+      {
+        "value": "#dd6420",
+        "count": 574
+      },
+      {
+        "value": "#ff6900",
+        "count": 574
+      },
+      {
+        "value": "#00000033",
+        "count": 574
+      },
+      {
+        "value": "#000000",
+        "count": 574
+      },
+      {
+        "value": "#000",
+        "count": 364
+      },
+      {
+        "value": "#ccc",
+        "count": 319
+      },
+      {
+        "value": "#f5f5f5",
+        "count": 297
+      },
+      {
+        "value": "#aaa",
+        "count": 294
+      },
+      {
+        "value": "#000000b3",
+        "count": 294
+      },
+      {
+        "value": "#00000033",
+        "count": 290
+      },
+      {
+        "value": "#f4edf4",
+        "count": 289
+      },
+      {
+        "value": "#fafafa",
+        "count": 288
+      },
+      {
+        "value": "#e6e6e6",
+        "count": 287
+      },
+      {
+        "value": "#abb8c3",
+        "count": 287
+      },
+      {
+        "value": "#f78da7",
+        "count": 287
+      },
+      {
+        "value": "#cf2e2e",
+        "count": 287
+      },
+      {
+        "value": "#ff6900",
+        "count": 287
+      },
+      {
+        "value": "#fcb900",
+        "count": 287
+      },
+      {
+        "value": "#7bdcb5",
+        "count": 287
+      },
+      {
+        "value": "#00d084",
+        "count": 287
+      },
+      {
+        "value": "#8ed1fc",
+        "count": 287
+      },
+      {
+        "value": "#0693e3",
+        "count": 287
+      },
+      {
+        "value": "#9b51e0",
+        "count": 287
+      },
+      {
+        "value": "#0693e3",
+        "count": 287
+      },
+      {
+        "value": "#9b51e0",
+        "count": 287
+      },
+      {
+        "value": "#7adcb4",
+        "count": 287
+      },
+      {
+        "value": "#00d082",
+        "count": 287
+      },
+      {
+        "value": "#fcb900",
+        "count": 287
+      },
+      {
+        "value": "#cf2e2e",
+        "count": 287
+      },
+      {
+        "value": "#eeeeee",
+        "count": 287
+      },
+      {
+        "value": "#a9b8c3",
+        "count": 287
+      },
+      {
+        "value": "#4aeadc",
+        "count": 287
+      },
+      {
+        "value": "#9778d1",
+        "count": 287
+      },
+      {
+        "value": "#cf2aba",
+        "count": 287
+      },
+      {
+        "value": "#ee2c82",
+        "count": 287
+      },
+      {
+        "value": "#fb6962",
+        "count": 287
+      },
+      {
+        "value": "#fef84c",
+        "count": 287
+      },
+      {
+        "value": "#ffceec",
+        "count": 287
+      },
+      {
+        "value": "#9896f0",
+        "count": 287
+      },
+      {
+        "value": "#fecda5",
+        "count": 287
+      },
+      {
+        "value": "#fe2d2d",
+        "count": 287
+      },
+      {
+        "value": "#6b003e",
+        "count": 287
+      },
+      {
+        "value": "#ffcb70",
+        "count": 287
+      }
+    ]
+  },
+  "typography": {
+    "families": [
+      {
+        "value": "Raleway",
+        "count": 3896
+      },
+      {
+        "value": "Arial",
+        "count": 34
+      },
+      {
+        "value": "\"Times New Roman\"",
+        "count": 4
+      },
+      {
+        "value": "helvetica, arial, sans-serif",
+        "count": 4
+      }
+    ],
+    "familiesDeclaredInCss": [
+      {
+        "value": "Raleway",
+        "count": 574
+      },
+      {
+        "value": "inherit",
+        "count": 8
+      },
+      {
+        "value": "'Raleway'",
+        "count": 6
+      },
+      {
+        "value": "helvetica,arial,sans-serif",
+        "count": 4
+      },
+      {
+        "value": "sans-serif",
+        "count": 3
+      },
+      {
+        "value": "Arial,Helvetica,sans-serif",
+        "count": 3
+      },
+      {
+        "value": "arial",
+        "count": 3
+      },
+      {
+        "value": "sans-serif!important",
+        "count": 1
+      },
+      {
+        "value": "arial,sans-serif",
+        "count": 1
+      },
+      {
+        "value": "arial !important",
+        "count": 1
+      },
+      {
+        "value": "Arial, Baskerville, monospace",
+        "count": 1
+      },
+      {
+        "value": "Androgyne",
+        "count": 1
+      }
+    ],
+    "sizes": [
+      {
+        "value": "14px",
+        "count": 2218
+      },
+      {
+        "value": "20px",
+        "count": 1070
+      },
+      {
+        "value": "12px",
+        "count": 74
+      },
+      {
+        "value": "28px",
+        "count": 68
+      },
+      {
+        "value": "13px",
+        "count": 64
+      },
+      {
+        "value": "16.8px",
+        "count": 52
+      },
+      {
+        "value": "24.5px",
+        "count": 44
+      },
+      {
+        "value": "26.25px",
+        "count": 32
+      },
+      {
+        "value": "13.3333px",
+        "count": 30
+      },
+      {
+        "value": "15px",
+        "count": 28
+      },
+      {
+        "value": "23.66px",
+        "count": 24
+      },
+      {
+        "value": "12.6px",
+        "count": 16
+      },
+      {
+        "value": "18px",
+        "count": 12
+      },
+      {
+        "value": "11.025px",
+        "count": 12
+      },
+      {
+        "value": "17.5px",
+        "count": 12
+      },
+      {
+        "value": "21px",
+        "count": 12
+      },
+      {
+        "value": "18.2px",
+        "count": 12
+      },
+      {
+        "value": "15.4px",
+        "count": 8
+      },
+      {
+        "value": "9.756px",
+        "count": 8
+      },
+      {
+        "value": "21.875px",
+        "count": 8
+      },
+      {
+        "value": "36px",
+        "count": 6
+      },
+      {
+        "value": "25.2px",
+        "count": 4
+      },
+      {
+        "value": "30px",
+        "count": 4
+      },
+      {
+        "value": "20.16px",
+        "count": 4
+      }
+    ],
+    "sizeScalePx": [
+      9.756,
+      10.5,
+      11.025,
+      12,
+      12.6,
+      13,
+      13.3333,
+      14,
+      15,
+      15.4,
+      16.8,
+      17.5,
+      18,
+      18.2,
+      20,
+      20.16,
+      21,
+      21.875,
+      23.66,
+      24.5,
+      25.2,
+      26.25,
+      28,
+      30,
+      36
+    ],
+    "weights": [
+      {
+        "value": "400",
+        "count": 3760
+      },
+      {
+        "value": "700",
+        "count": 178
+      }
+    ],
+    "lineHeights": [
+      {
+        "value": "21px",
+        "count": 2090
+      },
+      {
+        "value": "30px",
+        "count": 1050
+      },
+      {
+        "value": "30.8px",
+        "count": 68
+      },
+      {
+        "value": "16.8px",
+        "count": 68
+      },
+      {
+        "value": "18px",
+        "count": 66
+      },
+      {
+        "value": "13px",
+        "count": 36
+      },
+      {
+        "value": "14px",
+        "count": 30
+      },
+      {
+        "value": "19.5px",
+        "count": 28
+      },
+      {
+        "value": "22.5px",
+        "count": 24
+      },
+      {
+        "value": "26.026px",
+        "count": 24
+      },
+      {
+        "value": "20px",
+        "count": 16
+      },
+      {
+        "value": "27px",
+        "count": 12
+      }
+    ],
+    "letterSpacings": [
+      {
+        "value": "0.666667px",
+        "count": 8
+      }
+    ],
+    "loadedFonts": [
+      "Raleway 400 italic",
+      "Raleway 400 normal",
+      "Raleway 700 normal"
+    ],
+    "fontFaces": []
+  },
+  "space": {
+    "paddings": [
+      {
+        "value": "20px",
+        "count": 202
+      },
+      {
+        "value": "10px",
+        "count": 104
+      },
+      {
+        "value": "5px",
+        "count": 76
+      },
+      {
+        "value": "8px",
+        "count": 60
+      },
+      {
+        "value": "14px",
+        "count": 48
+      },
+      {
+        "value": "8.4px",
+        "count": 48
+      },
+      {
+        "value": "15px",
+        "count": 38
+      },
+      {
+        "value": "7px",
+        "count": 36
+      },
+      {
+        "value": "40px",
+        "count": 18
+      },
+      {
+        "value": "16px",
+        "count": 18
+      },
+      {
+        "value": "4px",
+        "count": 16
+      },
+      {
+        "value": "12px",
+        "count": 16
+      },
+      {
+        "value": "10.5px",
+        "count": 8
+      },
+      {
+        "value": "11.9px",
+        "count": 8
+      },
+      {
+        "value": "6px",
+        "count": 8
+      },
+      {
+        "value": "2px",
+        "count": 8
+      },
+      {
+        "value": "30px",
+        "count": 8
+      },
+      {
+        "value": "4.375px",
+        "count": 8
+      },
+      {
+        "value": "8.75px",
+        "count": 8
+      },
+      {
+        "value": "50px",
+        "count": 6
+      },
+      {
+        "value": "25px",
+        "count": 4
+      },
+      {
+        "value": "300px",
+        "count": 2
+      },
+      {
+        "value": "200px",
+        "count": 2
+      },
+      {
+        "value": "28px",
+        "count": 2
+      }
+    ],
+    "margins": [
+      {
+        "value": "20px",
+        "count": 492
+      },
+      {
+        "value": "5px",
+        "count": 362
+      },
+      {
+        "value": "14px",
+        "count": 214
+      },
+      {
+        "value": "7px",
+        "count": 112
+      },
+      {
+        "value": "6px",
+        "count": 88
+      },
+      {
+        "value": "4px",
+        "count": 48
+      },
+      {
+        "value": "16px",
+        "count": 46
+      },
+      {
+        "value": "1px",
+        "count": 40
+      },
+      {
+        "value": "10px",
+        "count": 34
+      },
+      {
+        "value": "-1px",
+        "count": 32
+      },
+      {
+        "value": "150px",
+        "count": 30
+      },
+      {
+        "value": "3.5px",
+        "count": 28
+      },
+      {
+        "value": "3px",
+        "count": 20
+      },
+      {
+        "value": "15px",
+        "count": 20
+      },
+      {
+        "value": "2.52px",
+        "count": 12
+      },
+      {
+        "value": "9.1px",
+        "count": 12
+      },
+      {
+        "value": "-5px",
+        "count": 10
+      },
+      {
+        "value": "21px",
+        "count": 10
+      },
+      {
+        "value": "6.125px",
+        "count": 8
+      },
+      {
+        "value": "2px",
+        "count": 8
+      },
+      {
+        "value": "17.5px",
+        "count": 8
+      },
+      {
+        "value": "8.75px",
+        "count": 8
+      },
+      {
+        "value": "12.6px",
+        "count": 8
+      },
+      {
+        "value": "10.08px",
+        "count": 8
+      }
+    ],
+    "gaps": [
+      {
+        "value": "15px",
+        "count": 40
+      },
+      {
+        "value": "20px",
+        "count": 10
+      },
+      {
+        "value": "40px",
+        "count": 4
+      },
+      {
+        "value": "20px 3%",
+        "count": 2
+      }
+    ],
+    "scalePx": [
+      2,
+      4,
+      4.375,
+      5,
+      6,
+      7,
+      8,
+      8.4,
+      8.75,
+      10,
+      10.5,
+      11.9,
+      12,
+      14,
+      15,
+      16,
+      20,
+      25,
+      28,
+      30,
+      40,
+      50,
+      80,
+      200,
+      240,
+      300
+    ]
+  },
+  "shape": {
+    "radii": [
+      {
+        "value": "10px",
+        "count": 32
+      },
+      {
+        "value": "50%",
+        "count": 26
+      },
+      {
+        "value": "5px",
+        "count": 4
+      },
+      {
+        "value": "15px",
+        "count": 4
+      },
+      {
+        "value": "100px",
+        "count": 4
+      },
+      {
+        "value": "13.3333px",
+        "count": 2
+      }
+    ],
+    "radiiDeclaredInCss": [
+      {
+        "value": "4px",
+        "count": 869
+      },
+      {
+        "value": "100%",
+        "count": 864
+      },
+      {
+        "value": "inherit",
+        "count": 575
+      },
+      {
+        "value": "10px",
+        "count": 297
+      },
+      {
+        "value": "100px",
+        "count": 287
+      },
+      {
+        "value": "50%",
+        "count": 17
+      },
+      {
+        "value": "2px",
+        "count": 15
+      },
+      {
+        "value": "10px 10px 10px 10px",
+        "count": 12
+      },
+      {
+        "value": "5px",
+        "count": 9
+      },
+      {
+        "value": ".25em",
+        "count": 6
+      },
+      {
+        "value": "10.5px",
+        "count": 4
+      },
+      {
+        "value": "0",
+        "count": 4
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.3) 0px 0px 10px 0px",
+        "count": 16
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2) 0px 0px 10px 0px",
+        "count": 4
+      },
+      {
+        "value": "rgb(0, 0, 0) 0px 0px 10px 0px",
+        "count": 2
+      }
+    ],
+    "shadowsDeclaredInCss": [
+      {
+        "value": "none !important",
+        "count": 2012
+      },
+      {
+        "value": "none",
+        "count": 867
+      },
+      {
+        "value": "0 0 10px rgba(0,0,0,0.2)",
+        "count": 287
+      },
+      {
+        "value": "0px 0px 10px #aeaeae",
+        "count": 14
+      },
+      {
+        "value": "0 0 10px rgba(0,0,0,0.1)",
+        "count": 9
+      },
+      {
+        "value": "0 0 5px rgba(0,0,0,.3)",
+        "count": 4
+      },
+      {
+        "value": "0 0 10px 0 rgba(0,0,0,.5)",
+        "count": 3
+      },
+      {
+        "value": "inset 0 1px 1px 0 rgba(250,250,250,.2)",
+        "count": 3
+      },
+      {
+        "value": "inset 1px 1px 0 0 rgba(250,250,250,.5)",
+        "count": 3
+      },
+      {
+        "value": "inset 0 0 10px 0 rgba(0,0,0,.1)",
+        "count": 3
+      },
+      {
+        "value": "0 3px 2px 0 rgba(66,103,126,.2)",
+        "count": 3
+      },
+      {
+        "value": "inset 0 0 5px 0 #eee",
+        "count": 3
+      }
+    ]
+  },
+  "layout": {
+    "containers": [
+      {
+        "value": "100%",
+        "count": 80
+      },
+      {
+        "value": "1100px",
+        "count": 74
+      },
+      {
+        "value": "75%",
+        "count": 12
+      },
+      {
+        "value": "100px",
+        "count": 12
+      },
+      {
+        "value": "1023px",
+        "count": 4
+      },
+      {
+        "value": "85%",
+        "count": 4
+      },
+      {
+        "value": "250px",
+        "count": 2
+      },
+      {
+        "value": "30%",
+        "count": 2
+      }
+    ],
+    "containersDeclaredInCss": [
+      {
+        "value": "100%",
+        "count": 2622
+      },
+      {
+        "value": "none",
+        "count": 1146
+      },
+      {
+        "value": "1100px",
+        "count": 580
+      },
+      {
+        "value": "!important",
+        "count": 572
+      },
+      {
+        "value": "none !important",
+        "count": 296
+      },
+      {
+        "value": "250px",
+        "count": 292
+      },
+      {
+        "value": "400px",
+        "count": 287
+      },
+      {
+        "value": "1200px) {",
+        "count": 286
+      },
+      {
+        "value": "992px) { .fl-col-group.fl-col-group-medium-reversed {display: -webkit-flex",
+        "count": 286
+      },
+      {
+        "value": "768px) { .fl-row-content-wrap {background-attachment: scroll !important",
+        "count": 286
+      },
+      {
+        "value": "1200px) {html .fl-visible-desktop:not(.fl-visible-large),html .fl-visible-medium:not(.fl-visible-large),html .fl-visible-mobile:not(.fl-visible-large) {display: none",
+        "count": 286
+      },
+      {
+        "value": "992px) {html .fl-visible-desktop:not(.fl-visible-medium),html .fl-visible-large:not(.fl-visible-medium),html .fl-visible-mobile:not(.fl-visible-medium) {display: none",
+        "count": 286
+      }
+    ],
+    "breakpointsDeclaredInCss": [
+      {
+        "value": "@media (max-width: 768px)",
+        "count": 582
+      },
+      {
+        "value": "@media(max-width: 768px)",
+        "count": 572
+      },
+      {
+        "value": "@media (max-width: 1200px)",
+        "count": 287
+      },
+      {
+        "value": "@media (max-width: 992px)",
+        "count": 287
+      },
+      {
+        "value": "@media (min-width: 1201px)",
+        "count": 287
+      },
+      {
+        "value": "@media (min-width: 993px) and (max-width: 1200px)",
+        "count": 287
+      },
+      {
+        "value": "@media (min-width: 769px) and (max-width: 992px)",
+        "count": 287
+      },
+      {
+        "value": "@media only screen and (max-width : 900px)",
+        "count": 4
+      },
+      {
+        "value": "@media only screen and (max-width : 790px)",
+        "count": 3
+      },
+      {
+        "value": "@media (max-width: 800px)",
+        "count": 3
+      },
+      {
+        "value": "@media (min-width: 1px) and (max-width : 768px)",
+        "count": 3
+      },
+      {
+        "value": "@media (min-width: 768px) and (max-width : 1099px)",
+        "count": 3
+      },
+      {
+        "value": "@media (min-width: 769px) and (max-width : 992px)",
+        "count": 3
+      },
+      {
+        "value": "@media (min-width: 1100px)",
+        "count": 3
+      },
+      {
+        "value": "@media (min-width: 993px)",
+        "count": 3
+      },
+      {
+        "value": "@media screen and (max-width: 600px)",
+        "count": 3
+      },
+      {
+        "value": "@media only screen and (max-width:641px)",
+        "count": 2
+      },
+      {
+        "value": "@media only screen and (min-width:321px)",
+        "count": 2
+      },
+      {
+        "value": "@media only screen and (min-width:641px)",
+        "count": 2
+      },
+      {
+        "value": "@media only screen and (max-width : 480px)",
+        "count": 2
+      },
+      {
+        "value": "@media only screen and (max-width:1024px)",
+        "count": 2
+      },
+      {
+        "value": "@media only screen and (max-width:640px)",
+        "count": 1
+      },
+      {
+        "value": "@media only screen and (max-width:761px)",
+        "count": 1
+      },
+      {
+        "value": "@media only screen and (max-width: 700px)",
+        "count": 1
+      },
+      {
+        "value": "@media (min-width:769px)",
+        "count": 1
+      },
+      {
+        "value": "@media (min-width:992px)",
+        "count": 1
+      }
+    ],
+    "breakpointsPx": [
+      1,
+      321,
+      480,
+      600,
+      640,
+      641,
+      700,
+      761,
+      768,
+      769,
+      790,
+      800,
+      900,
+      992,
+      993,
+      1024,
+      1100,
+      1200,
+      1201
+    ]
+  },
+  "motionHints": {
+    "transitions": [
+      {
+        "value": "all 0s ease",
+        "count": 3756
+      },
+      {
+        "value": "all 0.3s ease-in-out",
+        "count": 76
+      },
+      {
+        "value": "all 0.2s ease-in",
+        "count": 60
+      },
+      {
+        "value": "all 0.2s ease-in-out",
+        "count": 28
+      },
+      {
+        "value": "transform 0.2s linear",
+        "count": 14
+      },
+      {
+        "value": "opacity 0.4s cubic-bezier(0.42, 0.65, 0.27, 0.99)",
+        "count": 2
+      },
+      {
+        "value": "all 0.15s ease-in",
+        "count": 2
+      }
+    ],
+    "transforms": [
+      {
+        "value": "matrix(1, 0, 0, 1, 0, -4.89844)",
+        "count": 4
+      },
+      {
+        "value": "matrix(1.4, 0, 0, 1.4, 0, 0)",
+        "count": 2
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -6118, 0)",
+        "count": 1
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -207.445, 0)",
+        "count": 1
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -6902, 0)",
+        "count": 1
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -234.141, 0)",
+        "count": 1
+      }
+    ]
+  }
+}

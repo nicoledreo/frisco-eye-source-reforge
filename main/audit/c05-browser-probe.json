@@ -1,0 +1,51 @@
+{
+  "schema": "site-reforge/c05-probe@1",
+  "generated": "2026-09-21T03:43:55.094Z",
+  "question": "Are the pages sr-extract flagged as possible JS-rendered shells actually shells?",
+  "method": "Rendered each flagged page in headless Chrome via _tooling/sr-bridge.mjs and compared main.innerText length against the static-capture textChars recorded in content-inventory.json.",
+  "rows": [
+    {
+      "url": "/404-page-not-found/",
+      "static": 344,
+      "rendered": 291,
+      "spa": false,
+      "scripts": 43
+    },
+    {
+      "url": "/are-your-eyes-dry-do-they-often-burn-or-feel-gritty/",
+      "static": 851,
+      "rendered": 846,
+      "spa": false,
+      "scripts": 40
+    },
+    {
+      "url": "/author/friscoeyesource/",
+      "static": 528,
+      "rendered": 409,
+      "spa": false,
+      "scripts": 39
+    },
+    {
+      "url": "/category/news/",
+      "static": 101,
+      "rendered": 95,
+      "spa": false,
+      "scripts": 39
+    },
+    {
+      "url": "/category/our-doctors/",
+      "static": 156,
+      "rendered": 111,
+      "spa": false,
+      "scripts": 39
+    },
+    {
+      "url": "/category/uncategorized/",
+      "static": 518,
+      "rendered": 399,
+      "spa": false,
+      "scripts": 39
+    }
+  ],
+  "conclusion": "No page is a shell. Rendered text tracks the static capture closely and no SPA mount point exists on any page. The renderRisk heuristic scores script-bytes-to-text ratio, and this WordPress/EyeCarePro theme ships ~140KB of Google Tag Manager and plugin script on every page, which inflates the ratio on genuinely short pages. C05 therefore reports a false positive that no re-run can clear, because sr-extract recomputes renderRisk from the static HTML alone and consumes no browser capture."
+}

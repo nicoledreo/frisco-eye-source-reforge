@@ -1,0 +1,36 @@
+# Heavy capture evidence: kept locally, not published.
+# NOTE: git does NOT support trailing comments on a pattern line — a comment
+# after the pattern becomes part of the pattern and silently matches nothing.
+main/audit/raw/
+main/audit/screens/
+main/audit/capture/
+main/audit/css/
+main/audit/reports/
+main/assets/
+main/*.zip
+
+# Eye Trends Clearlake harvest — architecture reference only, nothing ships from it
+arch/
+
+# Large derived inventories (regenerate with the site-reforge stages)
+main/audit/content-inventory.json
+main/audit/seo-inventory.json
+main/audit/link-graph.json
+main/audit/site-inventory.json
+main/audit/change-control.json
+main/audit/image-inventory.json
+
+# Local working files
+_tooling/cap/
+_tooling/sweep/
+_tooling/look/
+_tooling/c05/
+_tooling/*.json
+_tooling/serve.log
+
+# Session logs stay local
+Frisco Eye Srouce Chat Logs/
+
+node_modules/
+.DS_Store
+Thumbs.db

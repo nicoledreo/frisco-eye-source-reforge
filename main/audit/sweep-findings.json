@@ -1,0 +1,435 @@
+{
+  "schema": "site-reforge/sweep-findings@1",
+  "generated": "2026-09-21T05:35:11.413Z",
+  "sweeps": 8,
+  "widths": [
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "baselineWidths": [
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "dimensions": [
+    {
+      "name": "Viewport 1024px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "html > body > header.site-header > div.shell > a.brand:nth-of-type(1) > img @ 1024px",
+          "value": "684px natural vs 75px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(2) > form.appt-form > span.sr-only @ 1024px",
+          "value": "28px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(3) > blockquote @ 1024px",
+          "value": "778px in 219px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(4) > blockquote @ 1024px",
+          "value": "607px in 219px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(7) > blockquote @ 1024px",
+          "value": "292px in 219px",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 1440px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "html > body > header.site-header > div.shell > a.brand:nth-of-type(1) > img @ 1440px",
+          "value": "684px natural vs 75px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(2) > form.appt-form > span.sr-only @ 1440px",
+          "value": "28px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(3) > blockquote @ 1440px",
+          "value": "778px in 219px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(4) > blockquote @ 1440px",
+          "value": "607px in 219px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(7) > blockquote @ 1440px",
+          "value": "292px in 219px",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 390px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "html > body > header.site-header > div.shell > a.brand:nth-of-type(1) > img @ 390px",
+          "value": "684px natural vs 75px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#ra-reason-indexhtml @ 390px",
+          "value": "15px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#ra-first-indexhtml @ 390px",
+          "value": "15px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#ra-last-indexhtml @ 390px",
+          "value": "15px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#ra-phone-indexhtml @ 390px",
+          "value": "15px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#ra-email-indexhtml @ 390px",
+          "value": "15px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-name-indexhtml @ 390px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-phone-indexhtml @ 390px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-email-indexhtml @ 390px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(2) > form.appt-form > span.sr-only @ 390px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(3) > blockquote @ 390px",
+          "value": "778px in 219px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(4) > blockquote @ 390px",
+          "value": "607px in 219px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(7) > blockquote @ 390px",
+          "value": "292px in 219px",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 768px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "html > body > header.site-header > div.shell > a.brand:nth-of-type(1) > img @ 768px",
+          "value": "684px natural vs 75px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#ra-reason-indexhtml @ 768px",
+          "value": "15px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#ra-first-indexhtml @ 768px",
+          "value": "15px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#ra-last-indexhtml @ 768px",
+          "value": "15px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#ra-phone-indexhtml @ 768px",
+          "value": "15px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#ra-email-indexhtml @ 768px",
+          "value": "15px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-name-indexhtml @ 768px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-phone-indexhtml @ 768px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-email-indexhtml @ 768px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(2) > form.appt-form > span.sr-only @ 768px",
+          "value": "28px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(3) > blockquote @ 768px",
+          "value": "778px in 219px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(4) > blockquote @ 768px",
+          "value": "607px in 219px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass:nth-of-type(3) > div.reviews:nth-of-type(2) > article.review:nth-of-type(7) > blockquote @ 768px",
+          "value": "292px in 219px",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 1024px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "html > body > header.site-header > div.shell > a.brand:nth-of-type(1) > img @ 1024px",
+          "value": "684px natural vs 75px displayed",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 1440px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "html > body > header.site-header > div.shell > a.brand:nth-of-type(1) > img @ 1440px",
+          "value": "684px natural vs 75px displayed",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 390px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "html > body > header.site-header > div.shell > a.brand:nth-of-type(1) > img @ 390px",
+          "value": "684px natural vs 75px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > div.page:nth-of-type(2) > div.shell > div.page-grid > div.prose > section.panel.glass > p:nth-of-type(1) > img.wide @ 390px",
+          "value": "1024px natural vs 312px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-name-eyecareserviceseyeexamshtml @ 390px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-phone-eyecareserviceseyeexamshtml @ 390px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-email-eyecareserviceseyeexamshtml @ 390px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 768px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "html > body > header.site-header > div.shell > a.brand:nth-of-type(1) > img @ 768px",
+          "value": "684px natural vs 75px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-name-eyecareserviceseyeexamshtml @ 768px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-phone-eyecareserviceseyeexamshtml @ 768px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text under 12px",
+          "detail": "",
+          "location": "#f-email-eyecareserviceseyeexamshtml @ 768px",
+          "value": "14px (iOS zooms inputs under 16px)",
+          "inherited": false
+        }
+      ]
+    }
+  ]
+}

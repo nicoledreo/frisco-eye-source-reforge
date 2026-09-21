@@ -1,0 +1,9 @@
+{
+  "schema": "site-reforge/data@1",
+  "generated": "2026-09-21T03:10:31.343Z",
+  "note": "Same-origin data files a shipped script fetches at RUNTIME. The markup references none of these, so no other stage can see them; a build without them renders a shell and passes parity, because parity compares two equally empty static documents. Served at their ORIGINAL path — the caller is a string literal this pipeline cannot rewrite.",
+  "discovered": [],
+  "saved": [],
+  "unresolved": [],
+  "unresolvedNote": "An interpolated or cross-origin runtime endpoint. Not fetched: an interpolated path is a SERVER and a static clone has no server, and a cross-origin one belongs to somebody else. Both are reported so the build states what it cannot serve."
+}

@@ -1,0 +1,6078 @@
+{
+  "schema": "site-reforge/parity-report@1",
+  "generated": "2026-09-21T05:35:42.747Z",
+  "sourcePages": 287,
+  "rebuiltFiles": 287,
+  "mappedPages": 287,
+  "missingPages": [],
+  "extraFiles": [],
+  "recallFloor": 0.95,
+  "contentRunFloor": 12,
+  "meanRecall": 1,
+  "counts": {
+    "minor": 46
+  },
+  "verdict": "PARITY",
+  "rows": [
+    {
+      "url": "https://www.friscoeyesource.com/",
+      "file": "index.html",
+      "pageType": "home",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1412,
+      "rebuiltWords": 1555,
+      "sourceH1": [
+        "Visit Our Eye Doctor in Frisco, TX For Quality Eye Care",
+        "Request Appointment"
+      ],
+      "rebuiltH1": [
+        "Visit Our Eye Doctor in Frisco, TX For Quality Eye Care"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 108,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/1-eye-allergies-2016",
+      "file": "1-eye-allergies-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 614,
+      "rebuiltWords": 712,
+      "sourceH1": [
+        "Eye Allergies"
+      ],
+      "rebuiltH1": [
+        "Eye Allergies"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/10-eye-healthy-foods-to-eat-this-year-2017",
+      "file": "10-eye-healthy-foods-to-eat-this-year-2017.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 783,
+      "rebuiltWords": 881,
+      "sourceH1": [
+        "10 Eye Healthy Foods to Eat This Year"
+      ],
+      "rebuiltH1": [
+        "10 Eye Healthy Foods to Eat This Year"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "10-eye-healthy-foods-to-eat-this-year-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/10-steps-to-prevent-vision-loss",
+      "file": "10-steps-to-prevent-vision-loss.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 825,
+      "rebuiltWords": 923,
+      "sourceH1": [
+        "10 Steps to Prevent Vision Loss"
+      ],
+      "rebuiltH1": [
+        "10 Steps to Prevent Vision Loss"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/10-tips-to-teach-children-about-eye-safety-2016",
+      "file": "10-tips-to-teach-children-about-eye-safety-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 703,
+      "rebuiltWords": 801,
+      "sourceH1": [
+        "10 Tips to Teach Children About Eye Safety"
+      ],
+      "rebuiltH1": [
+        "10 Tips to Teach Children About Eye Safety"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/404-page-not-found",
+      "file": "404-page-not-found.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 55,
+      "rebuiltWords": 153,
+      "sourceH1": [
+        "404"
+      ],
+      "rebuiltH1": [
+        "404"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/5-ways-to-ensure-healthy-vision",
+      "file": "5-ways-to-ensure-healthy-vision.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 418,
+      "rebuiltWords": 516,
+      "sourceH1": [
+        "5 Ways to Ensure Healthy Vision"
+      ],
+      "rebuiltH1": [
+        "5 Ways to Ensure Healthy Vision"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "5-ways-to-ensure-healthy-vision.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/6-common-eye-myths-debunked",
+      "file": "6-common-eye-myths-debunked.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 676,
+      "rebuiltWords": 774,
+      "sourceH1": [
+        "6 Common Eye Myths Debunked"
+      ],
+      "rebuiltH1": [
+        "6 Common Eye Myths Debunked"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "6-common-eye-myths-debunked.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/6-crazy-holiday-eye-injuries-to-avoid-2017",
+      "file": "6-crazy-holiday-eye-injuries-to-avoid-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 674,
+      "rebuiltWords": 772,
+      "sourceH1": [
+        "6 Crazy Holiday Eye Injuries to Avoid"
+      ],
+      "rebuiltH1": [
+        "6 Crazy Holiday Eye Injuries to Avoid"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "6-crazy-holiday-eye-injuries-to-avoid-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/6-things-you-need-to-know-about-cataracts",
+      "file": "6-things-you-need-to-know-about-cataracts.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 373,
+      "rebuiltWords": 471,
+      "sourceH1": [
+        "6 Things You Need To Know About Cataracts"
+      ],
+      "rebuiltH1": [
+        "6 Things You Need To Know About Cataracts"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/6-ways-to-prevent-amd-2017",
+      "file": "6-ways-to-prevent-amd-2017.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 765,
+      "rebuiltWords": 863,
+      "sourceH1": [
+        "6 Ways to Prevent Age-Related Macular Degeneration (AMD)"
+      ],
+      "rebuiltH1": [
+        "6 Ways to Prevent Age-Related Macular Degeneration (AMD)"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/7-eye-symptoms-you-should-not-ignore-2018",
+      "file": "7-eye-symptoms-you-should-not-ignore-2018.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 867,
+      "rebuiltWords": 965,
+      "sourceH1": [
+        "7 Eye Symptoms You Shouldn’t Ignore"
+      ],
+      "rebuiltH1": [
+        "7 Eye Symptoms You Shouldn’t Ignore"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "7-eye-symptoms-you-should-not-ignore-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/8-tips-to-relieve-winter-dry-eyes-2018",
+      "file": "8-tips-to-relieve-winter-dry-eyes-2018.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 639,
+      "rebuiltWords": 737,
+      "sourceH1": [
+        "8 Tips to Relieve Winter Dry Eyes"
+      ],
+      "rebuiltH1": [
+        "8 Tips to Relieve Winter Dry Eyes"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/all-about-night-blindness-2018",
+      "file": "all-about-night-blindness-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 677,
+      "rebuiltWords": 775,
+      "sourceH1": [
+        "Trouble Seeing at Night? All About Night Blindness"
+      ],
+      "rebuiltH1": [
+        "Trouble Seeing at Night? All About Night Blindness"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "all-about-night-blindness-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/amd-awareness-could-save-your-vision-2018",
+      "file": "amd-awareness-could-save-your-vision-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 867,
+      "rebuiltWords": 965,
+      "sourceH1": [
+        "AMD Awareness Could Save Your Vision"
+      ],
+      "rebuiltH1": [
+        "AMD Awareness Could Save Your Vision"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "amd-awareness-could-save-your-vision-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/an-active-and-eye-safe-lifestyle-2016",
+      "file": "an-active-and-eye-safe-lifestyle-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 717,
+      "rebuiltWords": 815,
+      "sourceH1": [
+        "An Active and Eye Safe Lifestyle"
+      ],
+      "rebuiltH1": [
+        "An Active and Eye Safe Lifestyle"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/aoa-privacy-policy",
+      "file": "aoa-privacy-policy.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1872,
+      "rebuiltWords": 1971,
+      "sourceH1": [
+        "AOA Privacy Policy"
+      ],
+      "rebuiltH1": [
+        "AOA Privacy Policy"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/april-is-womens-eye-health-and-safety-month-2017",
+      "file": "april-is-womens-eye-health-and-safety-month-2017.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 0.998,
+      "missingWords": 1,
+      "longestMissingRun": 1,
+      "sourceWords": 484,
+      "rebuiltWords": 582,
+      "sourceH1": [
+        "April is Women's Eye Health and Safety Month"
+      ],
+      "rebuiltH1": [
+        "April is Women's Eye Health and Safety Month"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "april-is-womens-eye-health-and-safety-month-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/are-nerf-guns-a-dangerous-holiday-present-2018",
+      "file": "are-nerf-guns-a-dangerous-holiday-present-2018.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 731,
+      "rebuiltWords": 829,
+      "sourceH1": [
+        "Are Nerf Guns a Dangerous Holiday Present?"
+      ],
+      "rebuiltH1": [
+        "Are Nerf Guns a Dangerous Holiday Present?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/are-you-ignoring-your-dry-eyes-2017",
+      "file": "are-you-ignoring-your-dry-eyes-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 839,
+      "rebuiltWords": 937,
+      "sourceH1": [
+        "Are You Ignoring Your Dry Eyes?"
+      ],
+      "rebuiltH1": [
+        "Are You Ignoring Your Dry Eyes?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "are-you-ignoring-your-dry-eyes-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/are-your-eyes-dry-do-they-often-burn-or-feel-gritty",
+      "file": "are-your-eyes-dry-do-they-often-burn-or-feel-gritty.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 162,
+      "rebuiltWords": 260,
+      "sourceH1": [
+        "Are your eyes dry? Do they often burn or feel gritty?"
+      ],
+      "rebuiltH1": [
+        "Are your eyes dry? Do they often burn or feel gritty?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/are-your-eyes-sensitive-to-light-2017",
+      "file": "are-your-eyes-sensitive-to-light-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 508,
+      "rebuiltWords": 606,
+      "sourceH1": [
+        "Are Your Eyes Sensitive to Light?"
+      ],
+      "rebuiltH1": [
+        "Are Your Eyes Sensitive to Light?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "are-your-eyes-sensitive-to-light-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/author/friscoeyesource",
+      "file": "author/friscoeyesource.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 70,
+      "rebuiltWords": 168,
+      "sourceH1": [
+        "Author: friscoeyesource"
+      ],
+      "rebuiltH1": [
+        "Author: friscoeyesource"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 93,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/bifocal-and-multifocal-contact-lenses-2016",
+      "file": "bifocal-and-multifocal-contact-lenses-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 525,
+      "rebuiltWords": 623,
+      "sourceH1": [
+        "Bifocal and Multifocal Contact Lenses"
+      ],
+      "rebuiltH1": [
+        "Bifocal and Multifocal Contact Lenses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/can-you-really-go-blind-from-looking-at-a-solar-eclipse",
+      "file": "can-you-really-go-blind-from-looking-at-a-solar-eclipse.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 615,
+      "rebuiltWords": 713,
+      "sourceH1": [
+        "Can you Really Go Blind from Looking at a Solar Eclipse?"
+      ],
+      "rebuiltH1": [
+        "Can you Really Go Blind from Looking at a Solar Eclipse?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 86,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "can-you-really-go-blind-from-looking-at-a-solar-eclipse.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/cataract-awareness-and-prevention-2017",
+      "file": "cataract-awareness-and-prevention-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 616,
+      "rebuiltWords": 714,
+      "sourceH1": [
+        "Cataract Awareness and Prevention"
+      ],
+      "rebuiltH1": [
+        "Cataract Awareness and Prevention"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "cataract-awareness-and-prevention-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/cataract-awareness-month-2016-2",
+      "file": "cataract-awareness-month-2016-2.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 953,
+      "rebuiltWords": 1051,
+      "sourceH1": [
+        "Cataract Awareness Month: What to Expect from Cataract Surgery"
+      ],
+      "rebuiltH1": [
+        "Cataract Awareness Month: What to Expect from Cataract Surgery"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/category/news",
+      "file": "category/news.html",
+      "pageType": "blog-index",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 20,
+      "rebuiltWords": 118,
+      "sourceH1": [
+        "News"
+      ],
+      "rebuiltH1": [
+        "News"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/category/our-doctors",
+      "file": "category/our-doctors.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 19,
+      "rebuiltWords": 114,
+      "sourceH1": [
+        "Nothing Found"
+      ],
+      "rebuiltH1": [
+        "Nothing Found"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 81,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/category/uncategorized",
+      "file": "category/uncategorized.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 69,
+      "rebuiltWords": 167,
+      "sourceH1": [
+        "Uncategorized"
+      ],
+      "rebuiltH1": [
+        "Uncategorized"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 93,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/contact-us",
+      "file": "contact-us.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 117,
+      "rebuiltWords": 216,
+      "sourceH1": [
+        "Contact Us"
+      ],
+      "rebuiltH1": [
+        "Contact Us"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 90,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/contact-us/appointment-request-form",
+      "file": "contact-us/appointment-request-form.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 89,
+      "rebuiltWords": 186,
+      "sourceH1": [
+        "Appointment Request Form"
+      ],
+      "rebuiltH1": [
+        "Appointment Request Form"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/contact-us/contact-form",
+      "file": "contact-us/contact-form.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 105,
+      "rebuiltWords": 202,
+      "sourceH1": [
+        "Email Us"
+      ],
+      "rebuiltH1": [
+        "Email Us"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/contact-us/patient-registration-form",
+      "file": "contact-us/patient-registration-form.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 2318,
+      "rebuiltWords": 2415,
+      "sourceH1": [
+        "Patient Registration Form"
+      ],
+      "rebuiltH1": [
+        "Patient Registration Form"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 86,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/cutting-edge-eye-dentification-2016",
+      "file": "cutting-edge-eye-dentification-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 486,
+      "rebuiltWords": 584,
+      "sourceH1": [
+        "Cutting Edge Eye-dentification"
+      ],
+      "rebuiltH1": [
+        "Cutting Edge Eye-dentification"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/decorative-lenses-could-cost-you-your-vision",
+      "file": "decorative-lenses-could-cost-you-your-vision.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 401,
+      "rebuiltWords": 499,
+      "sourceH1": [
+        "Decorative Lenses Could Cost You Your Vision"
+      ],
+      "rebuiltH1": [
+        "Decorative Lenses Could Cost You Your Vision"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "decorative-lenses-could-cost-you-your-vision.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/diabetes-and-your-eyes-2018",
+      "file": "diabetes-and-your-eyes-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 887,
+      "rebuiltWords": 985,
+      "sourceH1": [
+        "Diabetes and Your Eyes"
+      ],
+      "rebuiltH1": [
+        "Diabetes and Your Eyes"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "diabetes-and-your-eyes-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/disclaimer",
+      "file": "disclaimer.html",
+      "pageType": "legal",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 382,
+      "rebuiltWords": 481,
+      "sourceH1": [
+        "Disclaimer"
+      ],
+      "rebuiltH1": [
+        "Disclaimer"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/dry-eye-syndrome-causes-and-cures-2016",
+      "file": "dry-eye-syndrome-causes-and-cures-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 752,
+      "rebuiltWords": 850,
+      "sourceH1": [
+        "Dry Eye Syndrome Causes and Cures"
+      ],
+      "rebuiltH1": [
+        "Dry Eye Syndrome Causes and Cures"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/enjoying-life-during-eye-allergy-season",
+      "file": "enjoying-life-during-eye-allergy-season.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 564,
+      "rebuiltWords": 662,
+      "sourceH1": [
+        "Enjoying Life During Eye Allergy Season"
+      ],
+      "rebuiltH1": [
+        "Enjoying Life During Eye Allergy Season"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "enjoying-life-during-eye-allergy-season.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/exercise-and-your-eye-health-2018",
+      "file": "exercise-and-your-eye-health-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 578,
+      "rebuiltWords": 676,
+      "sourceH1": [
+        "Exercise and Your Eye Health"
+      ],
+      "rebuiltH1": [
+        "Exercise and Your Eye Health"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "exercise-and-your-eye-health-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services",
+      "file": "eye-care-services.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 434,
+      "rebuiltWords": 533,
+      "sourceH1": [
+        "Eye Care Services"
+      ],
+      "rebuiltH1": [
+        "Eye Care Services"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 94,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams",
+      "file": "eye-care-services/contact-lens-exams.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1083,
+      "rebuiltWords": 1181,
+      "sourceH1": [
+        "Contact Lens Exams"
+      ],
+      "rebuiltH1": [
+        "Contact Lens Exams"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/contact-lens-exams/hard-to-fit",
+      "file": "eye-care-services/contact-lens-exams/hard-to-fit.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1138,
+      "rebuiltWords": 1235,
+      "sourceH1": [
+        "Hard-to-Fit Contacts"
+      ],
+      "rebuiltH1": [
+        "Hard-to-Fit Contacts"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 86,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/emergency-eye-care-services",
+      "file": "eye-care-services/emergency-eye-care-services.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 879,
+      "rebuiltWords": 979,
+      "sourceH1": [
+        "Emergency Eye Care Services"
+      ],
+      "rebuiltH1": [
+        "Emergency Eye Care Services"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 91,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/eye-conditions",
+      "file": "eye-care-services/eye-conditions.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 224,
+      "rebuiltWords": 322,
+      "sourceH1": [
+        "Eye Condition Treatment"
+      ],
+      "rebuiltH1": [
+        "Eye Condition Treatment"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 90,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/eye-conditions/astigmatism-diagnosis-treatment",
+      "file": "eye-care-services/eye-conditions/astigmatism-diagnosis-treatment.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 258,
+      "rebuiltWords": 355,
+      "sourceH1": [
+        "Astigmatism"
+      ],
+      "rebuiltH1": [
+        "Astigmatism"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/eye-conditions/dry-eye-disease-and-treatment",
+      "file": "eye-care-services/eye-conditions/dry-eye-disease-and-treatment.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1030,
+      "rebuiltWords": 1127,
+      "sourceH1": [
+        "Dry Eyes"
+      ],
+      "rebuiltH1": [
+        "Dry Eyes"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/eye-conditions/presbyopia-diagnosis-and-treatment",
+      "file": "eye-care-services/eye-conditions/presbyopia-diagnosis-and-treatment.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 747,
+      "rebuiltWords": 844,
+      "sourceH1": [
+        "Presbyopia Treatment"
+      ],
+      "rebuiltH1": [
+        "Presbyopia Treatment"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/eye-emergencies-pinkred-eyes",
+      "file": "eye-care-services/eye-emergencies-pinkred-eyes.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 576,
+      "rebuiltWords": 674,
+      "sourceH1": [
+        "Eye Emergencies (Pink/Red Eyes)"
+      ],
+      "rebuiltH1": [
+        "Eye Emergencies (Pink/Red Eyes)"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/eye-exams",
+      "file": "eye-care-services/eye-exams.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 614,
+      "rebuiltWords": 712,
+      "sourceH1": [
+        "Comprehensive Eye Exams"
+      ],
+      "rebuiltH1": [
+        "Comprehensive Eye Exams"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/eye-exams/advanced-technology",
+      "file": "eye-care-services/eye-exams/advanced-technology.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 981,
+      "rebuiltWords": 1078,
+      "sourceH1": [
+        "Technology – Advanced Eye Care"
+      ],
+      "rebuiltH1": [
+        "Technology – Advanced Eye Care"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 86,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/eye-exams/pediatric-eye-exams",
+      "file": "eye-care-services/eye-exams/pediatric-eye-exams.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1033,
+      "rebuiltWords": 1130,
+      "sourceH1": [
+        "Children’s Eye Care"
+      ],
+      "rebuiltH1": [
+        "Children’s Eye Care"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/eye-exams/pediatric-eye-exams/kids-vision-learning",
+      "file": "eye-care-services/eye-exams/pediatric-eye-exams/kids-vision-learning.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 723,
+      "rebuiltWords": 819,
+      "sourceH1": [
+        "Kids’ Vision & Learning"
+      ],
+      "rebuiltH1": [
+        "Kids’ Vision & Learning"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/eye-exams/what-to-expect",
+      "file": "eye-care-services/eye-exams/what-to-expect.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 674,
+      "rebuiltWords": 771,
+      "sourceH1": [
+        "What to Expect"
+      ],
+      "rebuiltH1": [
+        "What to Expect"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/lasik-refractive-surgery-co-management",
+      "file": "eye-care-services/lasik-refractive-surgery-co-management.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1150,
+      "rebuiltWords": 1248,
+      "sourceH1": [
+        "LASIK & Refractive Surgery Co-Management"
+      ],
+      "rebuiltH1": [
+        "LASIK & Refractive Surgery Co-Management"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 86,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/latisse",
+      "file": "eye-care-services/latisse.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 179,
+      "rebuiltWords": 277,
+      "sourceH1": [
+        "Latisse"
+      ],
+      "rebuiltH1": [
+        "Latisse"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases",
+      "file": "eye-care-services/management-of-ocular-diseases.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 270,
+      "rebuiltWords": 368,
+      "sourceH1": [
+        "Eye Disease Management"
+      ],
+      "rebuiltH1": [
+        "Eye Disease Management"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 90,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/cataract-surgery-co-management",
+      "file": "eye-care-services/management-of-ocular-diseases/cataract-surgery-co-management.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 407,
+      "rebuiltWords": 504,
+      "sourceH1": [
+        "Cataract Surgery Co-Management"
+      ],
+      "rebuiltH1": [
+        "Cataract Surgery Co-Management"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/glaucoma-testing-treatment",
+      "file": "eye-care-services/management-of-ocular-diseases/glaucoma-testing-treatment.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1332,
+      "rebuiltWords": 1429,
+      "sourceH1": [
+        "Glaucoma Testing & Treatment"
+      ],
+      "rebuiltH1": [
+        "Glaucoma Testing & Treatment"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/treating-diabetic-retinopathy",
+      "file": "eye-care-services/management-of-ocular-diseases/treating-diabetic-retinopathy.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 265,
+      "rebuiltWords": 362,
+      "sourceH1": [
+        "Diabetic Eye Disease"
+      ],
+      "rebuiltH1": [
+        "Diabetic Eye Disease"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/management-of-ocular-diseases/treating-macular-degeneration",
+      "file": "eye-care-services/management-of-ocular-diseases/treating-macular-degeneration.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 323,
+      "rebuiltWords": 420,
+      "sourceH1": [
+        "Macular Degeneration"
+      ],
+      "rebuiltH1": [
+        "Macular Degeneration"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/optilight-and-optiplus",
+      "file": "eye-care-services/optilight-and-optiplus.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 350,
+      "rebuiltWords": 448,
+      "sourceH1": [
+        "OptiLight and OptiPlus"
+      ],
+      "rebuiltH1": [
+        "OptiLight and OptiPlus"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health",
+      "file": "eye-care-services/your-eye-health.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 599,
+      "rebuiltWords": 697,
+      "sourceH1": [
+        "Your Eye Health"
+      ],
+      "rebuiltH1": [
+        "Your Eye Health"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 99,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision",
+      "file": "eye-care-services/your-eye-health/childrens-vision.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 211,
+      "rebuiltWords": 308,
+      "sourceH1": [
+        "Children’s Vision"
+      ],
+      "rebuiltH1": [
+        "Children’s Vision"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 92,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/are-contact-lenses-a-good-choice-for-kids",
+      "file": "eye-care-services/your-eye-health/childrens-vision/are-contact-lenses-a-good-choice-for-kids.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 800,
+      "rebuiltWords": 896,
+      "sourceH1": [
+        "Are Contact Lenses a Good Choice for Kids?"
+      ],
+      "rebuiltH1": [
+        "Are Contact Lenses a Good Choice for Kids?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/childrens-vision-faqs",
+      "file": "eye-care-services/your-eye-health/childrens-vision/childrens-vision-faqs.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 993,
+      "rebuiltWords": 1089,
+      "sourceH1": [
+        "Children’s Vision – FAQ’s"
+      ],
+      "rebuiltH1": [
+        "Children’s Vision – FAQ’s"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/childrens-vision-video",
+      "file": "eye-care-services/your-eye-health/childrens-vision/childrens-vision-video.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 41,
+      "rebuiltWords": 137,
+      "sourceH1": [
+        "Children’s Vision Video"
+      ],
+      "rebuiltH1": [
+        "Children’s Vision Video"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/controlling-nearsightedness-in-children",
+      "file": "eye-care-services/your-eye-health/childrens-vision/controlling-nearsightedness-in-children.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 532,
+      "rebuiltWords": 628,
+      "sourceH1": [
+        "Controlling Nearsightedness in Children"
+      ],
+      "rebuiltH1": [
+        "Controlling Nearsightedness in Children"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/vision-therapy-for-children",
+      "file": "eye-care-services/your-eye-health/childrens-vision/vision-therapy-for-children.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 484,
+      "rebuiltWords": 580,
+      "sourceH1": [
+        "Vision Therapy for Children"
+      ],
+      "rebuiltH1": [
+        "Vision Therapy for Children"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/childrens-vision/your-infants-visual-development",
+      "file": "eye-care-services/your-eye-health/childrens-vision/your-infants-visual-development.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 666,
+      "rebuiltWords": 762,
+      "sourceH1": [
+        "Your Infant’s Visual Development"
+      ],
+      "rebuiltH1": [
+        "Your Infant’s Visual Development"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain",
+      "file": "eye-care-services/your-eye-health/computer-eyestrain.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 932,
+      "rebuiltWords": 1029,
+      "sourceH1": [
+        "Computer Eyestrain"
+      ],
+      "rebuiltH1": [
+        "Computer Eyestrain"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 90,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/blue-lighthigh-energy-visible-hev-light-and-your-eyes",
+      "file": "eye-care-services/your-eye-health/computer-eyestrain/blue-lighthigh-energy-visible-hev-light-and-your-eyes.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 602,
+      "rebuiltWords": 698,
+      "sourceH1": [
+        "Blue Light/High-Energy Visible (HEV) Light and Your Eyes"
+      ],
+      "rebuiltH1": [
+        "Blue Light/High-Energy Visible (HEV) Light and Your Eyes"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/children-and-computer-vision-syndrome",
+      "file": "eye-care-services/your-eye-health/computer-eyestrain/children-and-computer-vision-syndrome.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 800,
+      "rebuiltWords": 896,
+      "sourceH1": [
+        "Children and Computer Vision Syndrome"
+      ],
+      "rebuiltH1": [
+        "Children and Computer Vision Syndrome"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/computer-glasses",
+      "file": "eye-care-services/your-eye-health/computer-eyestrain/computer-glasses.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 758,
+      "rebuiltWords": 854,
+      "sourceH1": [
+        "Computer Glasses"
+      ],
+      "rebuiltH1": [
+        "Computer Glasses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/computer-eyestrain/worker-productivity-and-computer-vision-syndrome",
+      "file": "eye-care-services/your-eye-health/computer-eyestrain/worker-productivity-and-computer-vision-syndrome.html",
+      "pageType": "portfolio",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 413,
+      "rebuiltWords": 509,
+      "sourceH1": [
+        "Worker Productivity and Computer Vision Syndrome"
+      ],
+      "rebuiltH1": [
+        "Worker Productivity and Computer Vision Syndrome"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/contact-lens-basics",
+      "file": "eye-care-services/your-eye-health/contact-lens-basics.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1092,
+      "rebuiltWords": 1189,
+      "sourceH1": [
+        "Contact Lens Basics"
+      ],
+      "rebuiltH1": [
+        "Contact Lens Basics"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 86,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 337,
+      "rebuiltWords": 434,
+      "sourceH1": [
+        "Eye Conditions"
+      ],
+      "rebuiltH1": [
+        "Eye Conditions"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 106,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/amblyopia-lazy-eye",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/amblyopia-lazy-eye.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 677,
+      "rebuiltWords": 773,
+      "sourceH1": [
+        "Amblyopia (Lazy Eye)"
+      ],
+      "rebuiltH1": [
+        "Amblyopia (Lazy Eye)"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/blepharitis",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/blepharitis.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 431,
+      "rebuiltWords": 527,
+      "sourceH1": [
+        "Blepharitis"
+      ],
+      "rebuiltH1": [
+        "Blepharitis"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/cmv-retinitis",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/cmv-retinitis.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 406,
+      "rebuiltWords": 502,
+      "sourceH1": [
+        "CMV Retinitis"
+      ],
+      "rebuiltH1": [
+        "CMV Retinitis"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/corneal-transplant",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/corneal-transplant.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 861,
+      "rebuiltWords": 957,
+      "sourceH1": [
+        "Corneal Transplant"
+      ],
+      "rebuiltH1": [
+        "Corneal Transplant"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/dry-eye-syndrome",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/dry-eye-syndrome.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 960,
+      "rebuiltWords": 1056,
+      "sourceH1": [
+        "Dry Eye Syndrome"
+      ],
+      "rebuiltH1": [
+        "Dry Eye Syndrome"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/eye-allergies",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/eye-allergies.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 588,
+      "rebuiltWords": 684,
+      "sourceH1": [
+        "Eye Allergies"
+      ],
+      "rebuiltH1": [
+        "Eye Allergies"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/eye-floaters-and-spots",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/eye-floaters-and-spots.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 651,
+      "rebuiltWords": 747,
+      "sourceH1": [
+        "Eye Floaters and Spots"
+      ],
+      "rebuiltH1": [
+        "Eye Floaters and Spots"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/farsighted-hyperopia",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/farsighted-hyperopia.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 406,
+      "rebuiltWords": 502,
+      "sourceH1": [
+        "Farsighted (Hyperopia)"
+      ],
+      "rebuiltH1": [
+        "Farsighted (Hyperopia)"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/keratoconus",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/keratoconus.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 697,
+      "rebuiltWords": 793,
+      "sourceH1": [
+        "Keratoconus"
+      ],
+      "rebuiltH1": [
+        "Keratoconus"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/nearsighted-myopia",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/nearsighted-myopia.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 418,
+      "rebuiltWords": 514,
+      "sourceH1": [
+        "Nearsighted (Myopia)"
+      ],
+      "rebuiltH1": [
+        "Nearsighted (Myopia)"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/ocular-hypertension",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/ocular-hypertension.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 395,
+      "rebuiltWords": 491,
+      "sourceH1": [
+        "Ocular Hypertension"
+      ],
+      "rebuiltH1": [
+        "Ocular Hypertension"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/photophobia",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/photophobia.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 300,
+      "rebuiltWords": 396,
+      "sourceH1": [
+        "Photophobia"
+      ],
+      "rebuiltH1": [
+        "Photophobia"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/pingueculae-pterygia",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/pingueculae-pterygia.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 641,
+      "rebuiltWords": 737,
+      "sourceH1": [
+        "Pingueculae & Pterygia"
+      ],
+      "rebuiltH1": [
+        "Pingueculae & Pterygia"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/pink-eye-conjunctivitis",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/pink-eye-conjunctivitis.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 646,
+      "rebuiltWords": 742,
+      "sourceH1": [
+        "Pink Eye (Conjunctivitis)"
+      ],
+      "rebuiltH1": [
+        "Pink Eye (Conjunctivitis)"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/presbyopia",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/presbyopia.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 731,
+      "rebuiltWords": 827,
+      "sourceH1": [
+        "Presbyopia"
+      ],
+      "rebuiltH1": [
+        "Presbyopia"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/ptosis",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/ptosis.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 530,
+      "rebuiltWords": 626,
+      "sourceH1": [
+        "Ptosis"
+      ],
+      "rebuiltH1": [
+        "Ptosis"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/retinal-detachment",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/retinal-detachment.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 604,
+      "rebuiltWords": 700,
+      "sourceH1": [
+        "Retinal Detachment"
+      ],
+      "rebuiltH1": [
+        "Retinal Detachment"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/retinitis-pigmentosa",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/retinitis-pigmentosa.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 504,
+      "rebuiltWords": 600,
+      "sourceH1": [
+        "Retinitis Pigmentosa"
+      ],
+      "rebuiltH1": [
+        "Retinitis Pigmentosa"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/styes",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/styes.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 433,
+      "rebuiltWords": 529,
+      "sourceH1": [
+        "Styes"
+      ],
+      "rebuiltH1": [
+        "Styes"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-conditions-info/uveitis",
+      "file": "eye-care-services/your-eye-health/eye-conditions-info/uveitis.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 498,
+      "rebuiltWords": 594,
+      "sourceH1": [
+        "Uveitis"
+      ],
+      "rebuiltH1": [
+        "Uveitis"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases",
+      "file": "eye-care-services/your-eye-health/eye-diseases.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 136,
+      "rebuiltWords": 233,
+      "sourceH1": [
+        "Eye Diseases"
+      ],
+      "rebuiltH1": [
+        "Eye Diseases"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts",
+      "file": "eye-care-services/your-eye-health/eye-diseases/cataracts.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 557,
+      "rebuiltWords": 653,
+      "sourceH1": [
+        "Cataracts"
+      ],
+      "rebuiltH1": [
+        "Cataracts"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 93,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/cataract-surgery-treatment",
+      "file": "eye-care-services/your-eye-health/eye-diseases/cataracts/cataract-surgery-treatment.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 473,
+      "rebuiltWords": 568,
+      "sourceH1": [
+        "Cataract Surgery & Treatment"
+      ],
+      "rebuiltH1": [
+        "Cataract Surgery & Treatment"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/cataracts-video",
+      "file": "eye-care-services/your-eye-health/eye-diseases/cataracts/cataracts-video.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 41,
+      "rebuiltWords": 136,
+      "sourceH1": [
+        "Cataracts Video"
+      ],
+      "rebuiltH1": [
+        "Cataracts Video"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/causes-of-cataracts",
+      "file": "eye-care-services/your-eye-health/eye-diseases/cataracts/causes-of-cataracts.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 219,
+      "rebuiltWords": 314,
+      "sourceH1": [
+        "Causes of Cataracts"
+      ],
+      "rebuiltH1": [
+        "Causes of Cataracts"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/common-questions-about-presbyopia-correcting-iols",
+      "file": "eye-care-services/your-eye-health/eye-diseases/cataracts/common-questions-about-presbyopia-correcting-iols.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 382,
+      "rebuiltWords": 477,
+      "sourceH1": [
+        "Intraocular Lenses (IOLs)"
+      ],
+      "rebuiltH1": [
+        "Intraocular Lenses (IOLs)"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/more-about-cataracts",
+      "file": "eye-care-services/your-eye-health/eye-diseases/cataracts/more-about-cataracts.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 175,
+      "rebuiltWords": 270,
+      "sourceH1": [
+        "More About Cataracts"
+      ],
+      "rebuiltH1": [
+        "More About Cataracts"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/cataracts/signs-symptoms",
+      "file": "eye-care-services/your-eye-health/eye-diseases/cataracts/signs-symptoms.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 188,
+      "rebuiltWords": 283,
+      "sourceH1": [
+        "Signs & Symptoms"
+      ],
+      "rebuiltH1": [
+        "Signs & Symptoms"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight",
+      "file": "eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 433,
+      "rebuiltWords": 529,
+      "sourceH1": [
+        "Diabetes and Eyesight"
+      ],
+      "rebuiltH1": [
+        "Diabetes and Eyesight"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 91,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/causes-of-diabetic-retinopathy",
+      "file": "eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/causes-of-diabetic-retinopathy.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 255,
+      "rebuiltWords": 350,
+      "sourceH1": [
+        "Causes of Diabetic Retinopathy"
+      ],
+      "rebuiltH1": [
+        "Causes of Diabetic Retinopathy"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/overview-of-diabetic-retinopathy",
+      "file": "eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/overview-of-diabetic-retinopathy.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 200,
+      "rebuiltWords": 295,
+      "sourceH1": [
+        "Overview of Diabetic Retinopathy"
+      ],
+      "rebuiltH1": [
+        "Overview of Diabetic Retinopathy"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/signs-and-symptoms-of-diabetic-retinopathy",
+      "file": "eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/signs-and-symptoms-of-diabetic-retinopathy.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 386,
+      "rebuiltWords": 481,
+      "sourceH1": [
+        "Signs and Symptoms of Diabetic Retinopathy"
+      ],
+      "rebuiltH1": [
+        "Signs and Symptoms of Diabetic Retinopathy"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/treatment-for-diabetic-retinopathy",
+      "file": "eye-care-services/your-eye-health/eye-diseases/diabetes-and-eyesight/treatment-for-diabetic-retinopathy.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 203,
+      "rebuiltWords": 298,
+      "sourceH1": [
+        "Treatment for Diabetic Retinopathy"
+      ],
+      "rebuiltH1": [
+        "Treatment for Diabetic Retinopathy"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration",
+      "file": "eye-care-services/your-eye-health/eye-diseases/macular-degeneration.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 444,
+      "rebuiltWords": 540,
+      "sourceH1": [
+        "Macular Degeneration Information"
+      ],
+      "rebuiltH1": [
+        "Macular Degeneration Information"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 92,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/forms-of-macular-degeneration",
+      "file": "eye-care-services/your-eye-health/eye-diseases/macular-degeneration/forms-of-macular-degeneration.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 319,
+      "rebuiltWords": 414,
+      "sourceH1": [
+        "Forms of Macular Degeneration"
+      ],
+      "rebuiltH1": [
+        "Forms of Macular Degeneration"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/overview",
+      "file": "eye-care-services/your-eye-health/eye-diseases/macular-degeneration/overview.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 641,
+      "rebuiltWords": 736,
+      "sourceH1": [
+        "Overview"
+      ],
+      "rebuiltH1": [
+        "Overview"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/symptoms-risk-factors-of-macular-degeneration",
+      "file": "eye-care-services/your-eye-health/eye-diseases/macular-degeneration/symptoms-risk-factors-of-macular-degeneration.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 519,
+      "rebuiltWords": 614,
+      "sourceH1": [
+        "Symptoms & Risk Factors of Macular Degeneration"
+      ],
+      "rebuiltH1": [
+        "Symptoms & Risk Factors of Macular Degeneration"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-diseases/macular-degeneration/treatment-of-macular-degeneration",
+      "file": "eye-care-services/your-eye-health/eye-diseases/macular-degeneration/treatment-of-macular-degeneration.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 259,
+      "rebuiltWords": 354,
+      "sourceH1": [
+        "Treatment of Macular Degeneration"
+      ],
+      "rebuiltH1": [
+        "Treatment of Macular Degeneration"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams",
+      "file": "eye-care-services/your-eye-health/eye-exams.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 213,
+      "rebuiltWords": 309,
+      "sourceH1": [
+        "Eye Exams"
+      ],
+      "rebuiltH1": [
+        "Eye Exams"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 95,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 408,
+      "rebuiltWords": 504,
+      "sourceH1": [
+        "Common Tests"
+      ],
+      "rebuiltH1": [
+        "Common Tests"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 101,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/autorefractor",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/autorefractor.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 239,
+      "rebuiltWords": 334,
+      "sourceH1": [
+        "Autorefractor"
+      ],
+      "rebuiltH1": [
+        "Autorefractor"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/eye-dilation",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/eye-dilation.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 381,
+      "rebuiltWords": 476,
+      "sourceH1": [
+        "Eye Dilation"
+      ],
+      "rebuiltH1": [
+        "Eye Dilation"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/glaucoma-test",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/glaucoma-test.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 325,
+      "rebuiltWords": 420,
+      "sourceH1": [
+        "Glaucoma Test"
+      ],
+      "rebuiltH1": [
+        "Glaucoma Test"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/ophthalmoscope",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/ophthalmoscope.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 291,
+      "rebuiltWords": 386,
+      "sourceH1": [
+        "Ophthalmoscope"
+      ],
+      "rebuiltH1": [
+        "Ophthalmoscope"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/optomap",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/optomap.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 265,
+      "rebuiltWords": 360,
+      "sourceH1": [
+        "Optomap"
+      ],
+      "rebuiltH1": [
+        "Optomap"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/peripheral-vision-test",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/peripheral-vision-test.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 346,
+      "rebuiltWords": 441,
+      "sourceH1": [
+        "Peripheral Vision Test"
+      ],
+      "rebuiltH1": [
+        "Peripheral Vision Test"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/phoropter",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/phoropter.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 271,
+      "rebuiltWords": 366,
+      "sourceH1": [
+        "Phoropter"
+      ],
+      "rebuiltH1": [
+        "Phoropter"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/puffer-test",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/puffer-test.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 252,
+      "rebuiltWords": 347,
+      "sourceH1": [
+        "Puffer Test"
+      ],
+      "rebuiltH1": [
+        "Puffer Test"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/retinoscope",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/retinoscope.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 312,
+      "rebuiltWords": 407,
+      "sourceH1": [
+        "Retinoscope"
+      ],
+      "rebuiltH1": [
+        "Retinoscope"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/slit-lamp-exam",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/slit-lamp-exam.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 325,
+      "rebuiltWords": 420,
+      "sourceH1": [
+        "Slit Lamp Exam"
+      ],
+      "rebuiltH1": [
+        "Slit Lamp Exam"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/snellen-chart",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/snellen-chart.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 375,
+      "rebuiltWords": 470,
+      "sourceH1": [
+        "Snellen Chart"
+      ],
+      "rebuiltH1": [
+        "Snellen Chart"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/vision-screening",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/vision-screening.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 626,
+      "rebuiltWords": 721,
+      "sourceH1": [
+        "Vision Screening"
+      ],
+      "rebuiltH1": [
+        "Vision Screening"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/common-tests/vision-testing",
+      "file": "eye-care-services/your-eye-health/eye-exams/common-tests/vision-testing.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 656,
+      "rebuiltWords": 751,
+      "sourceH1": [
+        "Vision Testing"
+      ],
+      "rebuiltH1": [
+        "Vision Testing"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/eye-exams-for-contact-lenses",
+      "file": "eye-care-services/your-eye-health/eye-exams/eye-exams-for-contact-lenses.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1010,
+      "rebuiltWords": 1106,
+      "sourceH1": [
+        "Eye Exams for Contact Lenses"
+      ],
+      "rebuiltH1": [
+        "Eye Exams for Contact Lenses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/medications",
+      "file": "eye-care-services/your-eye-health/eye-exams/medications.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 413,
+      "rebuiltWords": 509,
+      "sourceH1": [
+        "Medications"
+      ],
+      "rebuiltH1": [
+        "Medications"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/preparing-for-an-eye-exam",
+      "file": "eye-care-services/your-eye-health/eye-exams/preparing-for-an-eye-exam.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 710,
+      "rebuiltWords": 806,
+      "sourceH1": [
+        "Preparing for an Eye Exam"
+      ],
+      "rebuiltH1": [
+        "Preparing for an Eye Exam"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/visiting-your-eye-care-professional",
+      "file": "eye-care-services/your-eye-health/eye-exams/visiting-your-eye-care-professional.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 797,
+      "rebuiltWords": 893,
+      "sourceH1": [
+        "Visiting Your Eye Care Professional"
+      ],
+      "rebuiltH1": [
+        "Visiting Your Eye Care Professional"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/what-to-ask",
+      "file": "eye-care-services/your-eye-health/eye-exams/what-to-ask.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 350,
+      "rebuiltWords": 446,
+      "sourceH1": [
+        "What to Ask"
+      ],
+      "rebuiltH1": [
+        "What to Ask"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/what-to-expect",
+      "file": "eye-care-services/your-eye-health/eye-exams/what-to-expect.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 674,
+      "rebuiltWords": 770,
+      "sourceH1": [
+        "What to Expect"
+      ],
+      "rebuiltH1": [
+        "What to Expect"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/why-are-eye-exams-important",
+      "file": "eye-care-services/your-eye-health/eye-exams/why-are-eye-exams-important.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 673,
+      "rebuiltWords": 769,
+      "sourceH1": [
+        "Why are Eye Exams Important?"
+      ],
+      "rebuiltH1": [
+        "Why are Eye Exams Important?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/eye-exams/your-comprehensive-eye-exam",
+      "file": "eye-care-services/your-eye-health/eye-exams/your-comprehensive-eye-exam.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1195,
+      "rebuiltWords": 1291,
+      "sourceH1": [
+        "Your Comprehensive Eye Exam"
+      ],
+      "rebuiltH1": [
+        "Your Comprehensive Eye Exam"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/glossary-of-eye-care-terms",
+      "file": "eye-care-services/your-eye-health/glossary-of-eye-care-terms.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1567,
+      "rebuiltWords": 1664,
+      "sourceH1": [
+        "Glossary of Eye Care Terms"
+      ],
+      "rebuiltH1": [
+        "Glossary of Eye Care Terms"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/healthy-sight",
+      "file": "eye-care-services/your-eye-health/healthy-sight.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 445,
+      "rebuiltWords": 542,
+      "sourceH1": [
+        "Healthy Sight"
+      ],
+      "rebuiltH1": [
+        "Healthy Sight"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/how-the-eye-works",
+      "file": "eye-care-services/your-eye-health/how-the-eye-works.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 548,
+      "rebuiltWords": 645,
+      "sourceH1": [
+        "How the Eye Works"
+      ],
+      "rebuiltH1": [
+        "How the Eye Works"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/protecting-your-eyes",
+      "file": "eye-care-services/your-eye-health/protecting-your-eyes.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 139,
+      "rebuiltWords": 236,
+      "sourceH1": [
+        "Protecting Your Eyes"
+      ],
+      "rebuiltH1": [
+        "Protecting Your Eyes"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-glare",
+      "file": "eye-care-services/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-glare.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 204,
+      "rebuiltWords": 300,
+      "sourceH1": [
+        "Protecting Your Eyes From Glare"
+      ],
+      "rebuiltH1": [
+        "Protecting Your Eyes From Glare"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-uv-rays",
+      "file": "eye-care-services/your-eye-health/protecting-your-eyes/protecting-your-eyes-from-uv-rays.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 169,
+      "rebuiltWords": 265,
+      "sourceH1": [
+        "Protecting Your Eyes From UV Rays"
+      ],
+      "rebuiltH1": [
+        "Protecting Your Eyes From UV Rays"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40",
+      "file": "eye-care-services/your-eye-health/vision-over-40.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 70,
+      "rebuiltWords": 166,
+      "sourceH1": [
+        "Vision Over 40"
+      ],
+      "rebuiltH1": [
+        "Vision Over 40"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 91,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/dry-eye-after-menopause",
+      "file": "eye-care-services/your-eye-health/vision-over-40/dry-eye-after-menopause.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 491,
+      "rebuiltWords": 587,
+      "sourceH1": [
+        "Dry Eye After Menopause"
+      ],
+      "rebuiltH1": [
+        "Dry Eye After Menopause"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/how-progressive-lenses-work",
+      "file": "eye-care-services/your-eye-health/vision-over-40/how-progressive-lenses-work.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 634,
+      "rebuiltWords": 730,
+      "sourceH1": [
+        "How Progressive Lenses Work"
+      ],
+      "rebuiltH1": [
+        "How Progressive Lenses Work"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/multifocal-eyeglass-lenses",
+      "file": "eye-care-services/your-eye-health/vision-over-40/multifocal-eyeglass-lenses.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 353,
+      "rebuiltWords": 449,
+      "sourceH1": [
+        "Multifocal Eyeglass Lenses"
+      ],
+      "rebuiltH1": [
+        "Multifocal Eyeglass Lenses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/occupational-bifocal-and-trifocals",
+      "file": "eye-care-services/your-eye-health/vision-over-40/occupational-bifocal-and-trifocals.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 595,
+      "rebuiltWords": 691,
+      "sourceH1": [
+        "Occupational Bifocal and Trifocals"
+      ],
+      "rebuiltH1": [
+        "Occupational Bifocal and Trifocals"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-40/reading-glasses-after-40",
+      "file": "eye-care-services/your-eye-health/vision-over-40/reading-glasses-after-40.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 526,
+      "rebuiltWords": 622,
+      "sourceH1": [
+        "Reading Glasses After 40"
+      ],
+      "rebuiltH1": [
+        "Reading Glasses After 40"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60",
+      "file": "eye-care-services/your-eye-health/vision-over-60.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 73,
+      "rebuiltWords": 169,
+      "sourceH1": [
+        "Vision Over 60"
+      ],
+      "rebuiltH1": [
+        "Vision Over 60"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60/age-your-vision-changes-solutions",
+      "file": "eye-care-services/your-eye-health/vision-over-60/age-your-vision-changes-solutions.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1181,
+      "rebuiltWords": 1277,
+      "sourceH1": [
+        "Age & Your Vision – Changes & Solutions"
+      ],
+      "rebuiltH1": [
+        "Age & Your Vision – Changes & Solutions"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60/seven-tips-for-optimal-vision",
+      "file": "eye-care-services/your-eye-health/vision-over-60/seven-tips-for-optimal-vision.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 608,
+      "rebuiltWords": 704,
+      "sourceH1": [
+        "Seven Tips For Optimal Vision"
+      ],
+      "rebuiltH1": [
+        "Seven Tips For Optimal Vision"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-over-60/suggestions-for-age-related-vision-loss",
+      "file": "eye-care-services/your-eye-health/vision-over-60/suggestions-for-age-related-vision-loss.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 513,
+      "rebuiltWords": 609,
+      "sourceH1": [
+        "Suggestions For Age-Related Vision Loss"
+      ],
+      "rebuiltH1": [
+        "Suggestions For Age-Related Vision Loss"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery",
+      "file": "eye-care-services/your-eye-health/vision-surgery.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 230,
+      "rebuiltWords": 326,
+      "sourceH1": [
+        "Vision Surgery"
+      ],
+      "rebuiltH1": [
+        "Vision Surgery"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 94,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/corneal-inlays-and-onlays",
+      "file": "eye-care-services/your-eye-health/vision-surgery/corneal-inlays-and-onlays.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 255,
+      "rebuiltWords": 351,
+      "sourceH1": [
+        "Corneal Inlays and Onlays"
+      ],
+      "rebuiltH1": [
+        "Corneal Inlays and Onlays"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/corneal-transplant",
+      "file": "eye-care-services/your-eye-health/vision-surgery/corneal-transplant.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 699,
+      "rebuiltWords": 795,
+      "sourceH1": [
+        "Corneal Transplants"
+      ],
+      "rebuiltH1": [
+        "Corneal Transplants"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/corrective-eye-surgery-basics",
+      "file": "eye-care-services/your-eye-health/vision-surgery/corrective-eye-surgery-basics.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 946,
+      "rebuiltWords": 1042,
+      "sourceH1": [
+        "Corrective Eye Surgery Basics"
+      ],
+      "rebuiltH1": [
+        "Corrective Eye Surgery Basics"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik",
+      "file": "eye-care-services/your-eye-health/vision-surgery/lasik.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 739,
+      "rebuiltWords": 835,
+      "sourceH1": [
+        "LASIK"
+      ],
+      "rebuiltH1": [
+        "LASIK"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik-criteria-for-success",
+      "file": "eye-care-services/your-eye-health/vision-surgery/lasik-criteria-for-success.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 377,
+      "rebuiltWords": 473,
+      "sourceH1": [
+        "LASIK – How to Measure Success or Applicability"
+      ],
+      "rebuiltH1": [
+        "LASIK – How to Measure Success or Applicability"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/lasik-risks-and-complications",
+      "file": "eye-care-services/your-eye-health/vision-surgery/lasik-risks-and-complications.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 639,
+      "rebuiltWords": 735,
+      "sourceH1": [
+        "LASIK Risks and Complications"
+      ],
+      "rebuiltH1": [
+        "LASIK Risks and Complications"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/prk",
+      "file": "eye-care-services/your-eye-health/vision-surgery/prk.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1091,
+      "rebuiltWords": 1187,
+      "sourceH1": [
+        "PRK"
+      ],
+      "rebuiltH1": [
+        "PRK"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-care-services/your-eye-health/vision-surgery/surgery-for-presbyopia",
+      "file": "eye-care-services/your-eye-health/vision-surgery/surgery-for-presbyopia.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 555,
+      "rebuiltWords": 651,
+      "sourceH1": [
+        "Surgery for Presbyopia"
+      ],
+      "rebuiltH1": [
+        "Surgery for Presbyopia"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-health-for-college-students-2018",
+      "file": "eye-health-for-college-students-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 921,
+      "rebuiltWords": 1019,
+      "sourceH1": [
+        "Eye Dangers in the Dorm – Eye Health for College Students"
+      ],
+      "rebuiltH1": [
+        "Eye Dangers in the Dorm – Eye Health for College Students"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "eye-health-for-college-students-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-lid-cleansing-for-dry-eye",
+      "file": "eye-lid-cleansing-for-dry-eye.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 156,
+      "rebuiltWords": 255,
+      "sourceH1": [
+        "Eye Lid Cleansing for Dry Eye"
+      ],
+      "rebuiltH1": [
+        "Eye Lid Cleansing for Dry Eye"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eye-safe-toys-and-gifts-for-this-holiday-season",
+      "file": "eye-safe-toys-and-gifts-for-this-holiday-season.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 536,
+      "rebuiltWords": 634,
+      "sourceH1": [
+        "Eye Safe Toys and Gifts for This Holiday Season"
+      ],
+      "rebuiltH1": [
+        "Eye Safe Toys and Gifts for This Holiday Season"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "eye-safe-toys-and-gifts-for-this-holiday-season.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts",
+      "file": "eyeglasses-contacts.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 140,
+      "rebuiltWords": 239,
+      "sourceH1": [
+        "Eyeglasses & Contacts"
+      ],
+      "rebuiltH1": [
+        "Eyeglasses & Contacts"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 86,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses",
+      "file": "eyeglasses-contacts/contact-lenses.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 400,
+      "rebuiltWords": 498,
+      "sourceH1": [
+        "Contact Lenses"
+      ],
+      "rebuiltH1": [
+        "Contact Lenses"
+      ],
+      "sourceLinks": 21,
+      "rebuiltLinks": 94,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/bifocal-and-multifocal-contact-lenses",
+      "file": "eyeglasses-contacts/contact-lenses/bifocal-and-multifocal-contact-lenses.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 849,
+      "rebuiltWords": 946,
+      "sourceH1": [
+        "Bifocal and Multifocal Contact Lenses"
+      ],
+      "rebuiltH1": [
+        "Bifocal and Multifocal Contact Lenses"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/contact-lenses-for-the-hard-to-fit-patient",
+      "file": "eyeglasses-contacts/contact-lenses/contact-lenses-for-the-hard-to-fit-patient.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1112,
+      "rebuiltWords": 1209,
+      "sourceH1": [
+        "Contact Lenses for the “Hard-to-Fit” Patient"
+      ],
+      "rebuiltH1": [
+        "Contact Lenses for the “Hard-to-Fit” Patient"
+      ],
+      "sourceLinks": 16,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/disposable-contacts",
+      "file": "eyeglasses-contacts/contact-lenses/disposable-contacts.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 362,
+      "rebuiltWords": 459,
+      "sourceH1": [
+        "Disposable Contacts"
+      ],
+      "rebuiltH1": [
+        "Disposable Contacts"
+      ],
+      "sourceLinks": 16,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/eye-exams-for-contact-lenses",
+      "file": "eyeglasses-contacts/contact-lenses/eye-exams-for-contact-lenses.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1014,
+      "rebuiltWords": 1111,
+      "sourceH1": [
+        "Eye Exams for Contact Lenses"
+      ],
+      "rebuiltH1": [
+        "Eye Exams for Contact Lenses"
+      ],
+      "sourceLinks": 16,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/gas-permeable-gp-contact-lenses",
+      "file": "eyeglasses-contacts/contact-lenses/gas-permeable-gp-contact-lenses.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 621,
+      "rebuiltWords": 718,
+      "sourceH1": [
+        "Gas Permeable (GP) Contact Lenses"
+      ],
+      "rebuiltH1": [
+        "Gas Permeable (GP) Contact Lenses"
+      ],
+      "sourceLinks": 16,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/order-contact-lenses-online",
+      "file": "eyeglasses-contacts/contact-lenses/order-contact-lenses-online.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 17,
+      "rebuiltWords": 113,
+      "sourceH1": [
+        "Order Contact Lenses Online"
+      ],
+      "rebuiltH1": [
+        "Order Contact Lenses Online"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 86,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/our-featured-brands",
+      "file": "eyeglasses-contacts/contact-lenses/our-featured-brands.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 25,
+      "rebuiltWords": 121,
+      "sourceH1": [
+        "Our Featured Brands"
+      ],
+      "rebuiltH1": [
+        "Our Featured Brands"
+      ],
+      "sourceLinks": 16,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/contact-lenses/toric-contact-lenses-for-astigmatism",
+      "file": "eyeglasses-contacts/contact-lenses/toric-contact-lenses-for-astigmatism.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 408,
+      "rebuiltWords": 505,
+      "sourceH1": [
+        "Toric Contact Lenses for Astigmatism"
+      ],
+      "rebuiltH1": [
+        "Toric Contact Lenses for Astigmatism"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses",
+      "file": "eyeglasses-contacts/eyeglasses.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 344,
+      "rebuiltWords": 442,
+      "sourceH1": [
+        "Eyeglasses"
+      ],
+      "rebuiltH1": [
+        "Eyeglasses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 94,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/designer-frames",
+      "file": "eyeglasses-contacts/eyeglasses/designer-frames.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 92,
+      "rebuiltWords": 189,
+      "sourceH1": [
+        "Designer Frames"
+      ],
+      "rebuiltH1": [
+        "Designer Frames"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics",
+      "file": "eyeglasses-contacts/eyeglasses/eyeglass-basics.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 795,
+      "rebuiltWords": 892,
+      "sourceH1": [
+        "Eyeglass Basics"
+      ],
+      "rebuiltH1": [
+        "Eyeglass Basics"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 90,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics/eyeglass-frames",
+      "file": "eyeglasses-contacts/eyeglasses/eyeglass-basics/eyeglass-frames.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 528,
+      "rebuiltWords": 624,
+      "sourceH1": [
+        "Eyeglass Frames"
+      ],
+      "rebuiltH1": [
+        "Eyeglass Frames"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics/lens-options-for-eyeglasses",
+      "file": "eyeglasses-contacts/eyeglasses/eyeglass-basics/lens-options-for-eyeglasses.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 713,
+      "rebuiltWords": 809,
+      "sourceH1": [
+        "Lens Options for Eyeglasses"
+      ],
+      "rebuiltH1": [
+        "Lens Options for Eyeglasses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-basics/womens-eyeglass-frames",
+      "file": "eyeglasses-contacts/eyeglasses/eyeglass-basics/womens-eyeglass-frames.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 505,
+      "rebuiltWords": 601,
+      "sourceH1": [
+        "Women’s Eyeglass Frames"
+      ],
+      "rebuiltH1": [
+        "Women’s Eyeglass Frames"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/eyeglass-guide",
+      "file": "eyeglasses-contacts/eyeglasses/eyeglass-guide.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 103,
+      "rebuiltWords": 200,
+      "sourceH1": [
+        "EyeGlass Guide"
+      ],
+      "rebuiltH1": [
+        "EyeGlass Guide"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/kids-optical",
+      "file": "eyeglasses-contacts/eyeglasses/kids-optical.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 606,
+      "rebuiltWords": 703,
+      "sourceH1": [
+        "Kid’s Optical",
+        "Choosing Eyeglass Frames for Children"
+      ],
+      "rebuiltH1": [
+        "Kid’s Optical"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments",
+      "file": "eyeglasses-contacts/eyeglasses/lens-treatments.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 155,
+      "rebuiltWords": 252,
+      "sourceH1": [
+        "Lens Treatments"
+      ],
+      "rebuiltH1": [
+        "Lens Treatments"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 90,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/anti-reflective",
+      "file": "eyeglasses-contacts/eyeglasses/lens-treatments/anti-reflective.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 288,
+      "rebuiltWords": 384,
+      "sourceH1": [
+        "Anti-Reflective"
+      ],
+      "rebuiltH1": [
+        "Anti-Reflective"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/scratch-resistant",
+      "file": "eyeglasses-contacts/eyeglasses/lens-treatments/scratch-resistant.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 225,
+      "rebuiltWords": 321,
+      "sourceH1": [
+        "Scratch Resistant"
+      ],
+      "rebuiltH1": [
+        "Scratch Resistant"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 90,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/lens-treatments/uv-protection",
+      "file": "eyeglasses-contacts/eyeglasses/lens-treatments/uv-protection.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 284,
+      "rebuiltWords": 380,
+      "sourceH1": [
+        "UV Protection"
+      ],
+      "rebuiltH1": [
+        "UV Protection"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses",
+      "file": "eyeglasses-contacts/eyeglasses/prescription-eyeglasses.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 243,
+      "rebuiltWords": 340,
+      "sourceH1": [
+        "Prescription Eyeglasses"
+      ],
+      "rebuiltH1": [
+        "Prescription Eyeglasses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 93,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/bifocal-lenses",
+      "file": "eyeglasses-contacts/eyeglasses/prescription-eyeglasses/bifocal-lenses.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 250,
+      "rebuiltWords": 346,
+      "sourceH1": [
+        "Bifocal Lenses"
+      ],
+      "rebuiltH1": [
+        "Bifocal Lenses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/caring-for-lenses",
+      "file": "eyeglasses-contacts/eyeglasses/prescription-eyeglasses/caring-for-lenses.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 432,
+      "rebuiltWords": 528,
+      "sourceH1": [
+        "Caring for Lenses"
+      ],
+      "rebuiltH1": [
+        "Caring for Lenses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/eyeglass-frame-materials",
+      "file": "eyeglasses-contacts/eyeglasses/prescription-eyeglasses/eyeglass-frame-materials.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 649,
+      "rebuiltWords": 745,
+      "sourceH1": [
+        "Eyeglass Frame Materials"
+      ],
+      "rebuiltH1": [
+        "Eyeglass Frame Materials"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/frame-maintenance",
+      "file": "eyeglasses-contacts/eyeglasses/prescription-eyeglasses/frame-maintenance.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 525,
+      "rebuiltWords": 621,
+      "sourceH1": [
+        "Frame Maintenance"
+      ],
+      "rebuiltH1": [
+        "Frame Maintenance"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/high-index-and-aspheric-lenses",
+      "file": "eyeglasses-contacts/eyeglasses/prescription-eyeglasses/high-index-and-aspheric-lenses.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 260,
+      "rebuiltWords": 356,
+      "sourceH1": [
+        "High Index and Aspheric Lenses"
+      ],
+      "rebuiltH1": [
+        "High Index and Aspheric Lenses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/prescription-eyeglasses/polycarbonate-lenses",
+      "file": "eyeglasses-contacts/eyeglasses/prescription-eyeglasses/polycarbonate-lenses.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 251,
+      "rebuiltWords": 347,
+      "sourceH1": [
+        "Polycarbonate Lenses"
+      ],
+      "rebuiltH1": [
+        "Polycarbonate Lenses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses",
+      "file": "eyeglasses-contacts/eyeglasses/sunglasses.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 123,
+      "rebuiltWords": 220,
+      "sourceH1": [
+        "Sunglasses"
+      ],
+      "rebuiltH1": [
+        "Sunglasses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 90,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/nonprescription-sunglasses",
+      "file": "eyeglasses-contacts/eyeglasses/sunglasses/nonprescription-sunglasses.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 655,
+      "rebuiltWords": 751,
+      "sourceH1": [
+        "Nonprescription Sunglasses"
+      ],
+      "rebuiltH1": [
+        "Nonprescription Sunglasses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglass-treatments",
+      "file": "eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglass-treatments.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 197,
+      "rebuiltWords": 293,
+      "sourceH1": [
+        "Prescription Sunglass Treatments"
+      ],
+      "rebuiltH1": [
+        "Prescription Sunglass Treatments"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglasses",
+      "file": "eyeglasses-contacts/eyeglasses/sunglasses/prescription-sunglasses.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 460,
+      "rebuiltWords": 556,
+      "sourceH1": [
+        "Prescription Sunglasses"
+      ],
+      "rebuiltH1": [
+        "Prescription Sunglasses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/sunglasses/sunglasses-for-kids",
+      "file": "eyeglasses-contacts/eyeglasses/sunglasses/sunglasses-for-kids.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 518,
+      "rebuiltWords": 614,
+      "sourceH1": [
+        "Sunglasses for Kids"
+      ],
+      "rebuiltH1": [
+        "Sunglasses for Kids"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses",
+      "file": "eyeglasses-contacts/eyeglasses/transitions-lenses.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 317,
+      "rebuiltWords": 414,
+      "sourceH1": [
+        "Transitions® Lenses"
+      ],
+      "rebuiltH1": [
+        "Transitions® Lenses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 91,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/are-transitions-right-for-you",
+      "file": "eyeglasses-contacts/eyeglasses/transitions-lenses/are-transitions-right-for-you.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 289,
+      "rebuiltWords": 385,
+      "sourceH1": [
+        "Are Transitions® Lenses Right For You?"
+      ],
+      "rebuiltH1": [
+        "Are Transitions® Lenses Right For You?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/original-transitions-lenses",
+      "file": "eyeglasses-contacts/eyeglasses/transitions-lenses/original-transitions-lenses.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 132,
+      "rebuiltWords": 228,
+      "sourceH1": [
+        "Original Transitions Lenses"
+      ],
+      "rebuiltH1": [
+        "Original Transitions Lenses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transition-solfx-sunwear-products",
+      "file": "eyeglasses-contacts/eyeglasses/transitions-lenses/transition-solfx-sunwear-products.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 186,
+      "rebuiltWords": 282,
+      "sourceH1": [
+        "Transitions® SOLFX Sunwear Products"
+      ],
+      "rebuiltH1": [
+        "Transitions® SOLFX Sunwear Products"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyeglasses-contacts/eyeglasses/transitions-lenses/transitions-xtractive",
+      "file": "eyeglasses-contacts/eyeglasses/transitions-lenses/transitions-xtractive.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 142,
+      "rebuiltWords": 238,
+      "sourceH1": [
+        "Transitions® Lenses XTRActive"
+      ],
+      "rebuiltH1": [
+        "Transitions® Lenses XTRActive"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/eyelid-twitches-2018",
+      "file": "eyelid-twitches-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 672,
+      "rebuiltWords": 770,
+      "sourceH1": [
+        "Should I Be Concerned When My Eyelid Twitches?"
+      ],
+      "rebuiltH1": [
+        "Should I Be Concerned When My Eyelid Twitches?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "eyelid-twitches-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/fall-eye-allergies-2016",
+      "file": "fall-eye-allergies-2016.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 651,
+      "rebuiltWords": 749,
+      "sourceH1": [
+        "Don’t Let Fall Eye Allergies Get You Down"
+      ],
+      "rebuiltH1": [
+        "Don’t Let Fall Eye Allergies Get You Down"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/got-a-shiner-2017",
+      "file": "got-a-shiner-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 626,
+      "rebuiltWords": 724,
+      "sourceH1": [
+        "Got a Shiner!"
+      ],
+      "rebuiltH1": [
+        "Got a Shiner!"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "got-a-shiner-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/guidelines-for-picking-the-right-pair-of-shades",
+      "file": "guidelines-for-picking-the-right-pair-of-shades.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 672,
+      "rebuiltWords": 770,
+      "sourceH1": [
+        "Guidelines For Picking the Right Pair of Shades"
+      ],
+      "rebuiltH1": [
+        "Guidelines For Picking the Right Pair of Shades"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/halloween-eye-safety-2017",
+      "file": "halloween-eye-safety-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 829,
+      "rebuiltWords": 927,
+      "sourceH1": [
+        "Halloween Eye Safety"
+      ],
+      "rebuiltH1": [
+        "Halloween Eye Safety"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "halloween-eye-safety-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/have-an-eye-safe-halloween-2018",
+      "file": "have-an-eye-safe-halloween-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 665,
+      "rebuiltWords": 763,
+      "sourceH1": [
+        "Have an Eye Safe Halloween"
+      ],
+      "rebuiltH1": [
+        "Have an Eye Safe Halloween"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "have-an-eye-safe-halloween-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/healthy-aging-for-the-eyes-2018",
+      "file": "healthy-aging-for-the-eyes-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 813,
+      "rebuiltWords": 911,
+      "sourceH1": [
+        "Healthy Aging for the Eyes"
+      ],
+      "rebuiltH1": [
+        "Healthy Aging for the Eyes"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "healthy-aging-for-the-eyes-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/holiday-season-shopping-2016",
+      "file": "holiday-season-shopping-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 462,
+      "rebuiltWords": 560,
+      "sourceH1": [
+        "Holiday Season Shopping: Are Nerf Guns Safe for the Eyes?"
+      ],
+      "rebuiltH1": [
+        "Holiday Season Shopping: Are Nerf Guns Safe for the Eyes?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/hours-location",
+      "file": "hours-location.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 141,
+      "rebuiltWords": 240,
+      "sourceH1": [
+        "Hours & Location"
+      ],
+      "rebuiltH1": [
+        "Hours & Location"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/how-contact-lenses-can-be-a-danger-to-your-eyes-2016",
+      "file": "how-contact-lenses-can-be-a-danger-to-your-eyes-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 745,
+      "rebuiltWords": 843,
+      "sourceH1": [
+        "How Contact Lenses Can be a Danger to your Eyes"
+      ],
+      "rebuiltH1": [
+        "How Contact Lenses Can be a Danger to your Eyes"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/how-do-we-see",
+      "file": "how-do-we-see.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 499,
+      "rebuiltWords": 597,
+      "sourceH1": [
+        "How Do We See?"
+      ],
+      "rebuiltH1": [
+        "How Do We See?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/how-pregnancy-affects-vision",
+      "file": "how-pregnancy-affects-vision.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 513,
+      "rebuiltWords": 611,
+      "sourceH1": [
+        "How Pregnancy Affects Vision"
+      ],
+      "rebuiltH1": [
+        "How Pregnancy Affects Vision"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "how-pregnancy-affects-vision.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/how-to-guide-for-buying-sunglasses-2018",
+      "file": "how-to-guide-for-buying-sunglasses-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 888,
+      "rebuiltWords": 986,
+      "sourceH1": [
+        "How-to Guide for Buying Sunglasses"
+      ],
+      "rebuiltH1": [
+        "How-to Guide for Buying Sunglasses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "how-to-guide-for-buying-sunglasses-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/how-to-prevent-diabetic-vision-loss",
+      "file": "how-to-prevent-diabetic-vision-loss.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 799,
+      "rebuiltWords": 897,
+      "sourceH1": [
+        "How to Prevent Diabetic Vision Loss"
+      ],
+      "rebuiltH1": [
+        "How to Prevent Diabetic Vision Loss"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/how-uv-damages-your-eyes-2016",
+      "file": "how-uv-damages-your-eyes-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 602,
+      "rebuiltWords": 700,
+      "sourceH1": [
+        "How UV Damages Your Eyes"
+      ],
+      "rebuiltH1": [
+        "How UV Damages Your Eyes"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/infant-eyesight-2018",
+      "file": "infant-eyesight-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 623,
+      "rebuiltWords": 721,
+      "sourceH1": [
+        "Signs of Eye and Vision Problems in Infants"
+      ],
+      "rebuiltH1": [
+        "Signs of Eye and Vision Problems in Infants"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "infant-eyesight-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/innovations-in-color-blindness-2016",
+      "file": "innovations-in-color-blindness-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 706,
+      "rebuiltWords": 804,
+      "sourceH1": [
+        "Innovations in Color Blindness"
+      ],
+      "rebuiltH1": [
+        "Innovations in Color Blindness"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 88,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/inside-a-life-with-color-vision-deficiency-2017",
+      "file": "inside-a-life-with-color-vision-deficiency-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 685,
+      "rebuiltWords": 783,
+      "sourceH1": [
+        "Inside a Life With Color Vision Deficiency"
+      ],
+      "rebuiltH1": [
+        "Inside a Life With Color Vision Deficiency"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "inside-a-life-with-color-vision-deficiency-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/insurance",
+      "file": "insurance.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 296,
+      "rebuiltWords": 395,
+      "sourceH1": [
+        "Insurance"
+      ],
+      "rebuiltH1": [
+        "Insurance"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/insurance/faqs-of-vision-insurance-plans",
+      "file": "insurance/faqs-of-vision-insurance-plans.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 430,
+      "rebuiltWords": 528,
+      "sourceH1": [
+        "FAQs of Vision Insurance Plans"
+      ],
+      "rebuiltH1": [
+        "FAQs of Vision Insurance Plans"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 86,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/insurance/whats-in-your-vision-insurance-plan",
+      "file": "insurance/whats-in-your-vision-insurance-plan.html",
+      "pageType": "article",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 719,
+      "rebuiltWords": 817,
+      "sourceH1": [
+        "What’s in Your Vision Insurance Plan"
+      ],
+      "rebuiltH1": [
+        "What’s in Your Vision Insurance Plan"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/is-screen-time-dangerous-for-kids-2018",
+      "file": "is-screen-time-dangerous-for-kids-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 645,
+      "rebuiltWords": 743,
+      "sourceH1": [
+        "Is Too Much Screen Time Dangerous For Your Kids?"
+      ],
+      "rebuiltH1": [
+        "Is Too Much Screen Time Dangerous For Your Kids?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "is-screen-time-dangerous-for-kids-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/is-your-babys-eyesight-developing-normally",
+      "file": "is-your-babys-eyesight-developing-normally.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 562,
+      "rebuiltWords": 660,
+      "sourceH1": [
+        "Is Your Baby’s EyeSight Developing Normally?"
+      ],
+      "rebuiltH1": [
+        "Is Your Baby’s EyeSight Developing Normally?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "is-your-babys-eyesight-developing-normally.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/its-time-to-be-serious-about-home-eye-safety",
+      "file": "its-time-to-be-serious-about-home-eye-safety.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 0.9974,
+      "missingWords": 1,
+      "longestMissingRun": 1,
+      "sourceWords": 389,
+      "rebuiltWords": 487,
+      "sourceH1": [
+        "It's Time to Be Serious About Home Eye Safety"
+      ],
+      "rebuiltH1": [
+        "It's Time to Be Serious About Home Eye Safety"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "its-time-to-be-serious-about-home-eye-safety.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/location/eyesource-pllc",
+      "file": "location/eyesource-pllc.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 78,
+      "rebuiltWords": 176,
+      "sourceH1": [
+        "Eye Source – Carey Brooks, OD"
+      ],
+      "rebuiltH1": [
+        "Eye Source – Carey Brooks, OD"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 86,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/november-is-diabetes-awareness-month-2016",
+      "file": "november-is-diabetes-awareness-month-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 525,
+      "rebuiltWords": 623,
+      "sourceH1": [
+        "November is Diabetes Awareness Month"
+      ],
+      "rebuiltH1": [
+        "November is Diabetes Awareness Month"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/ocular-migraines-2018",
+      "file": "ocular-migraines-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 632,
+      "rebuiltWords": 730,
+      "sourceH1": [
+        "Ocular Migraines"
+      ],
+      "rebuiltH1": [
+        "Ocular Migraines"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "ocular-migraines-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/our-eye-care-clinic",
+      "file": "our-eye-care-clinic.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 155,
+      "rebuiltWords": 254,
+      "sourceH1": [
+        "Our Eye Care Clinic"
+      ],
+      "rebuiltH1": [
+        "Our Eye Care Clinic"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 86,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/our-eye-care-clinic/associations-awards",
+      "file": "our-eye-care-clinic/associations-awards.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 42,
+      "rebuiltWords": 139,
+      "sourceH1": [
+        "Associations & Awards"
+      ],
+      "rebuiltH1": [
+        "Associations & Awards"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/our-eye-doctor",
+      "file": "our-eye-doctor.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 398,
+      "rebuiltWords": 497,
+      "sourceH1": [
+        "Our Eye Doctor"
+      ],
+      "rebuiltH1": [
+        "Our Eye Doctor"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/pink-stinging-eyes",
+      "file": "pink-stinging-eyes.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 451,
+      "rebuiltWords": 549,
+      "sourceH1": [
+        "Pink, Stinging Eyes?"
+      ],
+      "rebuiltH1": [
+        "Pink, Stinging Eyes?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/pink-stinging-eyes-2",
+      "file": "pink-stinging-eyes-2.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 451,
+      "rebuiltWords": 549,
+      "sourceH1": [
+        "Pink, Stinging Eyes?"
+      ],
+      "rebuiltH1": [
+        "Pink, Stinging Eyes?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/poolside-eye-safety-2016",
+      "file": "poolside-eye-safety-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 556,
+      "rebuiltWords": 654,
+      "sourceH1": [
+        "Poolside Eye Safety"
+      ],
+      "rebuiltH1": [
+        "Poolside Eye Safety"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/prevent-age-related-macular-degeneration-2016",
+      "file": "prevent-age-related-macular-degeneration-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 612,
+      "rebuiltWords": 710,
+      "sourceH1": [
+        "Preventing Age-related Macular Degeneration"
+      ],
+      "rebuiltH1": [
+        "Preventing Age-related Macular Degeneration"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/progressive-myopia-2018",
+      "file": "progressive-myopia-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 686,
+      "rebuiltWords": 784,
+      "sourceH1": [
+        "Progressive Myopia: When Your Child’s Vision Keeps Getting Worse"
+      ],
+      "rebuiltH1": [
+        "Progressive Myopia: When Your Child’s Vision Keeps Getting Worse"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "progressive-myopia-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/protective-sports-eyewear-is-a-serious-matter",
+      "file": "protective-sports-eyewear-is-a-serious-matter.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 496,
+      "rebuiltWords": 594,
+      "sourceH1": [
+        "Protective Sports Eyewear is a Serious Matter"
+      ],
+      "rebuiltH1": [
+        "Protective Sports Eyewear is a Serious Matter"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/refocus-on-the-digital-age-with-computer-glasses",
+      "file": "refocus-on-the-digital-age-with-computer-glasses.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 390,
+      "rebuiltWords": 488,
+      "sourceH1": [
+        "Refocus on the Digital Age with Computer Glasses"
+      ],
+      "rebuiltH1": [
+        "Refocus on the Digital Age with Computer Glasses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/resolve-to-prevent-glaucoma-2016",
+      "file": "resolve-to-prevent-glaucoma-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 568,
+      "rebuiltWords": 666,
+      "sourceH1": [
+        "Resolve to Prevent Glaucoma in 2016"
+      ],
+      "rebuiltH1": [
+        "Resolve to Prevent Glaucoma in 2016"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/rubbing-your-eyes-2018",
+      "file": "rubbing-your-eyes-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 826,
+      "rebuiltWords": 924,
+      "sourceH1": [
+        "Why You Shouldn’t Rub Your Eyes"
+      ],
+      "rebuiltH1": [
+        "Why You Shouldn’t Rub Your Eyes"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "rubbing-your-eyes-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/signs-that-your-child-has-a-vision-problem-2018",
+      "file": "signs-that-your-child-has-a-vision-problem-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 616,
+      "rebuiltWords": 714,
+      "sourceH1": [
+        "Signs That Your Child Has a Vision Problem"
+      ],
+      "rebuiltH1": [
+        "Signs That Your Child Has a Vision Problem"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "signs-that-your-child-has-a-vision-problem-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/sjogren-awareness-2017",
+      "file": "sjogren-awareness-2017.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 505,
+      "rebuiltWords": 603,
+      "sourceH1": [
+        "Sjogren’s Awareness Month – Understanding The Invisible Disease"
+      ],
+      "rebuiltH1": [
+        "Sjogren’s Awareness Month – Understanding The Invisible Disease"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "sjogren-awareness-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/slideshow/childpage-slideshow",
+      "file": "slideshow/childpage-slideshow.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 7,
+      "rebuiltWords": 104,
+      "sourceH1": [
+        "childpage slideshow"
+      ],
+      "rebuiltH1": [
+        "childpage slideshow"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/slideshow/clinic",
+      "file": "slideshow/clinic.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 5,
+      "rebuiltWords": 102,
+      "sourceH1": [
+        "clinic"
+      ],
+      "rebuiltH1": [
+        "clinic"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/slideshow/doctor",
+      "file": "slideshow/doctor.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 5,
+      "rebuiltWords": 102,
+      "sourceH1": [
+        "doctor"
+      ],
+      "rebuiltH1": [
+        "doctor"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/slideshow/eyeglasses",
+      "file": "slideshow/eyeglasses.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 5,
+      "rebuiltWords": 102,
+      "sourceH1": [
+        "eyeglasses"
+      ],
+      "rebuiltH1": [
+        "eyeglasses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/slideshow/hours-and-location",
+      "file": "slideshow/hours-and-location.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 9,
+      "rebuiltWords": 106,
+      "sourceH1": [
+        "hours and location"
+      ],
+      "rebuiltH1": [
+        "hours and location"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/slideshow/insurance",
+      "file": "slideshow/insurance.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 5,
+      "rebuiltWords": 102,
+      "sourceH1": [
+        "insurance"
+      ],
+      "rebuiltH1": [
+        "insurance"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/slideshow/services",
+      "file": "slideshow/services.html",
+      "pageType": "service",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 5,
+      "rebuiltWords": 102,
+      "sourceH1": [
+        "Services"
+      ],
+      "rebuiltH1": [
+        "Services"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/smoking-and-vision-2017",
+      "file": "smoking-and-vision-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 490,
+      "rebuiltWords": 588,
+      "sourceH1": [
+        "Does Smoking Affect Vision?"
+      ],
+      "rebuiltH1": [
+        "Does Smoking Affect Vision?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "smoking-and-vision-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/sneak-thief-of-sight-january-2017",
+      "file": "sneak-thief-of-sight-january-2017.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 781,
+      "rebuiltWords": 879,
+      "sourceH1": [
+        "\"The Sneak Thief of Sight\" Is On Our Minds This January"
+      ],
+      "rebuiltH1": [
+        "\"The Sneak Thief of Sight\" Is On Our Minds This January"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/snow-blindness-winter-vacation-2017",
+      "file": "snow-blindness-winter-vacation-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 643,
+      "rebuiltWords": 741,
+      "sourceH1": [
+        "Don’t Let Snow Blindness Ruin Your Winter Vacation"
+      ],
+      "rebuiltH1": [
+        "Don’t Let Snow Blindness Ruin Your Winter Vacation"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "snow-blindness-winter-vacation-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/solar-eclipse-2017",
+      "file": "solar-eclipse-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 814,
+      "rebuiltWords": 912,
+      "sourceH1": [
+        "How to Safely View the Great American Eclipse of 2017"
+      ],
+      "rebuiltH1": [
+        "How to Safely View the Great American Eclipse of 2017"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "solar-eclipse-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/sports-vision-deconstructed-2018",
+      "file": "sports-vision-deconstructed-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 621,
+      "rebuiltWords": 719,
+      "sourceH1": [
+        "Sports Vision Deconstructed"
+      ],
+      "rebuiltH1": [
+        "Sports Vision Deconstructed"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "sports-vision-deconstructed-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/sunwear-for-a-bright-future-2016",
+      "file": "sunwear-for-a-bright-future-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 640,
+      "rebuiltWords": 738,
+      "sourceH1": [
+        "Sunwear for a Bright Future"
+      ],
+      "rebuiltH1": [
+        "Sunwear for a Bright Future"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/tag/all-about-vision",
+      "file": "tag/all-about-vision.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 48,
+      "rebuiltWords": 146,
+      "sourceH1": [
+        "All About Vision"
+      ],
+      "rebuiltH1": [
+        "All About Vision"
+      ],
+      "sourceLinks": 16,
+      "rebuiltLinks": 93,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/tag/eye-emergencies",
+      "file": "tag/eye-emergencies.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 7,
+      "rebuiltWords": 105,
+      "sourceH1": [
+        "eye-emergencies"
+      ],
+      "rebuiltH1": [
+        "eye-emergencies"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/tag/gsp-eye-emergencies",
+      "file": "tag/gsp-eye-emergencies.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 9,
+      "rebuiltWords": 107,
+      "sourceH1": [
+        "Gsp Eye Emergencies"
+      ],
+      "rebuiltH1": [
+        "Gsp Eye Emergencies"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/talk-about-blue-light-2017",
+      "file": "talk-about-blue-light-2017.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 702,
+      "rebuiltWords": 800,
+      "sourceH1": [
+        "It’s Time to Talk About Blue Light"
+      ],
+      "rebuiltH1": [
+        "It’s Time to Talk About Blue Light"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/team/carey-brooks",
+      "file": "team/carey-brooks.html",
+      "pageType": "about",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 273,
+      "rebuiltWords": 371,
+      "sourceH1": [
+        "Carey Brooks, OD"
+      ],
+      "rebuiltH1": [
+        "Carey Brooks, OD"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/template/footer",
+      "file": "template/footer.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 89,
+      "rebuiltWords": 186,
+      "sourceH1": [],
+      "rebuiltH1": [
+        "Footer"
+      ],
+      "sourceLinks": 4,
+      "rebuiltLinks": 109,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/template/header",
+      "file": "template/header.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 182,
+      "rebuiltWords": 279,
+      "sourceH1": [],
+      "rebuiltH1": [
+        "Header"
+      ],
+      "sourceLinks": 8,
+      "rebuiltLinks": 136,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/testimonial/dr-brooks-genuinely-cares-about-her-patients",
+      "file": "testimonial/dr-brooks-genuinely-cares-about-her-patients.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 58,
+      "rebuiltWords": 156,
+      "sourceH1": [
+        "Dr. Brooks Genuinely Cares about her Patients"
+      ],
+      "rebuiltH1": [
+        "Dr. Brooks Genuinely Cares about her Patients"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 84,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/the-dangers-of-an-online-eye-test-2018",
+      "file": "the-dangers-of-an-online-eye-test-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 777,
+      "rebuiltWords": 875,
+      "sourceH1": [
+        "The Dangers of An Online Eye Test"
+      ],
+      "rebuiltH1": [
+        "The Dangers of An Online Eye Test"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "the-dangers-of-an-online-eye-test-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/the-right-way-to-clean-your-glasses-2017",
+      "file": "the-right-way-to-clean-your-glasses-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 572,
+      "rebuiltWords": 670,
+      "sourceH1": [
+        "The Right (and the Wrong) Way to Clean Your Glasses"
+      ],
+      "rebuiltH1": [
+        "The Right (and the Wrong) Way to Clean Your Glasses"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "the-right-way-to-clean-your-glasses-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/the-sneak-thief-of-sight-2018",
+      "file": "the-sneak-thief-of-sight-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 679,
+      "rebuiltWords": 777,
+      "sourceH1": [
+        "The Sneak Thief of Sight"
+      ],
+      "rebuiltH1": [
+        "The Sneak Thief of Sight"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "the-sneak-thief-of-sight-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/ultraviolet-light-and-your-eyes-2018",
+      "file": "ultraviolet-light-and-your-eyes-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 824,
+      "rebuiltWords": 922,
+      "sourceH1": [
+        "Ultraviolet Light and your Eyes"
+      ],
+      "rebuiltH1": [
+        "Ultraviolet Light and your Eyes"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "ultraviolet-light-and-your-eyes-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/understanding-eye-color-2017",
+      "file": "understanding-eye-color-2017.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 606,
+      "rebuiltWords": 704,
+      "sourceH1": [
+        "Understanding Eye Color"
+      ],
+      "rebuiltH1": [
+        "Understanding Eye Color"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/website-accessibility-policy",
+      "file": "website-accessibility-policy.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1141,
+      "rebuiltWords": 1240,
+      "sourceH1": [
+        "Website Accessibility Policy"
+      ],
+      "rebuiltH1": [
+        "Website Accessibility Policy"
+      ],
+      "sourceLinks": 15,
+      "rebuiltLinks": 87,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/welcome-to-our-new-website",
+      "file": "welcome-to-our-new-website.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 171,
+      "rebuiltWords": 269,
+      "sourceH1": [
+        "Welcome to our New Website"
+      ],
+      "rebuiltH1": [
+        "Welcome to our New Website"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/welcome-to-our-new-website-2",
+      "file": "welcome-to-our-new-website-2.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 171,
+      "rebuiltWords": 269,
+      "sourceH1": [
+        "Welcome to our New Website"
+      ],
+      "rebuiltH1": [
+        "Welcome to our New Website"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/what-is-a-stye-anyway-2016",
+      "file": "what-is-a-stye-anyway-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 408,
+      "rebuiltWords": 506,
+      "sourceH1": [
+        "What is a stye anyway?"
+      ],
+      "rebuiltH1": [
+        "What is a stye anyway?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/what-women-need-to-know-about-eye-health",
+      "file": "what-women-need-to-know-about-eye-health.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 836,
+      "rebuiltWords": 934,
+      "sourceH1": [
+        "What Women Need to Know About Eye Health"
+      ],
+      "rebuiltH1": [
+        "What Women Need to Know About Eye Health"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "what-women-need-to-know-about-eye-health.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/what-you-need-to-know-about-firework-eye-safety",
+      "file": "what-you-need-to-know-about-firework-eye-safety.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 399,
+      "rebuiltWords": 497,
+      "sourceH1": [
+        "What You Need to Know About Firework Eye Safety"
+      ],
+      "rebuiltH1": [
+        "What You Need to Know About Firework Eye Safety"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/what-you-need-to-know-to-help-world-blindness-2017",
+      "file": "what-you-need-to-know-to-help-world-blindness-2017.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 497,
+      "rebuiltWords": 595,
+      "sourceH1": [
+        "What You Need to Know to Help World Blindness"
+      ],
+      "rebuiltH1": [
+        "What You Need to Know to Help World Blindness"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 89,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "what-you-need-to-know-to-help-world-blindness-2017.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/whats-new",
+      "file": "whats-new.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 5105,
+      "rebuiltWords": 5204,
+      "sourceH1": [
+        "What’s New"
+      ],
+      "rebuiltH1": [
+        "What’s New"
+      ],
+      "sourceLinks": 17,
+      "rebuiltLinks": 258,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/when-20-20-vision-isnt-enough-for-your-child-2016",
+      "file": "when-20-20-vision-isnt-enough-for-your-child-2016.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 0.9984,
+      "missingWords": 1,
+      "longestMissingRun": 1,
+      "sourceWords": 605,
+      "rebuiltWords": 703,
+      "sourceH1": [
+        "When 20/20 Vision isn't Enough For Your Child"
+      ],
+      "rebuiltH1": [
+        "When 20/20 Vision isn't Enough For Your Child"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/why-do-we-need-glasses",
+      "file": "why-do-we-need-glasses.html",
+      "pageType": "form",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 644,
+      "rebuiltWords": 742,
+      "sourceH1": [
+        "Why Do We Need Glasses?"
+      ],
+      "rebuiltH1": [
+        "Why Do We Need Glasses?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/women-and-diabetes-world-diabetes-day-2017",
+      "file": "women-and-diabetes-world-diabetes-day-2017.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 710,
+      "rebuiltWords": 808,
+      "sourceH1": [
+        "Women and Diabetes – World Diabetes Day"
+      ],
+      "rebuiltH1": [
+        "Women and Diabetes – World Diabetes Day"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/women-eye-health-5-tips-for-optimal-vision-for-life-2018",
+      "file": "women-eye-health-5-tips-for-optimal-vision-for-life-2018.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 774,
+      "rebuiltWords": 872,
+      "sourceH1": [
+        "Women’s Eye Health – 7 Tips for Optimal Vision for Life"
+      ],
+      "rebuiltH1": [
+        "Women’s Eye Health – 7 Tips for Optimal Vision for Life"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "women-eye-health-5-tips-for-optimal-vision-for-life-2018.html"
+        }
+      ]
+    },
+    {
+      "url": "https://www.friscoeyesource.com/workplace-eye-wellness-the-dangers-of-blue-light-2016",
+      "file": "workplace-eye-wellness-the-dangers-of-blue-light-2016.html",
+      "pageType": "portfolio",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 788,
+      "rebuiltWords": 886,
+      "sourceH1": [
+        "Workplace Eye Wellness: The Dangers of Blue Light"
+      ],
+      "rebuiltH1": [
+        "Workplace Eye Wellness: The Dangers of Blue Light"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    },
+    {
+      "url": "https://www.friscoeyesource.com/your-childs-hidden-vision-problem-2017",
+      "file": "your-childs-hidden-vision-problem-2017.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1011,
+      "rebuiltWords": 1109,
+      "sourceH1": [
+        "Are You Missing Your Child’s Hidden Vision Problem?"
+      ],
+      "rebuiltH1": [
+        "Are You Missing Your Child’s Hidden Vision Problem?"
+      ],
+      "sourceLinks": 14,
+      "rebuiltLinks": 85,
+      "findings": []
+    }
+  ]
+}
