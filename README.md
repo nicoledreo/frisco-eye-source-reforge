@@ -52,7 +52,7 @@ Measured, not asserted. Tooling lives in [`_tooling/preview/`](_tooling/preview/
 
 | Check | Result |
 |---|---|
-| Layout sweep, every page at 360 / 390 / 1440 | GEOSWEEP_RESULT |
+| Layout sweep, every page at 360 / 390 / 1440 | 861 page-widths · **0 issues** (sideways scroll, photos edge to edge, broken images, one h1) |
 | Homepage regression suite | 25/25 at 1440 · 8/8 at 390 |
 | SEO vs. source (homepage) | title, meta, canonical, JSON-LD **identical** |
 | SEO sweep, all 287 pages vs. previous build | only the documented changes (restored source links, archive breadcrumbs, two empty headings) |
