@@ -1,0 +1,93 @@
+/* ============================================================================
+   Frisco Eye Source — V2 "modernise selectively" overlay
+   ----------------------------------------------------------------------------
+   Loaded LAST, after site.css. This sheet is ADDITIVE by design.
+
+   The previous attempt replaced site.css outright and read as plain and
+   stripped-down, because V1's depth — the drifting blob canvas, the frosted
+   panes, the lilac tint, the sheen — was doing real work. None of that is
+   touched here. Nothing is removed. What changes is geometry and finish.
+
+   Most of the work happens through three token overrides, so the whole system
+   tightens consistently instead of component-by-component:
+
+     --r-lg  28px -> 18px   cards, panels, .glass      (6 call sites)
+     --r-md  18px -> 12px   form inputs                (9 call sites)
+     --r-sm  12px ->  8px   small accents              (4 call sites)
+
+   --r-pill (999px) is deliberately left alone: V1's buttons are already full
+   pills at site.css:607, so there was nothing to "modernise" there.
+   ========================================================================= */
+
+:root {
+  /* Softness dialled back. 28px on a card and 18px on a text input read
+     rounded and friendly; at 18/12 the same panes read deliberate and current
+     while staying unmistakably soft-edged, not boxy. */
+  --r-lg: 18px;
+  --r-md: 12px;
+  --r-sm: 8px;
+
+  /* A focus ring built from the existing accent, so it belongs to the palette
+     rather than introducing a colour. */
+  --focus-ring: 0 0 0 3px rgb(var(--ch-gold) / 0.55);
+}
+
+/* ---- buttons: same pill, steadier weight -------------------------------- */
+/* 700 at small sizes reads chunky against the light UI type around it. 600
+   with a touch of tracking holds the same presence and looks more composed. */
+.btn {
+  font-weight: 600;
+  letter-spacing: 0.015em;
+}
+
+/* V1 lifts 2px on hover. Halving it keeps the response without the bounce. */
+.btn:hover { transform: translateY(-1px); }
+
+/* ---- cards: calmer lift -------------------------------------------------- */
+/* -3px on every card meant the whole page moved under the cursor. -2px still
+   reads as "this is interactive" but sits quieter. */
+.card:hover { transform: translateY(-2px); }
+
+/* ---- form controls: crisper, and properly focusable ---------------------- */
+.field input,
+.field select,
+.field textarea {
+  /* Inherits the tightened --r-md above; this adds the transition V1 lacked,
+     so focus arrives rather than snapping. */
+  transition: border-color 200ms var(--ease, ease), box-shadow 200ms var(--ease, ease);
+}
+
+.field input:focus-visible,
+.field select:focus-visible,
+.field textarea:focus-visible,
+.appt-form input:focus-visible,
+.appt-form textarea:focus-visible,
+.footer-form input:focus-visible {
+  outline: none;
+  border-color: rgb(var(--ch-gold) / 0.9);
+  box-shadow: var(--focus-ring);
+}
+
+/* Keyboard users get the same ring on anything else focusable, which V1 left
+   to the browser default. */
+.btn:focus-visible,
+.opt:focus-within,
+.primary-nav a:focus-visible,
+.mega-trigger:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+/* ---- selection ----------------------------------------------------------- */
+::selection { background: rgb(var(--ch-gold) / 0.28); }
+
+/* ---- respect the existing reduced-motion contract ------------------------ */
+/* site.css already neutralises transforms under reduced motion; the overrides
+   above reintroduce two, so they are neutralised here too. */
+@media (prefers-reduced-motion: reduce) {
+  .btn:hover,
+  .card:hover { transform: none; }
+  .field input,
+  .field select,
+  .field textarea { transition: none; }
+}

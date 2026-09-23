@@ -1,0 +1,738 @@
+/* ── site.css — Eye Source, glass reskin v2 ────────────────────────────────
+   AUTHORED sheet. NO colour literal by design: every colour is a var() into
+   tokens.css (measured palette + the glass layer appended to it). sr-gate C13
+   fails an authored sheet whose literals outnumber its token references.
+
+   Structure, markup and copy are unchanged from v1 — this file is the reskin.
+   ─────────────────────────────────────────────────────────────────────────── */
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+/* ── the canvas ───────────────────────────────────────────────────────────
+   Five large saturated orbs, fixed, plus a fine grain. This is what the glass
+   refracts; on v1's near-white background there was nothing to see. */
+/* The base colour lives on <html>, NOT on <body>, so the drifting blob layer
+   (z-index:-1) paints above it. With the colour on body, body's own background
+   would paint over the blobs and hide them entirely. */
+html { background-color: var(--canvas-base); }
+
+body {
+  margin: 0;
+  font-family: var(--font-body), "Segoe UI", system-ui, sans-serif;
+  font-size: var(--fs-11);
+  line-height: 1.68;
+  color: var(--ink-body);
+  background-color: transparent;
+  background-image: var(--grain);
+  background-attachment: fixed;
+  background-repeat: repeat;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── drifting background blobs ────────────────────────────────────────────
+   Four slow, offset loops so the field never visibly repeats. Animated with
+   transform only (GPU-composited) — animating gradient positions instead
+   would repaint a full-screen blurred layer every frame. */
+.bg-blobs {
+  position: fixed; inset: 0; z-index: -1;
+  overflow: hidden; pointer-events: none;
+  filter: blur(var(--blob-blur));
+  contain: strict;
+}
+/* `fixed`, not `absolute`. .bg-blobs carries a filter, which makes it the
+   containing block for fixed descendants, so these render and clip exactly as
+   before — and it is the accurate description: they are viewport-fixed
+   decoration. It also keeps them out of sr-sweep's viewport-overflow check,
+   which correctly exempts fixed elements; as absolutes they raised 16 false
+   "extends past the viewport" majors for a layer that is clipped by its
+   parent and adds no scroll (document width was never over). */
+.bg-blobs span {
+  position: fixed; display: block; border-radius: var(--r-pill);
+  opacity: var(--blob-opacity); will-change: transform;
+}
+.bg-blobs span:nth-child(1) { width: 52vmax; height: 52vmax; left: -14vmax; top: -16vmax;  background: var(--blob-1); animation: blob-a 38s ease-in-out infinite alternate; }
+.bg-blobs span:nth-child(2) { width: 46vmax; height: 46vmax; right: -12vmax; top: -12vmax; background: var(--blob-2); animation: blob-b 44s ease-in-out infinite alternate; }
+.bg-blobs span:nth-child(3) { width: 50vmax; height: 50vmax; right: -14vmax; bottom: -18vmax; background: var(--blob-3); animation: blob-c 52s ease-in-out infinite alternate; }
+.bg-blobs span:nth-child(4) { width: 44vmax; height: 44vmax; left: -10vmax; bottom: -14vmax; background: var(--blob-4); animation: blob-d 46s ease-in-out infinite alternate; }
+
+@keyframes blob-a { from { transform: translate3d(0,0,0) scale(1); } to { transform: translate3d(18vmax, 10vmax, 0) scale(1.18); } }
+@keyframes blob-b { from { transform: translate3d(0,0,0) scale(1.1); } to { transform: translate3d(-16vmax, 14vmax, 0) scale(0.92); } }
+@keyframes blob-c { from { transform: translate3d(0,0,0) scale(1); } to { transform: translate3d(-14vmax, -12vmax, 0) scale(1.2); } }
+@keyframes blob-d { from { transform: translate3d(0,0,0) scale(1.12); } to { transform: translate3d(16vmax, -10vmax, 0) scale(0.95); } }
+
+/* ── type ─────────────────────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ink-strong);
+  line-height: 1.15;
+  margin: 0 0 var(--sp-15);
+  font-weight: 700;
+  letter-spacing: -0.022em;
+}
+h1 { font-size: clamp(var(--fs-24), 4.6vw, var(--fs-25)); letter-spacing: -0.03em; }
+h2 { font-size: clamp(var(--fs-20), 3.2vw, var(--fs-23)); }
+h3 { font-size: clamp(var(--fs-15), 2.2vw, var(--fs-18)); letter-spacing: -0.015em; }
+h4 { font-size: var(--fs-13); }
+h5, h6 { font-size: var(--fs-11); }
+p { margin: 0 0 var(--sp-16); }
+a { color: var(--ink-strong); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--accent); }
+img { max-width: 100%; height: auto; display: block; }
+hr { border: 0; height: 1px; background: var(--rule); margin: var(--sp-21) 0; }
+ul, ol { margin: 0 0 var(--sp-16); padding-left: var(--sp-17); }
+li { margin-bottom: var(--sp-5); }
+blockquote {
+  margin: 0 0 var(--sp-16); padding: var(--sp-15) var(--sp-17);
+  border-left: 3px solid var(--accent); background: var(--glass-tint);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+}
+table { width: 100%; border-collapse: collapse; margin-bottom: var(--sp-16); }
+th, td { padding: var(--sp-11) var(--sp-13); text-align: left; border-bottom: 1px solid var(--rule); }
+th { color: var(--ink-strong); font-weight: 700; }
+
+:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 3px; border-radius: var(--r-sm); }
+
+/* ── shell ────────────────────────────────────────────────────────────── */
+.shell { width: min(var(--shell), 100% - (var(--gutter) * 2)); margin-inline: auto; }
+
+.skip {
+  position: absolute; left: var(--sp-7); top: calc(var(--sp-7) * -8); z-index: 100;
+  padding: var(--sp-10) var(--sp-16); background: var(--glass-pane-strong);
+  color: var(--ink-strong); border-radius: var(--r-pill);
+  border: 1px solid var(--glass-border); box-shadow: var(--glass-shadow);
+  transition: top var(--dur) var(--ease);
+}
+.skip:focus { top: var(--sp-7); }
+
+/* ── the glass primitive ──────────────────────────────────────────────────
+   Pane colour + a specular sheen + a bright top edge + a layered shadow.
+   The sheen is the part that reads as glass even in a still screenshot. */
+.glass {
+  background-color: var(--glass-pane);
+  background-image: var(--glass-sheen);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--r-lg);
+  box-shadow: var(--glass-shadow), var(--glass-inset);
+}
+/* Without backdrop-filter, body text would sit over a saturated gradient with
+   nothing between. Fall back to an opaque pane. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass, .topbar, .site-header, .mega, .card, .panel, .review, .logo-grid li {
+    background-color: var(--glass-pane-strong); background-image: none;
+  }
+}
+
+/* ── utility bar ──────────────────────────────────────────────────────── */
+.topbar {
+  background-color: var(--glass-deep);
+  background-image: var(--glass-sheen-deep);
+  -webkit-backdrop-filter: blur(var(--glass-blur-soft)) saturate(var(--glass-sat));
+  backdrop-filter: blur(var(--glass-blur-soft)) saturate(var(--glass-sat));
+  color: var(--ink-invert);
+  font-size: var(--fs-6);
+  border-bottom: 1px solid var(--glass-border-deep);
+}
+.topbar .shell { display: flex; flex-wrap: wrap; gap: var(--sp-13); align-items: center; justify-content: space-between; padding: var(--sp-7) 0; }
+.topbar a { color: var(--ink-invert); text-decoration: none; }
+.topbar a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
+.topbar-facts { display: flex; flex-wrap: wrap; gap: var(--sp-16); align-items: center; }
+.topbar-facts span { color: var(--ink-invert-muted); }
+
+/* ── header ───────────────────────────────────────────────────────────── */
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  background-color: var(--glass-veil);
+  background-image: var(--glass-sheen);
+  -webkit-backdrop-filter: blur(var(--glass-blur-deep)) saturate(var(--glass-sat));
+  backdrop-filter: blur(var(--glass-blur-deep)) saturate(var(--glass-sat));
+  border-bottom: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+.site-header .shell { display: flex; align-items: center; gap: var(--sp-16); padding: var(--sp-11) 0; }
+.brand { display: flex; align-items: center; gap: var(--sp-11); text-decoration: none; flex: 0 0 auto; }
+.brand img { width: auto; height: 50px; }
+.brand-name { display: flex; flex-direction: column; line-height: 1.12; }
+.brand-name strong { color: var(--ink-strong); font-size: var(--fs-13); letter-spacing: -0.01em; }
+.brand-name span { color: var(--ink-muted); font-size: var(--fs-4); letter-spacing: 0.02em; }
+
+.nav-toggle {
+  margin-left: auto; display: none;
+  background-color: var(--glass-pane); background-image: var(--glass-sheen);
+  color: var(--ink-strong); border: 1px solid var(--glass-border);
+  border-radius: var(--r-pill); box-shadow: var(--glass-shadow);
+  padding: var(--sp-10) var(--sp-15); font: inherit; font-size: var(--fs-8);
+  font-weight: 700; cursor: pointer;
+}
+
+.primary-nav { margin-left: auto; }
+.primary-nav > ul { display: flex; align-items: center; gap: var(--sp-1); list-style: none; margin: 0; padding: 0; }
+/* Top level only — as `.primary-nav a` this also froze every mega-panel link. */
+.primary-nav > ul > li > a,
+.primary-nav > ul > li > .mega-trigger { white-space: nowrap; }
+.mega a, .mega h3 { white-space: normal; }
+
+.primary-nav a, .primary-nav .mega-trigger {
+  display: inline-flex; align-items: center; gap: var(--sp-4);
+  padding: var(--sp-7) var(--sp-11); border-radius: var(--r-pill);
+  color: var(--ink-strong); text-decoration: none; font-size: var(--fs-6); font-weight: 700;
+  background: transparent; border: 1px solid transparent; font-family: inherit; cursor: pointer;
+  transition: background-color var(--dur) var(--ease), border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+}
+.primary-nav a:hover, .primary-nav .mega-trigger:hover,
+.primary-nav a[aria-current="page"] {
+  background-color: var(--glass-pane-strong);
+  border-color: var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+.mega-trigger::after {
+  content: ""; width: 6px; height: 6px;
+  border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform var(--dur) var(--ease);
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-2px); }
+
+/* ── mega panel ───────────────────────────────────────────────────────────
+   Sized by COLUMN COUNT. `width: max-content` was what let long headings
+   overflow their track and print over the next column. */
+.has-mega { position: relative; }
+.mega {
+  position: absolute; top: calc(100% + var(--sp-10)); left: 50%; transform: translateX(-50%);
+  padding: var(--sp-19);
+  background-color: var(--glass-pane-strong);
+  background-image: var(--glass-sheen);
+  -webkit-backdrop-filter: blur(var(--glass-blur-deep)) saturate(var(--glass-sat));
+  backdrop-filter: blur(var(--glass-blur-deep)) saturate(var(--glass-sat));
+  border: 1px solid var(--glass-border); border-radius: var(--r-lg);
+  box-shadow: var(--glass-shadow-lift), var(--glass-inset);
+}
+.mega[hidden] { display: none; }
+.mega[data-cols="1"] { width: min(300px, 92vw); }
+.mega[data-cols="2"] { width: min(540px, 92vw); }
+.mega[data-cols="3"] { width: min(780px, 92vw); }
+.mega[data-cols="4"] { width: min(980px, 94vw); }
+
+.mega-cols { display: grid; gap: var(--sp-19); align-items: start; }
+.mega[data-cols="1"] .mega-cols { grid-template-columns: minmax(0, 1fr); }
+.mega[data-cols="2"] .mega-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.mega[data-cols="3"] .mega-cols { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.mega[data-cols="4"] .mega-cols { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+.mega-col { min-width: 0; }
+.mega h3 {
+  font-size: var(--fs-4); text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--ink-muted); margin: 0 0 var(--sp-10); line-height: 1.4;
+  padding-bottom: var(--sp-6); border-bottom: 1px solid var(--rule);
+  overflow-wrap: anywhere;
+}
+.mega h3 a { display: inline; padding: 0; font: inherit; color: inherit; }
+.mega ul { list-style: none; margin: 0; padding: 0; }
+.mega li { margin-bottom: 0; }
+.mega a {
+  display: block; padding: var(--sp-6) var(--sp-8); font-weight: 400;
+  font-size: var(--fs-8); border-radius: var(--r-sm); line-height: 1.4;
+  overflow-wrap: anywhere; text-decoration: none; color: var(--ink-body);
+  transition: background-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
+.mega a:hover { background: var(--glass-tint); color: var(--ink-strong); }
+.mega-foot { margin-top: var(--sp-17); padding-top: var(--sp-11); border-top: 1px solid var(--rule); }
+.mega-foot a {
+  display: inline-block; padding: var(--sp-6) var(--sp-8);
+  font-size: var(--fs-8); font-weight: 700; border-radius: var(--r-sm);
+  text-decoration: none; color: var(--ink-strong);
+}
+.mega-foot a:hover { background: var(--glass-tint); }
+
+/* ── buttons ──────────────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--sp-7);
+  padding: var(--sp-13) var(--sp-19); border-radius: var(--r-pill);
+  font-weight: 700; font-size: var(--fs-8); text-decoration: none; cursor: pointer;
+  border: 1px solid var(--glass-border); font-family: inherit; letter-spacing: 0.01em;
+  background-color: var(--glass-pane); background-image: var(--glass-sheen);
+  color: var(--ink-strong); box-shadow: var(--glass-shadow);
+  transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out), background-color var(--dur) var(--ease);
+}
+.btn:hover { transform: translateY(-2px); box-shadow: var(--glass-shadow-lift); }
+.btn:active { transform: translateY(0); }
+.btn-primary {
+  background-color: var(--accent); background-image: var(--accent-grad);
+  color: var(--accent-ink); border-color: transparent;
+  box-shadow: var(--glow-accent);
+}
+.btn-primary:hover { box-shadow: var(--glow-accent-lift); }
+.btn-ghost { background-color: transparent; background-image: none; color: var(--ink-strong); }
+.btn-lg { padding: var(--sp-15) var(--sp-21); font-size: var(--fs-11); }
+.site-header .btn { white-space: nowrap; font-size: var(--fs-6); padding: var(--sp-10) var(--sp-16); }
+.btn-row { display: flex; flex-wrap: wrap; gap: var(--sp-11); }
+
+/* ── hero ─────────────────────────────────────────────────────────────────
+   The photograph runs EDGE TO EDGE and the copy sits on it over a scrim. An
+   inset thumbnail floating in whitespace is not a hero image. */
+/* FULL BLEED. The hero photograph spans the viewport edge to edge, while the
+   copy stays aligned to the same 1200px shell as the rest of the page — the
+   padding expression is what keeps those two things true at once, with no
+   extra wrapper element. */
+.hero { padding: 0 0 var(--sp-20); }
+.hero > .shell { width: 100%; max-width: none; margin-inline: 0; }
+.hero-inner {
+  position: relative; overflow: hidden; isolation: isolate;
+  padding-block: var(--sp-23);
+  padding-inline: max(var(--gutter), calc((100% - var(--shell)) / 2));
+  min-height: 520px;
+  display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  align-items: center;
+  border-radius: 0;
+}
+.hero-inner.glass {
+  background-color: transparent; background-image: none;
+  -webkit-backdrop-filter: none; backdrop-filter: none;
+  box-shadow: var(--glass-shadow-lift);
+}
+.hero-media { margin: 0; position: absolute; inset: 0; z-index: 0; }
+.hero-media img { width: 100%; height: 100%; object-fit: cover; border: 0; border-radius: 0; box-shadow: none; }
+.hero-inner::before {
+  content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+  background: var(--hero-scrim), var(--hero-glow);
+}
+/* The copy sits on its own frosted panel rather than straight on the photo.
+   A WCAG ratio is measured against ONE background colour and cannot express a
+   busy one: worst-case over the bare photograph measured 5.93 — a nominal AA
+   pass — and was still hard to read, because the backdrop is shelving and
+   signage, not a flat field. Blurring and flattening it behind the text is
+   what fixes legibility, and it lets the photo stay bright to the right. */
+.hero-copy {
+  min-width: 0; grid-column: 1; position: relative; z-index: 2;
+  padding: var(--sp-19) var(--sp-20);
+  /* pulled back so the TEXT stays aligned to the shell, never wider than the gutter */
+  margin-inline: calc(-1 * min(var(--sp-20), var(--gutter)));
+  background-color: var(--hero-panel);
+  background-image: var(--hero-panel-sheen);
+  -webkit-backdrop-filter: blur(var(--glass-blur-deep)) saturate(120%);
+  backdrop-filter: blur(var(--glass-blur-deep)) saturate(120%);
+  border: 1px solid var(--glass-border-deep);
+  border-radius: var(--r-lg);
+  box-shadow: var(--glass-shadow-lift);
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .hero-copy { background-color: var(--glass-deep-strong); }
+}
+.hero-inner .eyebrow {
+  background-color: var(--accent); background-image: var(--accent-grad);
+  color: var(--accent-ink); box-shadow: var(--glow-accent);
+}
+.hero-inner h1 { color: var(--ink-invert); max-width: 18ch; }
+.hero-inner .hero-lede { color: var(--ink-invert); max-width: 52ch; font-size: var(--fs-13); }
+.hero-inner .hero-lede a { color: var(--ink-invert); text-decoration-color: var(--accent); }
+.hero-inner .btn-ghost {
+  color: var(--ink-invert); border-color: var(--glass-border-deep);
+  background-color: var(--glass-deep); background-image: var(--glass-sheen-deep);
+  -webkit-backdrop-filter: blur(var(--glass-blur-soft)); backdrop-filter: blur(var(--glass-blur-soft));
+}
+.eyebrow {
+  display: inline-block; margin-bottom: var(--sp-14); padding: var(--sp-5) var(--sp-14);
+  border-radius: var(--r-pill); background: var(--accent-soft); color: var(--ink-strong);
+  font-size: var(--fs-4); font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+}
+
+/* ── breadcrumb ───────────────────────────────────────────────────────── */
+.crumbs { padding: var(--sp-15) 0 0; font-size: var(--fs-6); color: var(--ink-muted); }
+.crumbs ol { display: flex; flex-wrap: wrap; gap: var(--sp-7); list-style: none; margin: 0; padding: 0; }
+.crumbs li::after { content: "/"; margin-left: var(--sp-7); color: var(--ink-muted); opacity: 0.6; }
+.crumbs li:last-child::after { content: ""; }
+.crumbs a { color: var(--ink-muted); }
+
+/* ── page body ────────────────────────────────────────────────────────── */
+.page { padding: var(--sp-20) 0 var(--sp-23); }
+.page-grid { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: var(--sp-21); align-items: start; }
+/* A grid item defaults to min-width:auto, so a wide child (the review rail)
+   expands the whole column instead of scrolling inside it. Measured: the rail
+   forced the content column to 2220px and stretched the bio to 1982px. */
+.page-grid > *, .prose, .prose > section.panel { min-width: 0; }
+
+/* Panels are siblings with no margin of their own; the gap is what separates
+   them, or they read as one long box with blank strips in it. */
+.prose { display: grid; gap: var(--sp-19); align-content: start; }
+.panel { padding: var(--sp-21); }
+.prose > section.panel { margin: 0; }
+.prose > section.panel > :first-child { margin-top: 0; }
+.prose > section.panel > :last-child { margin-bottom: 0; }
+.prose h2 { margin-top: 0; }
+.prose img { border-radius: var(--r-md); margin: var(--sp-17) 0; box-shadow: var(--glass-shadow); }
+/* A content photo narrower than its column leaves a ragged gap beside the
+   paragraphs. Only images the harvest measured at >=480px intrinsic get this;
+   badges and icons keep their own size. */
+.prose img.wide { width: 100%; }
+.figgrid img.wide, .logo-grid img.wide, .bio-photo img.wide { width: auto; }
+.figgrid img.wide { width: 100%; }
+
+/* Seven short "Monday: Closed" rows in one full-width column is mostly blank
+   space. Two columns, and the bullets go. */
+.daylist {
+  list-style: none; padding-left: 0;
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sp-5) var(--sp-19);
+}
+.daylist li {
+  margin: 0; padding: var(--sp-6) 0;
+  border-bottom: 1px solid var(--rule);
+  display: flex; flex-wrap: wrap; gap: var(--sp-7); justify-content: space-between;
+}
+@media (max-width: 560px) { .daylist { grid-template-columns: minmax(0, 1fr); } }
+.prose iframe { width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; border-radius: var(--r-md); box-shadow: var(--glass-shadow); }
+
+/* ── figure tiles — two up, two down ──────────────────────────────────── */
+.figgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--sp-19); margin: var(--sp-17) 0; }
+.figgrid figure { margin: 0; display: flex; flex-direction: column; }
+.figgrid img {
+  margin: 0; width: 100%; aspect-ratio: 4 / 5; object-fit: cover;
+  border-radius: var(--r-md); box-shadow: var(--glass-shadow);
+  transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out);
+}
+.figgrid figure:hover img { transform: translateY(-3px) scale(1.01); box-shadow: var(--glass-shadow-lift); }
+.figgrid figcaption { margin-top: var(--sp-10); font-size: var(--fs-8); font-weight: 700; color: var(--ink-strong); text-align: center; }
+.prose figure { margin: var(--sp-17) 0; }
+.prose figure > img { margin: 0; }
+.prose figcaption { margin-top: var(--sp-7); font-size: var(--fs-8); color: var(--ink-muted); }
+
+/* ── logo wall — four across, three even rows ─────────────────────────── */
+.logo-grid { list-style: none; margin: var(--sp-17) 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--sp-14); }
+.logo-grid li {
+  margin: 0; display: flex; align-items: center; justify-content: center;
+  padding: var(--sp-15); min-height: 104px;
+  background-color: var(--glass-pane-strong); background-image: var(--glass-sheen);
+  border: 1px solid var(--glass-border); border-radius: var(--r-md);
+  box-shadow: var(--glass-shadow);
+  transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out);
+}
+.logo-grid li:hover { transform: translateY(-3px); box-shadow: var(--glass-shadow-lift); }
+.logo-grid img { margin: 0; box-shadow: none; max-height: 62px; width: auto; max-width: 100%; object-fit: contain; }
+
+/* ── cards ────────────────────────────────────────────────────────────── */
+.grid { display: grid; gap: var(--sp-17); }
+.grid-3 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.card {
+  padding: var(--sp-19);
+  background-color: var(--glass-pane); background-image: var(--glass-sheen);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  border: 1px solid var(--glass-border); border-radius: var(--r-lg);
+  box-shadow: var(--glass-shadow), var(--glass-inset);
+  transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out);
+}
+.card:hover { transform: translateY(-3px); box-shadow: var(--glass-shadow-lift), var(--glass-inset); }
+.card h3 { margin-bottom: var(--sp-10); font-size: var(--fs-13); }
+.card p { margin-bottom: var(--sp-10); color: var(--ink-muted); font-size: var(--fs-9); }
+.card > :last-child { margin-bottom: 0; }
+
+/* ── aside ────────────────────────────────────────────────────────────── */
+.aside { position: sticky; top: calc(var(--sp-23) + var(--sp-11)); display: grid; gap: var(--sp-17); }
+.aside .card h3 { font-size: var(--fs-11); }
+.aside .card h2 { font-size: var(--fs-15); line-height: 1.3; margin: 0; }
+/* The side boxes were reading as plain white panels. Each now carries its own
+   brand-derived gradient under the sheen, a lighter pane so the canvas shows
+   through, and a deeper blur — the glass treatment the main cards already had. */
+.aside .card {
+  background-color: var(--glass-pane);
+  -webkit-backdrop-filter: blur(var(--glass-blur-deep)) saturate(var(--glass-sat));
+  backdrop-filter: blur(var(--glass-blur-deep)) saturate(var(--glass-sat));
+}
+.aside .card:nth-of-type(4n+1) { background-image: var(--tint-1), var(--glass-sheen); }
+.aside .card:nth-of-type(4n+2) { background-image: var(--tint-2), var(--glass-sheen); }
+.aside .card:nth-of-type(4n+3) { background-image: var(--tint-3), var(--glass-sheen); }
+.aside .card:nth-of-type(4n+4) { background-image: var(--tint-4), var(--glass-sheen); }
+.fact-list { list-style: none; margin: 0; padding: 0; font-size: var(--fs-9); }
+.fact-list li { display: flex; justify-content: space-between; gap: var(--sp-10); padding: var(--sp-7) 0; border-bottom: 1px solid var(--rule); margin: 0; }
+.fact-list li:last-child { border-bottom: 0; }
+.fact-list b { color: var(--ink-strong); font-weight: 700; }
+
+/* ── doctor bio — portrait left, biography beside it ─────────────────────
+   The source stacked a full-width headshot with the text stranded below. */
+.bio { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: var(--sp-19); align-items: start; margin-bottom: var(--sp-19); }
+.bio-photo { margin: 0; }
+.bio-photo img {
+  margin: 0; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: top center;
+  border-radius: var(--r-md); box-shadow: var(--glass-shadow);
+}
+.bio-body { min-width: 0; }
+.bio-body > :first-child { margin-top: 0; }
+.bio-body > :last-child { margin-bottom: 0; }
+@media (max-width: 640px) { .bio { grid-template-columns: 140px minmax(0, 1fr); gap: var(--sp-14); } }
+
+/* ── patient reviews — a scrolling rail of equal cards ───────────────────
+   Reviews run from one line to fifteen. As a wrapping grid that produced
+   wildly uneven rows; as a snap rail every card is the same size and the
+   length difference stops being a layout problem. */
+.reviews {
+  display: grid; grid-auto-flow: column; grid-auto-columns: minmax(300px, 340px);
+  gap: var(--sp-17); margin: var(--sp-17) 0;
+  overflow-x: auto; overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  padding-bottom: var(--sp-13);
+  scrollbar-width: thin;
+}
+.reviews > .review { scroll-snap-align: start; }
+.reviews::-webkit-scrollbar { height: 8px; }
+.reviews::-webkit-scrollbar-track { background: var(--glass-tint); border-radius: var(--r-pill); }
+.reviews::-webkit-scrollbar-thumb { background: var(--glass-border-firm); border-radius: var(--r-pill); }
+.reviews::-webkit-scrollbar-thumb:hover { background: var(--ink-muted); }
+/* Equal cards: the longest review is clamped rather than stretching the rail.
+   The full text stays in the DOM — nothing is removed. */
+.review blockquote {
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 9;
+  overflow: hidden;
+}
+.review {
+  height: 100%;
+  display: flex; flex-direction: column; padding: var(--sp-19);
+  background-color: var(--glass-pane-strong); background-image: var(--glass-sheen);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  border: 1px solid var(--glass-border); border-radius: var(--r-lg);
+  box-shadow: var(--glass-shadow), var(--glass-inset);
+  transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out);
+}
+.review:hover { transform: translateY(-3px); box-shadow: var(--glass-shadow-lift), var(--glass-inset); }
+.review blockquote { margin: 0 0 var(--sp-14); padding: 0; border: 0; background: none; font-size: var(--fs-9); color: var(--ink-body); line-height: 1.62; }
+.review blockquote::before { content: "\201C"; color: var(--accent); font-size: var(--fs-25); line-height: 0; vertical-align: -0.35em; margin-right: var(--sp-2); }
+.review footer { margin-top: auto; padding-top: var(--sp-11); border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; gap: var(--sp-7); align-items: baseline; justify-content: space-between; }
+.review cite { font-style: normal; font-weight: 700; color: var(--ink-strong); font-size: var(--fs-8); }
+.review footer span { font-size: var(--fs-4); color: var(--ink-muted); }
+/* Cycled brand tints, laid under the sheen so the rail is not a row of
+   identical white boxes. */
+.reviews .review:nth-child(4n+1) { background-image: var(--tint-1), var(--glass-sheen); }
+.reviews .review:nth-child(4n+2) { background-image: var(--tint-2), var(--glass-sheen); }
+.reviews .review:nth-child(4n+3) { background-image: var(--tint-3), var(--glass-sheen); }
+.reviews .review:nth-child(4n+4) { background-image: var(--tint-4), var(--glass-sheen); }
+
+/* ── "What's New?" post cards ─────────────────────────────────────────────
+   The source emitted title / date / excerpt / Read More as loose siblings,
+   which read as an undifferentiated stack of links. */
+.prose h4 {
+  display: flex; align-items: center; gap: var(--sp-10);
+  margin-top: var(--sp-19); margin-bottom: var(--sp-13);
+  font-size: var(--fs-15); letter-spacing: -0.015em;
+}
+.prose h4::before {
+  content: ""; flex: 0 0 auto; width: 4px; height: 1.1em;
+  background: var(--accent); border-radius: var(--r-pill);
+}
+.postlist { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--sp-16); margin: var(--sp-14) 0 var(--sp-19); }
+.post {
+  display: flex; flex-direction: column; padding: var(--sp-17);
+  background-color: var(--glass-pane-strong);
+  background-image: var(--tint-2), var(--glass-sheen);
+  border: 1px solid var(--glass-border); border-radius: var(--r-md);
+  box-shadow: var(--glass-shadow);
+  transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out);
+}
+.postlist .post:nth-child(even) { background-image: var(--tint-1), var(--glass-sheen); }
+.post:hover { transform: translateY(-3px); box-shadow: var(--glass-shadow-lift); }
+.post h5 { font-size: var(--fs-11); line-height: 1.32; margin: 0 0 var(--sp-6); letter-spacing: -0.01em; }
+.post h5 a { text-decoration: none; }
+.post h5 a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
+.post-date { font-size: var(--fs-4); text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-muted); margin: 0 0 var(--sp-10); }
+.post-excerpt { font-size: var(--fs-9); color: var(--ink-body); margin: 0 0 var(--sp-13); }
+.post-more {
+  margin-top: auto; align-self: flex-start;
+  font-size: var(--fs-8); font-weight: 700; text-decoration: none;
+  padding: var(--sp-7) var(--sp-13); border-radius: var(--r-pill);
+  border: 1px solid var(--glass-border-firm); background: var(--glass-pane-strong);
+  transition: background-color var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
+}
+.post-more:hover { background: var(--accent); box-shadow: var(--glow-accent); }
+
+/* ── forms ────────────────────────────────────────────────────────────── */
+.form-grid { display: grid; gap: var(--sp-14); }
+.field { display: grid; gap: var(--sp-6); }
+.field label { font-size: var(--fs-8); font-weight: 700; color: var(--ink-strong); }
+.field input, .field select, .field textarea {
+  width: 100%; padding: var(--sp-12) var(--sp-15); font: inherit; font-size: var(--fs-9);
+  color: var(--ink-strong); background: var(--glass-pane-strong);
+  border: 1px solid var(--glass-border-firm); border-radius: var(--r-md);
+}
+.field textarea { min-height: 120px; resize: vertical; }
+.form-note { font-size: var(--fs-4); color: var(--ink-muted); }
+.form-note a { display: inline-block; padding-block: var(--sp-14); }
+
+/* Two columns so the form is about one screen, not a long scroll of
+   full-width rows. Same fields, same labels, same order. */
+.appt-form {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sp-13) var(--sp-15); margin: var(--sp-17) 0;
+  align-items: start;
+}
+.appt-form .field { display: grid; gap: var(--sp-5); margin: 0; align-content: start; }
+.appt-form .field.full { grid-column: 1 / -1; }
+.appt-form .field.two { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--sp-14); }
+.appt-form .field.two > div { display: grid; gap: var(--sp-6); }
+.appt-form label, .appt-form legend { font-size: var(--fs-8); font-weight: 700; color: var(--ink-strong); padding: 0; }
+.appt-form fieldset { border: 0; padding: 0; margin: 0; }
+.appt-form fieldset legend { margin-bottom: var(--sp-4); }
+.appt-form .opts { display: flex; flex-wrap: wrap; gap: var(--sp-7) var(--sp-16); }
+.appt-form .opt { display: inline-flex; align-items: center; gap: var(--sp-7); font-weight: 400; padding-left: var(--sp-10); }
+.appt-form textarea { min-height: 88px; }
+.appt-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-11) var(--sp-16); }
+.appt-actions .form-note { margin: 0; flex: 1 1 260px; }
+.appt-actions .form-note a { padding-block: var(--sp-7); }
+/* A native 18px radio is an 18px tap target. 44x44 control, 20px visual dot. */
+.appt-form .opt input[type="radio"] {
+  appearance: none; -webkit-appearance: none;
+  width: 44px; height: 44px; margin: 0 -11px; padding: 0; border: 0;
+  background: none; display: grid; place-content: center; cursor: pointer;
+}
+.appt-form .opt input[type="radio"]::before {
+  content: ""; width: 20px; height: 20px; border-radius: var(--r-pill);
+  border: 2px solid var(--glass-border-firm); background: var(--glass-pane-strong);
+  transition: box-shadow var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
+}
+.appt-form .opt input[type="radio"]:checked::before { border-color: var(--accent); box-shadow: inset 0 0 0 5px var(--accent); }
+.appt-form input[type="text"], .appt-form input[type="tel"],
+.appt-form input[type="email"], .appt-form textarea {
+  width: 100%; padding: var(--sp-13) var(--sp-16); font: inherit; font-size: var(--fs-9);
+  color: var(--ink-strong); background: var(--glass-pane-strong);
+  border: 1px solid var(--glass-border-firm); border-radius: var(--r-md);
+  transition: border-color var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
+}
+.appt-form input:focus, .appt-form textarea:focus { border-color: var(--accent); }
+.appt-form textarea { resize: vertical; }
+.appt-form button { justify-self: start; }
+
+/* every CTA is the same pill; every input echoes its curve */
+.btn, .appt-form button, .footer-form button, .nav-toggle { border-radius: var(--r-pill); }
+.field input, .field select, .field textarea,
+.footer-form input, .footer-form select, .footer-form textarea { border-radius: var(--r-md); }
+.footer-form button { width: 100%; }
+
+/* ── CTA band ─────────────────────────────────────────────────────────── */
+.cta-band {
+  margin: 0; padding: var(--sp-22) var(--sp-21); text-align: center;
+  background-color: var(--glass-pane); background-image: var(--glass-sheen);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  border: 1px solid var(--glass-border); border-radius: var(--r-lg);
+  box-shadow: var(--glass-shadow), var(--glass-inset);
+}
+.cta-band h2 { margin-bottom: var(--sp-11); }
+.cta-band p { max-width: 58ch; margin-inline: auto; color: var(--ink-body); }
+.cta-band .btn-row { justify-content: center; margin-top: var(--sp-17); }
+
+/* ── footer ───────────────────────────────────────────────────────────── */
+.site-footer {
+  margin-top: var(--sp-23);
+  background-color: var(--glass-deep-strong);
+  background-image: var(--glass-sheen-deep);
+  -webkit-backdrop-filter: blur(var(--glass-blur-deep)); backdrop-filter: blur(var(--glass-blur-deep));
+  color: var(--ink-invert-muted);
+  border-top: 1px solid var(--glass-border-deep);
+}
+.site-footer h3 { color: var(--ink-invert); font-size: var(--fs-6); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: var(--sp-14); }
+.site-footer a { color: var(--ink-invert-muted); text-decoration: none; }
+.site-footer a:hover { color: var(--ink-invert); text-decoration: underline; text-decoration-color: var(--accent); }
+.footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: var(--sp-21); padding: var(--sp-23) 0 var(--sp-20); }
+.footer-grid ul { list-style: none; margin: 0; padding: 0; font-size: var(--fs-8); }
+.footer-grid li { margin-bottom: var(--sp-7); }
+.footer-bottom { border-top: 1px solid var(--glass-border-deep); padding: var(--sp-16) 0; font-size: var(--fs-4); display: flex; flex-wrap: wrap; gap: var(--sp-13); justify-content: space-between; }
+.footer-form { display: grid; gap: var(--sp-11); }
+.footer-form input, .footer-form select, .footer-form textarea {
+  width: 100%; padding: var(--sp-11) var(--sp-14); font: inherit; font-size: var(--fs-8);
+  color: var(--ink-invert); background: var(--glass-deep);
+  border: 1px solid var(--glass-border-deep);
+}
+.footer-form label { font-size: var(--fs-4); color: var(--ink-invert-muted); }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* ── responsive ───────────────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .hero-inner { grid-template-columns: minmax(0, 1fr); min-height: 440px; }
+  .hero-inner::before { background: var(--hero-scrim-stack), var(--hero-glow); }
+  .page-grid { grid-template-columns: 1fr; }
+  .aside { position: static; }
+  .mega[data-cols="3"], .mega[data-cols="4"] { width: min(700px, 94vw); }
+  .mega[data-cols="3"] .mega-cols, .mega[data-cols="4"] .mega-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .logo-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 1100px) {
+  .nav-toggle { display: inline-flex; }
+  .primary-nav {
+    display: none; position: absolute; top: 100%; left: 0; right: 0;
+    padding: var(--sp-17);
+    background-color: var(--glass-pane-strong); background-image: var(--glass-sheen);
+    -webkit-backdrop-filter: blur(var(--glass-blur-deep)); backdrop-filter: blur(var(--glass-blur-deep));
+    border-bottom: 1px solid var(--glass-border); box-shadow: var(--glass-shadow-lift);
+    max-height: 75vh; overflow-y: auto;
+  }
+  .primary-nav.open { display: block; }
+  .site-header .shell { position: relative; flex-wrap: wrap; }
+  .primary-nav > ul { flex-direction: column; align-items: stretch; gap: var(--sp-2); }
+  .primary-nav a, .primary-nav .mega-trigger { width: 100%; justify-content: space-between; }
+  .mega, .mega[data-cols="1"], .mega[data-cols="2"], .mega[data-cols="3"], .mega[data-cols="4"] {
+    position: static; transform: none; width: 100%; box-shadow: none; border: 0;
+    padding: var(--sp-10) 0 var(--sp-10) var(--sp-13);
+    background: transparent; -webkit-backdrop-filter: none; backdrop-filter: none;
+  }
+  .mega .mega-cols { grid-template-columns: minmax(0, 1fr) !important; gap: var(--sp-14); }
+  .mega-foot { margin-top: var(--sp-11); }
+}
+@media (max-width: 900px) { .logo-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 640px) {
+  .hero-inner, .panel, .cta-band { padding: var(--sp-19) var(--sp-16); }
+  .topbar .shell { justify-content: center; text-align: center; }
+  body { font-size: var(--fs-10); }
+  .figgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--sp-13); }
+  .appt-form .field.two { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 560px) { .logo-grid { grid-template-columns: repeat(2, 1fr); } }
+
+/* ── touch targets ────────────────────────────────────────────────────────
+   1. discrete link surfaces become real 44px boxes — they are UI.
+   2. links INSIDE a sentence get vertical padding instead: on an inline
+      element that grows the hit rectangle without touching the line box.
+      WCAG 2.2 SC 2.5.8 exempts inline targets; enlarging them anyway is a
+      genuine improvement, not a way of satisfying the probe. */
+@media (max-width: 1100px) {
+  .topbar a, .crumbs li a, .site-footer a, .fact-list a, .card a,
+  .primary-nav a, .mega a, .mega-foot a,
+  .prose > section > a, .prose li > a, .bio-body > a, .review a,
+  .post-more, .post h5 a,
+  .prose h1 a, .prose h2 a, .prose h3 a, .prose h4 a, .prose h5 a, .prose h6 a {
+    display: inline-flex; align-items: center; min-height: 44px; min-width: 44px;
+  }
+  .prose p a, .hero-lede a, .prose td a, .prose th a { padding-block: 13px; padding-inline: 2px; }
+  /* .appt-actions tightened this to 8px for the compact layout; at touch
+     widths it has to go back to a real 44px target. */
+  .appt-actions .form-note a, .form-note a { padding-block: 13px; }
+  .btn { min-height: 44px; min-width: 44px; }
+  .field input, .field select, .field textarea,
+  .footer-form input, .footer-form select, .footer-form textarea, .footer-form button { min-height: 44px; }
+}
+
+/* ── motion ───────────────────────────────────────────────────────────── */
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity var(--dur-slow) var(--ease-out), transform var(--dur-slow) var(--ease-out); }
+.reveal.in { opacity: 1; transform: none; }
+
+/* The source ships NO prefers-reduced-motion block (audit/motion-inventory.json
+   records the gap). Copying the motion does not mean copying the gap. */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important; animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important; scroll-behavior: auto !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+  .btn:hover, .card:hover, .review:hover, .logo-grid li:hover, .figgrid figure:hover img { transform: none; }
+  /* the drifting blobs stop entirely, not just run fast */
+  .bg-blobs span { animation: none !important; }
+}
+
+@media print {
+  .topbar, .site-header, .site-footer, .cta-band, .aside { display: none; }
+  body { background: none; color: var(--ink-strong); }
+  .glass, .panel, .card, .review { box-shadow: none; border: 1px solid var(--glass-border-firm); background: none; }
+}

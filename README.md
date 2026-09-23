@@ -1,7 +1,8 @@
 # Frisco Eye Source — Site Reforge
 
 A platform-free static rebuild of [friscoeyesource.com](https://www.friscoeyesource.com/),
-reconstructed as clean HTML/CSS/JS and given a glass-morphism reskin.
+reconstructed as clean HTML/CSS/JS and redesigned in the practice's own teal and
+warm-neutral palette.
 
 ### ▶ [**Live preview →**](https://nicoledreo.github.io/frisco-eye-source-reforge/)
 
@@ -14,44 +15,59 @@ reconstructed as clean HTML/CSS/JS and given a glass-morphism reskin.
 ## What this is
 
 287 pages rebuilt off the original platform — no CMS, no page builder, no runtime
-dependencies. Every colour is a measured design token; the authored stylesheet contains
-**zero colour literals**.
+dependencies. The copy, headings, links, image alt text, titles, meta descriptions,
+canonicals and structured data are carried over from the source unchanged (SEO-frozen);
+the design around them is new.
 
 | | |
 |---|---|
 | Pages | 287 |
-| Build output | 20 MB |
-| Design tokens | 87 (all measured from source) |
-| Colour literals in `site.css` | 0 |
+| Build output | 23 MB |
+| Build | `node _tooling/build.mjs` → `main/dist/` |
 
-## Design work
+## Design
 
-- **Glass layer** — frosted panes over a fixed gradient canvas, with a specular sheen,
-  a lit top edge and layered shadows. Four radial blobs drift on offset 38–52s loops,
-  animated with `transform` only so they stay GPU-composited; they stop completely
-  under `prefers-reduced-motion`.
-- **Hero** — full-bleed, with the copy on its own frosted panel. The panel carries the
-  legibility, which let the photo scrim lighten to 0.62/0.50/0.34 so the clinic reads clearly.
-- **Homepage** — compacted two-column booking form, equal-height review snap rail with
-  cycled brand tints, doctor bio beside a 210px portrait, two-column hours, post cards
-  for "What's New".
+The homepage was designed section by section with the practice's owner
+(`site-versions/working/`), and its rules were then applied to every inner page. The
+rules are written down in [`site-versions/DESIGN-SYSTEM.md`](site-versions/DESIGN-SYSTEM.md).
+
+- **Palette** — the practice's teal with warm neutrals and a champagne accent, set as
+  tokens; every text colour is checked against the pixels actually behind it.
+- **Sections** — every titled section is its own full-width band, and neighbouring bands
+  never share a background.
+- **Photography** — each page's main photo runs edge to edge; other pictures show at
+  their own size and are never stretched. Inner-page heroes are original art
+  generated for this concept.
+- **Real forms** — Appointment Request, Contact and Patient Registration are rebuilt
+  field for field from the source forms (92/92 fields). They are not connected to a
+  mail service yet; a submission shows a "please call" message instead of an error.
+- **Phones** — designed at 360–390px, not just shrunk: tap targets of 44px, nothing
+  scrolls sideways, photos shown whole.
 
 ## Verification
 
-Measured, not asserted. Tooling lives in [`_tooling/`](_tooling/).
+Measured, not asserted. Tooling lives in [`_tooling/preview/`](_tooling/preview/).
+
+**Current build (2026-09-23)**
+
+| Check | Result |
+|---|---|
+| Layout sweep, every page at 360 / 390 / 1440 | GEOSWEEP_RESULT |
+| Homepage regression suite | 25/25 at 1440 · 8/8 at 390 |
+| SEO vs. source (homepage) | title, meta, canonical, JSON-LD **identical** |
+| SEO sweep, all 287 pages vs. previous build | only the documented changes (restored source links, archive breadcrumbs, two empty headings) |
+| Internal links | 26,264 checked · 0 broken (the checker's one flag is `url(#n)` inside an SVG data URI) |
+| Form fields vs. source | 92/92 |
+| Text contrast on the homepage (worst case per section, rendered pixels) | 4.54 – 9.18, all pass WCAG AA |
+
+**Initial build (2026-09-21, not re-run since)**
 
 | Check | Result |
 |---|---|
 | Content parity vs. source | 287/287, **100.0% recall**, 0 major |
 | Fabrication audit | SOURCED |
 | Platform decontamination | CLEAN |
-| Responsive sweep @ 390/768/1024/1440 | 0 blocker / 0 major |
-| Contrast (worst-case, from rendered pixels) | hero **8.74**, review cards **9.49 / 9.37**, post cards **17.50**, asides **17.43 / 17.15 / 17.26** — all PASS AA |
-| Release gate | 23 PASS · 6 FAIL · 0 UNPROVEN |
-
-Contrast is sampled with a worst-case probe (`_tooling/worst-contrast.mjs`): the copy is
-hidden, the *brightest* pixel under the text box is found, and the glyph colour is measured
-against that — rather than against the most favourable pixel.
+| Release gate | 23 PASS · 6 FAIL · 0 UNPROVEN (see Known defects) |
 
 ## Layout
 
@@ -75,7 +91,7 @@ _tooling/       build script, verification probes, capture harness
 
   | Check | Stage | Why it fails |
   |---|---|---|
-  | `C22` Pixel-for-pixel match vs. source | pixeldiff | **Inapplicable by design** — this build is a deliberate glass reskin, so pixel parity against the original can never pass. Worst drift 99.447% on `index.1440.png`. |
+  | `C22` Pixel-for-pixel match vs. source | pixeldiff | **Inapplicable by design** — this build is a deliberate redesign, so pixel parity against the original can never pass. Worst drift 99.447% on `index.1440.png`. |
   | `C03` Every crawled page fetched | crawl | 17 source pages failed to fetch during harvest — source-side. |
   | `C04` Content captured for every page | extract | 6 pages under 50 chars of body text, all `/slideshow/*` — genuinely near-empty at source. |
   | `C05` No unresolved JS-rendered shell | extract | 41 pages flagged as likely JS-rendered but captured statically. The one worth a second look. |
@@ -89,15 +105,17 @@ _tooling/       build script, verification probes, capture harness
 ## Preview branch
 
 The `gh-pages` branch differs from `main` in one respect: the source markup embeds
-EyeSource's own public Google Maps browser key, so the three map iframes are replaced
+EyeSource's own public Google Maps browser key, so the four map embeds are replaced
 with a static location card linking to the same `place_id`. Serving the key from
 `github.io` would spend their Maps quota. The `main` branch and the handoff bundle keep
-the source-faithful markup.
+the source-faithful markup. `node _tooling/publish-preview.mjs main/dist <out>` makes the
+preview copy, and fails if the key survives anywhere in it.
 
 ### On the embedded Maps key
 
-`main` preserves the key as it appears in the source, in 4 files. This is a deliberate
-decision, not an oversight, and it adds **no exposure** beyond what the origin site
+`main` preserves the key as it appears in the source, in 5 files (the contact page gained
+the source's map in 2026-09). This is a deliberate decision, not an oversight, and it
+adds **no exposure** beyond what the origin site
 already publishes — verified 2026-09-22 by comparing both strings:
 
 | | |

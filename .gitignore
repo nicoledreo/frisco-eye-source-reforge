@@ -34,3 +34,15 @@ Frisco Eye Srouce Chat Logs/
 node_modules/
 .DS_Store
 Thumbs.db
+
+# Local MCP server config — contains API credentials, never commit
+.mcp.json
+.mcp.local.json
+*.key
+.env
+.env.*
+
+# Local backup copies made while editing (history lives in git)
+*.bak
+*.s5bak
+*.pre-*
